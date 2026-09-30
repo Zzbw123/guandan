@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-29T10:34:30.554436+00:00",
+  "job": "ordinary-314512",
+  "arm": "ordinary",
+  "seed": 314512,
+  "checkpoint": "C:\\Users\\zengb\\Desktop\\掼蛋强化学习\\artifacts\\evaluations\\p5e-balanced-v1\\training\\ordinary-314512\\final",
+  "candidate_sha256": "d465c98fbeb93f4997ad94030ed1c2aa181f2e9a362a452b00032f0cbf783778",
+  "manifest_sha256": "177fabd4124366218d6c1af338c1982277f006a56a9392482ccd67529884af50",
+  "preregistration_sha256": "2a0de3ab4e0dfed4022fb844c85c0aa6ec21cc77d93fa3c7518e64a3eff648eb",
+  "games": 208
+}

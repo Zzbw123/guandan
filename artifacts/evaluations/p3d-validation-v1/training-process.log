@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\zengb\Desktop\掼蛋强化学习\scripts\p3d_train.py", line 50, in <module>
+    if __name__=="__main__": main()
+                             ~~~~^^
+  File "C:\Users\zengb\Desktop\掼蛋强化学习\scripts\p3d_train.py", line 27, in main
+    if pre["specification"] != specification(): raise ValueError("preregistration differs")
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: preregistration differs

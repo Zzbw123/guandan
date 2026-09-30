@@ -1,0 +1,7 @@
+{"hands": 50, "observations": 4077, "progress": "teacher", "updates": 63}
+{"hands": 100, "observations": 8163, "progress": "teacher", "updates": 127}
+{"hands": 150, "observations": 12230, "progress": "teacher", "updates": 191}
+{"hands": 200, "observations": 16354, "progress": "teacher", "updates": 255}
+{"hands": 200, "progress": "DMC", "updates": 103, "wave": 50}
+{"hands": 400, "progress": "DMC", "updates": 203, "wave": 100}
+{"hands": 600, "progress": "DMC", "updates": 303, "wave": 150}

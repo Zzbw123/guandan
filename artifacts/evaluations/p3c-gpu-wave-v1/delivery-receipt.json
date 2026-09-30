@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "registered_sources_unchanged": 33,
+  "documents_and_logs": {
+    "README.md": {
+      "bytes": 7647,
+      "sha256": "cd2fcdb0ce4beef617f96d4c86dd9117a58700c937ceeb6ac1712571c19cc696"
+    },
+    "docs/STATUS.md": {
+      "bytes": 12600,
+      "sha256": "82242192103854b54bc1495e3b0b92045dd9c5867b26cc3bf56d02feaf035b1d"
+    },
+    "docs/architecture.md": {
+      "bytes": 3467,
+      "sha256": "3e37937e87e08d35530e4b2b43a952b0b4904fea16637505e1762e234d54c02b"
+    },
+    "docs/P3C_ACCEPTANCE.md": {
+      "bytes": 6023,
+      "sha256": "4216c0d6761c688b4ea699e0e6c6b4e231d0431c44187265f15f3c52c4094408"
+    },
+    "docs/P3C_GPU_TRAINING_PROTOCOL.md": {
+      "bytes": 3741,
+      "sha256": "de948e822cef609d2c2fc8c016c17e96ac95147548cae71fac9c4ff25fab27d0"
+    },
+    "artifacts/evaluations/p3c-unittest-python314.log": {
+      "bytes": 12513,
+      "sha256": "45a389070513aa9e6b7d038ec95a8bfa188362aa6322aed5505d049f6b5a4e6a"
+    },
+    "artifacts/evaluations/p3c-unittest-python313.log": {
+      "bytes": 12573,
+      "sha256": "9b6baabd28a85937ba7125dc9d37907e81bde2f89da5f38bdf754bee84b69f04"
+    }
+  }
+}

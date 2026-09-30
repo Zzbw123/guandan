@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "preregistration_sha256": "4d4f8afbfd497db8b49cd33b1e16d4220734fba079fa4ffc85309050210e5064",
+  "report_sha256": {
+    "scores/report.json": "b84ede6973361dd5ed0e047cecc62e2189b2748061d346dd3da75952cc7ca28f",
+    "evaluations/teacher-phase1-314380/report.json": "b1607d74cac3624c12264838760ad8ba33f3a75e07b1eb8658db7ab0ef0e0c65",
+    "evaluations/teacher-phase1-314381/report.json": "d2d8731b9d0b8c2d952220cb787012bc10ca5b4a6b110e9ac57fa1a2a6404ef3",
+    "evaluations/teacher-phase1-314382/report.json": "d7da0f6d49eea6418ef7ef1e0fafcba7bcafd3ae958d8bac8cae9a2aac3036f6"
+  },
+  "new_games": 624,
+  "model_promoted": false,
+  "training_executed": false,
+  "reserved_test_executed": false
+}

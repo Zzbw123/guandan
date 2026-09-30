@@ -1,0 +1,2 @@
+{"objective": "label_balanced", "wave": 3, "samples": 136, "updates": 3, "batches": [{"start": 0, "objective": "label_balanced", "n": 136, "positive": 100, "negative": 36, "positive_weight": 0.68, "negative_weight": 1.8888888888888888, "single_class": false, "loss": 1.0573546886444092}]}
+{"objective": "label_balanced", "wave": 4, "samples": 98, "updates": 4, "batches": [{"start": 0, "objective": "label_balanced", "n": 98, "positive": 0, "negative": 98, "positive_weight": 0.0, "negative_weight": 1.0, "single_class": true, "loss": 0.6458502411842346}]}

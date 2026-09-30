@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "rejected": {
+    "missing_candidate": "full CUDA candidate scoring",
+    "percentile": "independent p95_ms",
+    "duplicate_hand": "actual hand schedule",
+    "cpu_gradient_claim": "CUDA forward/backward",
+    "cpu_loss_device": "CUDA batch and loss",
+    "wrong_weight_hash": "weight file SHA256"
+  },
+  "source_report_sha256": "8d87de2b89fb43f0cbdc94791ba3186ccd583e0750a530bf98444b1ee8d40427",
+  "test_sha256": "4d65f5ca0ca2eb9f4c5a9918d420a03f181277187a8df14f301e7da76d9efbb5"
+}

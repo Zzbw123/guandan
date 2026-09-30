@@ -1,0 +1,427 @@
+{
+  "status": "PASS",
+  "job": "teacher-phase1-314381",
+  "arm": "teacher",
+  "seed": 314381,
+  "candidate_sha256": "c331ef8e2c0ba0a34e778eb506153c3aac41392fda02f40ba6bacb8781da0efa",
+  "preregistration_sha256": "4d4f8afbfd497db8b49cd33b1e16d4220734fba079fa4ffc85309050210e5064",
+  "binding_sha256": "eb3728a03ea0cbedbe717ac33d0c36d85e76cdc7b379f8fd305e935a5df02f5f",
+  "artifact_sha256": {
+    "results.jsonl": "47cef22c2579066f90de0d068d9bfede291386552332cc20f78e56099e9e883e",
+    "measurements.jsonl.gz": "398f2d7297a8d3bd1bf5b2fb3e8301e2094854b6ffd65885b4f86df9f66d61e7",
+    "replays.jsonl.gz": "7b82533232095f32cf92ba829a4115cfadd5dceccadab00376fe2a86e5bc71fa",
+    "behavior.jsonl": "9e1f11ce7cab72b081bbbdf8ef7fdf8f66e74c96b15b1b077547acfe3092e730"
+  },
+  "games": 208,
+  "summary": {
+    "dmc|dmc|greedy": {
+      "matchup_id": "dmc|dmc|greedy",
+      "games": 208,
+      "independent_deals": 26,
+      "strata_counts": {
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 2,
+        "9": 2,
+        "10": 2,
+        "11": 2,
+        "12": 2,
+        "13": 2,
+        "14": 2
+      },
+      "metrics": {
+        "win_rate": {
+          "estimate": 0.3173076923076923,
+          "ci95": [
+            0.2692307692307692,
+            0.3655048076923059
+          ],
+          "method": "stratified_deal_cluster_bootstrap_percentile_linear",
+          "degenerate": false,
+          "reason": null
+        },
+        "team_reward": {
+          "estimate": -0.36538461538461536,
+          "ci95": [
+            -0.46153846153846156,
+            -0.2689903846153881
+          ],
+          "method": "stratified_deal_cluster_bootstrap_percentile_linear",
+          "degenerate": false,
+          "reason": null
+        },
+        "focal_level_gain": {
+          "estimate": 0.5673076923076923,
+          "ci95": [
+            0.47596153846153844,
+            0.6634615384615384
+          ],
+          "method": "stratified_deal_cluster_bootstrap_percentile_linear",
+          "degenerate": false,
+          "reason": null
+        },
+        "opponent_level_gain": {
+          "estimate": 1.5432692307692308,
+          "ci95": [
+            1.4278846153846154,
+            1.6586538461538463
+          ],
+          "method": "stratified_deal_cluster_bootstrap_percentile_linear",
+          "degenerate": false,
+          "reason": null
+        }
+      },
+      "effect_vs_50pp": -18.26923076923077,
+      "clusters": [
+        {
+          "deal_index": 0,
+          "deal_seed": 108100,
+          "level": 2,
+          "games": 8,
+          "win_rate": 0.125,
+          "team_reward": -0.75,
+          "focal_level_gain": 0.125,
+          "opponent_level_gain": 1.625
+        },
+        {
+          "deal_index": 1,
+          "deal_seed": 108101,
+          "level": 3,
+          "games": 8,
+          "win_rate": 0.125,
+          "team_reward": -0.75,
+          "focal_level_gain": 0.25,
+          "opponent_level_gain": 2.0
+        },
+        {
+          "deal_index": 2,
+          "deal_seed": 108102,
+          "level": 4,
+          "games": 8,
+          "win_rate": 0.375,
+          "team_reward": -0.25,
+          "focal_level_gain": 0.5,
+          "opponent_level_gain": 1.5
+        },
+        {
+          "deal_index": 3,
+          "deal_seed": 108103,
+          "level": 5,
+          "games": 8,
+          "win_rate": 0.25,
+          "team_reward": -0.5,
+          "focal_level_gain": 0.75,
+          "opponent_level_gain": 1.625
+        },
+        {
+          "deal_index": 4,
+          "deal_seed": 108104,
+          "level": 6,
+          "games": 8,
+          "win_rate": 0.625,
+          "team_reward": 0.25,
+          "focal_level_gain": 1.25,
+          "opponent_level_gain": 0.5
+        },
+        {
+          "deal_index": 5,
+          "deal_seed": 108105,
+          "level": 7,
+          "games": 8,
+          "win_rate": 0.5,
+          "team_reward": 0.0,
+          "focal_level_gain": 0.875,
+          "opponent_level_gain": 1.25
+        },
+        {
+          "deal_index": 6,
+          "deal_seed": 108106,
+          "level": 8,
+          "games": 8,
+          "win_rate": 0.5,
+          "team_reward": 0.0,
+          "focal_level_gain": 1.25,
+          "opponent_level_gain": 1.375
+        },
+        {
+          "deal_index": 7,
+          "deal_seed": 108107,
+          "level": 9,
+          "games": 8,
+          "win_rate": 0.5,
+          "team_reward": 0.0,
+          "focal_level_gain": 0.625,
+          "opponent_level_gain": 1.5
+        },
+        {
+          "deal_index": 8,
+          "deal_seed": 108108,
+          "level": 10,
+          "games": 8,
+          "win_rate": 0.625,
+          "team_reward": 0.25,
+          "focal_level_gain": 0.875,
+          "opponent_level_gain": 0.75
+        },
+        {
+          "deal_index": 9,
+          "deal_seed": 108109,
+          "level": 11,
+          "games": 8,
+          "win_rate": 0.0,
+          "team_reward": -1.0,
+          "focal_level_gain": 0.0,
+          "opponent_level_gain": 2.0
+        },
+        {
+          "deal_index": 10,
+          "deal_seed": 108110,
+          "level": 12,
+          "games": 8,
+          "win_rate": 0.375,
+          "team_reward": -0.25,
+          "focal_level_gain": 0.625,
+          "opponent_level_gain": 1.25
+        },
+        {
+          "deal_index": 11,
+          "deal_seed": 108111,
+          "level": 13,
+          "games": 8,
+          "win_rate": 0.375,
+          "team_reward": -0.25,
+          "focal_level_gain": 0.375,
+          "opponent_level_gain": 1.25
+        },
+        {
+          "deal_index": 12,
+          "deal_seed": 108112,
+          "level": 14,
+          "games": 8,
+          "win_rate": 0.0,
+          "team_reward": -1.0,
+          "focal_level_gain": 0.0,
+          "opponent_level_gain": 2.125
+        },
+        {
+          "deal_index": 13,
+          "deal_seed": 108113,
+          "level": 2,
+          "games": 8,
+          "win_rate": 0.375,
+          "team_reward": -0.25,
+          "focal_level_gain": 0.375,
+          "opponent_level_gain": 1.375
+        },
+        {
+          "deal_index": 14,
+          "deal_seed": 108114,
+          "level": 3,
+          "games": 8,
+          "win_rate": 0.375,
+          "team_reward": -0.25,
+          "focal_level_gain": 0.625,
+          "opponent_level_gain": 1.75
+        },
+        {
+          "deal_index": 15,
+          "deal_seed": 108115,
+          "level": 4,
+          "games": 8,
+          "win_rate": 0.25,
+          "team_reward": -0.5,
+          "focal_level_gain": 0.375,
+          "opponent_level_gain": 1.625
+        },
+        {
+          "deal_index": 16,
+          "deal_seed": 108116,
+          "level": 5,
+          "games": 8,
+          "win_rate": 0.375,
+          "team_reward": -0.25,
+          "focal_level_gain": 0.75,
+          "opponent_level_gain": 1.875
+        },
+        {
+          "deal_index": 17,
+          "deal_seed": 108117,
+          "level": 6,
+          "games": 8,
+          "win_rate": 0.125,
+          "team_reward": -0.75,
+          "focal_level_gain": 0.375,
+          "opponent_level_gain": 2.125
+        },
+        {
+          "deal_index": 18,
+          "deal_seed": 108118,
+          "level": 7,
+          "games": 8,
+          "win_rate": 0.375,
+          "team_reward": -0.25,
+          "focal_level_gain": 0.5,
+          "opponent_level_gain": 1.25
+        },
+        {
+          "deal_index": 19,
+          "deal_seed": 108119,
+          "level": 8,
+          "games": 8,
+          "win_rate": 0.375,
+          "team_reward": -0.25,
+          "focal_level_gain": 0.5,
+          "opponent_level_gain": 1.625
+        },
+        {
+          "deal_index": 20,
+          "deal_seed": 108120,
+          "level": 9,
+          "games": 8,
+          "win_rate": 0.375,
+          "team_reward": -0.25,
+          "focal_level_gain": 0.75,
+          "opponent_level_gain": 1.125
+        },
+        {
+          "deal_index": 21,
+          "deal_seed": 108121,
+          "level": 10,
+          "games": 8,
+          "win_rate": 0.125,
+          "team_reward": -0.75,
+          "focal_level_gain": 0.375,
+          "opponent_level_gain": 1.75
+        },
+        {
+          "deal_index": 22,
+          "deal_seed": 108122,
+          "level": 11,
+          "games": 8,
+          "win_rate": 0.0,
+          "team_reward": -1.0,
+          "focal_level_gain": 0.0,
+          "opponent_level_gain": 2.0
+        },
+        {
+          "deal_index": 23,
+          "deal_seed": 108123,
+          "level": 12,
+          "games": 8,
+          "win_rate": 0.25,
+          "team_reward": -0.5,
+          "focal_level_gain": 0.75,
+          "opponent_level_gain": 1.875
+        },
+        {
+          "deal_index": 24,
+          "deal_seed": 108124,
+          "level": 13,
+          "games": 8,
+          "win_rate": 0.5,
+          "team_reward": 0.0,
+          "focal_level_gain": 1.375,
+          "opponent_level_gain": 1.5
+        },
+        {
+          "deal_index": 25,
+          "deal_seed": 108125,
+          "level": 14,
+          "games": 8,
+          "win_rate": 0.375,
+          "team_reward": -0.25,
+          "focal_level_gain": 0.5,
+          "opponent_level_gain": 1.5
+        }
+      ],
+      "quality": {
+        "cluster_win_rate": {
+          "mean": 0.3173076923076923,
+          "sd": 0.18107584471282065,
+          "median": 0.375,
+          "min": 0.0,
+          "max": 0.625,
+          "distribution": {
+            "0.0": 3,
+            "0.125": 4,
+            "0.25": 3,
+            "0.375": 10,
+            "0.5": 4,
+            "0.625": 2
+          }
+        },
+        "degenerate": {
+          "win_rate": false,
+          "team_reward": false,
+          "focal_level_gain": false,
+          "opponent_level_gain": false
+        }
+      }
+    }
+  },
+  "counts": {
+    "decisions": 8793,
+    "choices": 3920,
+    "forced_pass": 4762,
+    "optional_pass_opportunities": 2643,
+    "optional_passes": 0,
+    "teammate_response_opportunities": 450,
+    "teammate_overtakes": 450,
+    "finish_opportunities": 207,
+    "missed_finishes": 0,
+    "endgame_decisions": 3201,
+    "endgame_optional_pass_opportunities": 808,
+    "endgame_optional_passes": 0,
+    "lead_decisions": 1388,
+    "cards_played": 10609,
+    "legal_candidates": 131035,
+    "action_pair_chain": 375,
+    "action_bomb": 257,
+    "action_pass": 4762,
+    "action_full_house": 421,
+    "action_pair": 772,
+    "action_single": 1876,
+    "action_triple_chain": 62,
+    "action_straight": 129,
+    "action_straight_flush": 126,
+    "action_triple": 5,
+    "action_joker_bomb": 8
+  },
+  "ratios": {
+    "optional_pass_rate": {
+      "numerator": 0,
+      "denominator": 2643,
+      "rate": 0.0
+    },
+    "teammate_overtake_rate": {
+      "numerator": 450,
+      "denominator": 450,
+      "rate": 1.0
+    },
+    "missed_finish_rate": {
+      "numerator": 0,
+      "denominator": 207,
+      "rate": 0.0
+    },
+    "endgame_optional_pass_rate": {
+      "numerator": 0,
+      "denominator": 808,
+      "rate": 0.0
+    }
+  },
+  "validation_gate": "DEVELOPMENT_ONLY",
+  "model_promoted": false,
+  "reserved_test_executed": false,
+  "validation_executed": false,
+  "training_executed": false,
+  "phase1_model_sha256": "2569cd10d505ce6504066da4fb74bf96f070ac43ddb6fc8afc8354617f51c701",
+  "bootstrap_seed": 314395,
+  "worker_closed": true,
+  "worker_pid": 42136,
+  "worker_exitcode": -15,
+  "elapsed_s": 51.15932490000341
+}

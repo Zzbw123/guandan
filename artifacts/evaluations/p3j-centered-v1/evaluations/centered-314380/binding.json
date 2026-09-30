@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-26T13:39:41.558516+00:00",
+  "job": "centered-314380",
+  "arm": "centered",
+  "seed": 314380,
+  "checkpoint": "C:\\Users\\zengb\\Desktop\\掼蛋强化学习\\artifacts\\evaluations\\p3j-centered-v1\\training\\centered-314380\\final",
+  "candidate_sha256": "e07e4dedb6c12cc205da9e9fa4de66effdba703181bd5296d00d7d368960b77a",
+  "manifest_sha256": "b9484eaf49162aa9a952f38bcdb7749e7e896b2108e8d02f8c4457eae1bcceb4",
+  "preregistration_sha256": "1e4b6b8e708da4a33be2cedb89931ea974d03c0f625e80aeff7997ff66e71537",
+  "games": 208
+}

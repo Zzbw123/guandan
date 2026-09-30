@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "command": "$env:PYTHONPATH='src;.'; $env:RUN_P3G_CUDA='1'; & 'C:/Users/zengb/AppData/Local/Programs/Python/Python314/python.exe' -m unittest discover -s tests -p 'test_p3g*.py' -v",
+  "tests_run": 22,
+  "failures": 0,
+  "skipped": 0,
+  "elapsed_s": 13.563,
+  "exit_code": 0,
+  "evidence_origin": "controller execution tool output before formal freeze; no saved stdout file",
+  "earlier_invocation": "Dotted tests.test_p3g_guard import was unavailable in this interpreter; discovery entry point corrected before testing; no experiment had run."
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "hands": 16,
+  "samples": 2648,
+  "updates": 12,
+  "bitwise_fresh_process_recovery": true,
+  "negative_cases": 14,
+  "high_candidates": [
+    8769,
+    333
+  ],
+  "protected_sources": {
+    "p2": 40,
+    "p3a": 45,
+    "p3b": 28
+  },
+  "registered_sources": 33,
+  "checkpoint_sha256": "fc69a095c165818864a9daad742053eb3fd266135ae494a914c6e29dcde9fbef",
+  "report_sha256": "010e6a61348c8a23aa6ae2effe5ba1dabbd1e8a8dd299a7a2336ff33fb49a0ac",
+  "auditor_sha256": "358895cdb0a968737bfe89c0e175cb9d3474ff31f0cfb83d9599c08125547c94",
+  "promotion": "NOT_ELIGIBLE"
+}

@@ -1,0 +1,60 @@
+{
+  "kind": "constructed_high_branching_probe",
+  "not_proven_global_worst_case": true,
+  "hand": [
+    0,
+    54,
+    13,
+    67,
+    26,
+    80,
+    39,
+    93,
+    1,
+    55,
+    14,
+    68,
+    27,
+    81,
+    40,
+    94,
+    2,
+    56,
+    15,
+    69,
+    28,
+    82,
+    41,
+    95,
+    18,
+    72,
+    7
+  ],
+  "level": 7,
+  "repetitions": 30,
+  "candidates": 8769,
+  "all_candidates_valid": true,
+  "enumeration_ms": {
+    "p50": 25.6694,
+    "p95": 35.3991,
+    "max": 38.1279
+  },
+  "team_decision_ms": {
+    "p50": 79.304,
+    "p95": 103.9635,
+    "max": 104.2457
+  },
+  "source_sha256": {
+    "src/guandan/__init__.py": "a45aa88bd7db87b9763384cae99b9e3b7f5410369d706fd328b882143acb12c2",
+    "src/guandan/agents/__init__.py": "5548c80515cdecccd0ce0255804d6a0ade843139934505c4808ff4ab40647f53",
+    "src/guandan/agents/baselines.py": "348d0e8d6b3c733a500c9e6ca744166d03597279e107fbe0586026dc3541f81f",
+    "src/guandan/env/__init__.py": "57aeb1a0591005c7826fe0254937a5d516e405720bc2fe2b5d62481f245592a1",
+    "src/guandan/env/hand_env.py": "52d717932b7b6ddaaf73feca9567db49d7b282d5098c714cd5debf5f96701956",
+    "src/guandan/rules/__init__.py": "b641795d56f3257910337630b7124adc6343e67df8bf79b02c4758b807aa7941",
+    "src/guandan/rules/actions.py": "1fed7107a220c40c8cb39df4a534173bab2c318eb056d807b8560bd6c7ec3145",
+    "src/guandan/rules/cards.py": "8285bc10e6183e6bd608ae337b9bba9c0bfe1aeab4eedbfe764848ea2ca37ec1",
+    "src/guandan/types.py": "fd73263ff21049dba08bcfaa667ec23264611b17720b53a93c42306f67411213",
+    "experiments/p1/enumeration_probe.py": "c2d78e2d1b263cf8f019b38e88edc3279a117cd9fa5a1a1f367ae2f7603560c2"
+  },
+  "reproduce": "python experiments/p1/enumeration_probe.py"
+}

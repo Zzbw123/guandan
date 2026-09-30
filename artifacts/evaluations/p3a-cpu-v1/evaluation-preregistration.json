@@ -1,0 +1,825 @@
+{
+  "checkpoint_sha256": "8d27fbba3fc77297b4dc2453d0ef42db6cd471bdf2e96d66b50cda660b2cf2a5",
+  "expected_games": 48,
+  "schedule": [
+    {
+      "matchup_id": "dmc|dmc|greedy",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 0,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 0,
+      "policies": [
+        "dmc",
+        "greedy",
+        "dmc",
+        "greedy"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|greedy",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 0,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 1,
+      "policies": [
+        "greedy",
+        "dmc",
+        "greedy",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|greedy",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 1,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 1,
+      "policies": [
+        "greedy",
+        "dmc",
+        "greedy",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|greedy",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 1,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 2,
+      "policies": [
+        "dmc",
+        "greedy",
+        "dmc",
+        "greedy"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|greedy",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 2,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 2,
+      "policies": [
+        "dmc",
+        "greedy",
+        "dmc",
+        "greedy"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|greedy",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 2,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 3,
+      "policies": [
+        "greedy",
+        "dmc",
+        "greedy",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|greedy",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 3,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 3,
+      "policies": [
+        "greedy",
+        "dmc",
+        "greedy",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|greedy",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 3,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 0,
+      "policies": [
+        "dmc",
+        "greedy",
+        "dmc",
+        "greedy"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|greedy",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 0,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 0,
+      "policies": [
+        "dmc",
+        "greedy",
+        "dmc",
+        "greedy"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|greedy",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 0,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 1,
+      "policies": [
+        "greedy",
+        "dmc",
+        "greedy",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|greedy",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 1,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 1,
+      "policies": [
+        "greedy",
+        "dmc",
+        "greedy",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|greedy",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 1,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 2,
+      "policies": [
+        "dmc",
+        "greedy",
+        "dmc",
+        "greedy"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|greedy",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 2,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 2,
+      "policies": [
+        "dmc",
+        "greedy",
+        "dmc",
+        "greedy"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|greedy",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 2,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 3,
+      "policies": [
+        "greedy",
+        "dmc",
+        "greedy",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|greedy",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 3,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 3,
+      "policies": [
+        "greedy",
+        "dmc",
+        "greedy",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|greedy",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 3,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 0,
+      "policies": [
+        "dmc",
+        "greedy",
+        "dmc",
+        "greedy"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|random",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 0,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 0,
+      "policies": [
+        "dmc",
+        "random",
+        "dmc",
+        "random"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|random",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 0,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 1,
+      "policies": [
+        "random",
+        "dmc",
+        "random",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|random",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 1,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 1,
+      "policies": [
+        "random",
+        "dmc",
+        "random",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|random",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 1,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 2,
+      "policies": [
+        "dmc",
+        "random",
+        "dmc",
+        "random"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|random",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 2,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 2,
+      "policies": [
+        "dmc",
+        "random",
+        "dmc",
+        "random"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|random",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 2,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 3,
+      "policies": [
+        "random",
+        "dmc",
+        "random",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|random",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 3,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 3,
+      "policies": [
+        "random",
+        "dmc",
+        "random",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|random",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 3,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 0,
+      "policies": [
+        "dmc",
+        "random",
+        "dmc",
+        "random"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|random",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 0,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 0,
+      "policies": [
+        "dmc",
+        "random",
+        "dmc",
+        "random"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|random",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 0,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 1,
+      "policies": [
+        "random",
+        "dmc",
+        "random",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|random",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 1,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 1,
+      "policies": [
+        "random",
+        "dmc",
+        "random",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|random",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 1,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 2,
+      "policies": [
+        "dmc",
+        "random",
+        "dmc",
+        "random"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|random",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 2,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 2,
+      "policies": [
+        "dmc",
+        "random",
+        "dmc",
+        "random"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|random",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 2,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 3,
+      "policies": [
+        "random",
+        "dmc",
+        "random",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|random",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 3,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 3,
+      "policies": [
+        "random",
+        "dmc",
+        "random",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|random",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 3,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 0,
+      "policies": [
+        "dmc",
+        "random",
+        "dmc",
+        "random"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|team",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 0,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 0,
+      "policies": [
+        "dmc",
+        "team",
+        "dmc",
+        "team"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|team",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 0,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 1,
+      "policies": [
+        "team",
+        "dmc",
+        "team",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|team",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 1,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 1,
+      "policies": [
+        "team",
+        "dmc",
+        "team",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|team",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 1,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 2,
+      "policies": [
+        "dmc",
+        "team",
+        "dmc",
+        "team"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|team",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 2,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 2,
+      "policies": [
+        "dmc",
+        "team",
+        "dmc",
+        "team"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|team",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 2,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 3,
+      "policies": [
+        "team",
+        "dmc",
+        "team",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|team",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 3,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 3,
+      "policies": [
+        "team",
+        "dmc",
+        "team",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|team",
+      "deal_index": 0,
+      "deal_seed": 101000,
+      "level": 2,
+      "rotation": 3,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 0,
+      "policies": [
+        "dmc",
+        "team",
+        "dmc",
+        "team"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|team",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 0,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 0,
+      "policies": [
+        "dmc",
+        "team",
+        "dmc",
+        "team"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|team",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 0,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 1,
+      "policies": [
+        "team",
+        "dmc",
+        "team",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|team",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 1,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 1,
+      "policies": [
+        "team",
+        "dmc",
+        "team",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|team",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 1,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 2,
+      "policies": [
+        "dmc",
+        "team",
+        "dmc",
+        "team"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|team",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 2,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 2,
+      "policies": [
+        "dmc",
+        "team",
+        "dmc",
+        "team"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|team",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 2,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 3,
+      "policies": [
+        "team",
+        "dmc",
+        "team",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|team",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 3,
+      "swap": 0,
+      "flip": 0,
+      "focal_seat": 3,
+      "policies": [
+        "team",
+        "dmc",
+        "team",
+        "dmc"
+      ],
+      "starting_player": 0
+    },
+    {
+      "matchup_id": "dmc|dmc|team",
+      "deal_index": 1,
+      "deal_seed": 101001,
+      "level": 3,
+      "rotation": 3,
+      "swap": 1,
+      "flip": 0,
+      "focal_seat": 0,
+      "policies": [
+        "dmc",
+        "team",
+        "dmc",
+        "team"
+      ],
+      "starting_player": 0
+    }
+  ],
+  "epsilon": 0,
+  "primary_opponent": "greedy",
+  "promotion": "NOT_ELIGIBLE"
+}

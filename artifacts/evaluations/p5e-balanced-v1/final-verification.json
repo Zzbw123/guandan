@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "delivery_sha256": "b301c765474213038ca658a5accb2edbb14385ed2370263c99630f86656c473a",
+  "verified_bindings": 187,
+  "batch_rows": 2406,
+  "cluster_rows": 546,
+  "validation_gate": "NOT_ESTABLISHED",
+  "full_gpu_tests": 274,
+  "model_promoted": false,
+  "reserved_test_executed": false
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "p1_frozen_files_unchanged": {
+    "configs/rules.json": true,
+    "docs/rules.md": true,
+    "scripts/_bootstrap.py": true,
+    "scripts/benchmark.py": true,
+    "scripts/play_hand.py": true,
+    "scripts/validate.py": true,
+    "src/guandan/__init__.py": true,
+    "src/guandan/agents/__init__.py": true,
+    "src/guandan/agents/baselines.py": true,
+    "src/guandan/env/__init__.py": true,
+    "src/guandan/env/hand_env.py": true,
+    "src/guandan/rules/__init__.py": true,
+    "src/guandan/rules/actions.py": true,
+    "src/guandan/rules/cards.py": true,
+    "src/guandan/types.py": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "new_training_hands": 3600,
+  "unique_continuation_deal_seeds": 600,
+  "training_seeds_previously_used_in_p3f": true,
+  "inherited_teacher_hands_per_model": 200,
+  "development_deals": 26,
+  "development_games": 1248,
+  "validation_deals": 65,
+  "validation_games": 3120,
+  "new_viewed_validation": [
+    204000,
+    204064
+  ],
+  "model_promoted": false,
+  "reserved_test_executed": false
+}

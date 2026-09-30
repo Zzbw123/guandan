@@ -1,0 +1,7 @@
+stage,status,evidence,new_training_hands,new_evaluation_games
+freeze,PASS,preregistration.json,0,0
+probe,PASS,run-receipt.json,0,0
+controller,PASS,controller-audit.json,0,0
+negative,PASS,controller-negative.json,0,0
+full-tests,PASS,full-tests-gpu.log,0,0
+postprocess,PASS,postprocess-audit.json,0,0

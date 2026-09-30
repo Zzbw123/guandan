@@ -1,0 +1,8 @@
+GPU runtime: 2.12.0+cu130 NVIDIA GeForce RTX 5060 Laptop GPU
+dense actual first batch normcap-314382
+dense actual first batch constant-314382
+dense actual first batch normcap-314381
+dense actual first batch constant-314381
+dense actual first batch constant-314380
+dense actual first batch normcap-314380
+{"status": "PASS", "cases": 6}

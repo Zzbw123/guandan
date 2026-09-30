@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "score_states": 1853,
+  "scored_candidates": 22317,
+  "jobs": {
+    "314370-400": {
+      "counts": {
+        "states": 286,
+        "candidates": 4226,
+        "finish_states": 158,
+        "missed_finish": 17,
+        "saturated": 0,
+        "other_states": 128
+      },
+      "median_spread": 0.019313514232635498,
+      "median_missed_finish_gap": 0.006114661693572998
+    },
+    "314370-1600": {
+      "counts": {
+        "states": 288,
+        "candidates": 3320,
+        "finish_states": 160,
+        "missed_finish": 8,
+        "saturated": 35,
+        "other_states": 128
+      },
+      "median_spread": 0.029693251475691795,
+      "median_missed_finish_gap": 0.004714939743280411
+    },
+    "314371-400": {
+      "counts": {
+        "states": 235,
+        "candidates": 3170,
+        "finish_states": 107,
+        "missed_finish": 11,
+        "saturated": 0,
+        "other_states": 128
+      },
+      "median_spread": 0.021999239921569824,
+      "median_missed_finish_gap": 0.020614802837371826
+    },
+    "314371-1600": {
+      "counts": {
+        "states": 377,
+        "candidates": 3395,
+        "finish_states": 249,
+        "missed_finish": 5,
+        "saturated": 72,
+        "other_states": 128
+      },
+      "median_spread": 0.01480519026517868,
+      "median_missed_finish_gap": 0.044283390045166016
+    },
+    "314372-400": {
+      "counts": {
+        "states": 331,
+        "candidates": 4102,
+        "finish_states": 203,
+        "missed_finish": 24,
+        "saturated": 0,
+        "other_states": 128
+      },
+      "median_spread": 0.020689018070697784,
+      "median_missed_finish_gap": 0.016183793544769287
+    },
+    "314372-1600": {
+      "counts": {
+        "states": 336,
+        "candidates": 4104,
+        "finish_states": 208,
+        "missed_finish": 20,
+        "saturated": 104,
+        "other_states": 128
+      },
+      "median_spread": 0.012778028845787048,
+      "median_missed_finish_gap": 0.021044790744781494
+    }
+  },
+  "max_score_error": 2.682209014892578e-07,
+  "target_samples": 568,
+  "target_positive": 272,
+  "target_updates": 3,
+  "p3e_receipt_files": 124,
+  "review_sha256": "6ab9f8bd2bc911cdd19e4e6db341162ab871588740946272d54724df5a094abe",
+  "input_sha256": {
+    "artifacts/evaluations/p3f-score-diagnostic-v1/report.json": "9f22d83de796b71e8b7e84e108a441342c20a8a30b7fa72c765a5f3ad9c4286b",
+    "artifacts/evaluations/p3f-score-diagnostic-v1/runtime.json": "327005fdc1007ae2cb9b7d2a25d8252cd4c535aa7c14852ace4e5b6b87cdbbf7",
+    "artifacts/evaluations/p3f-score-diagnostic-v1/scores.jsonl": "48becc36a621d9fc3ec2b6dd07b959bcadf2419e947c187ef0329172743a7683",
+    "artifacts/evaluations/p3f-score-diagnostic-v1/specification.json": "661997e47091f46797afe662044a1f035bdfd48e3b05f38e3e83b96de7bec553",
+    "artifacts/evaluations/p3f-target-trace-v1/preregistration.json": "405aafec7a3135173ae2587f028c2dd14fe44737f823e94473ef0d566c6e0ecf",
+    "artifacts/evaluations/p3f-target-trace-v1/report.json": "061f8ccc1e7713284ab12aa4547269d0f7118ddc803e3cb0699db85c21c5191c",
+    "artifacts/evaluations/p3f-target-trace-v1/target-multiset.json": "6fb379eaf36ea96b6ec353d809a5a107d272c9617edceef565c34f762754c1af"
+  },
+  "scope": "raw score and diagnostic evidence review; no global correctness or strength claim"
+}

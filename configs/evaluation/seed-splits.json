@@ -1,0 +1,8 @@
+{
+  "version": "gd-seed-splits-v1",
+  "development": {"start": 100000, "stop": 110000},
+  "validation": {"start": 200000, "stop": 210000},
+  "reserved_test": {"start": 9000000, "stop": 9010000},
+  "stop_is_exclusive": true,
+  "reserved_test_enabled": false
+}

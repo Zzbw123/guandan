@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "waves": 100,
+  "hands": 400,
+  "samples": 48862,
+  "updates": 231,
+  "elapsed_s": 82.28214260000004,
+  "runtime": {
+    "python": "3.14.3",
+    "torch": "2.12.0+cu130",
+    "cuda": "13.0",
+    "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "capability": [
+      12,
+      0
+    ],
+    "device_count": 1,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "threads": 1,
+    "deterministic": true,
+    "tf32_matmul": false,
+    "tf32_cudnn": false,
+    "cublas": ":4096:8"
+  },
+  "parameters_changed": true,
+  "candidate_sha256": "32935318ccd3bb76a38f71ddc21796cd204c1bc938ed8b3e6b6b9d081564049d"
+}

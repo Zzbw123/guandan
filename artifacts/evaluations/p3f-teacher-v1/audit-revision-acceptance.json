@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "revision_sha256": "ea4236b3c21a06e345a993a87856ddcc146e0d28c95556aa6b2a86d5e8f672ec",
+  "full_review_sha256": "95acd51be37310385255ee86200f9c79bd8bbabd28cabc89fb72e970958342c4",
+  "negative_review_sha256": "eb0b0f738e2c203854ac23e9ca038090b073e77a58a2eb91e0261643e1dc8e4b",
+  "full_training_hands": 4800,
+  "full_evaluation_games": 4368,
+  "experiment_rerun": false,
+  "note": "All raw replays re-reviewed after correcting the guard teardown contract; old reviewer and failure retained."
+}

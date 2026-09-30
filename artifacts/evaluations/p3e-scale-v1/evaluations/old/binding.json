@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-26T06:42:53.933879+00:00",
+  "job": "old",
+  "checkpoint": "artifacts/evaluations/p3d-validation-v2/training/wave-100",
+  "candidate_sha256": "32935318ccd3bb76a38f71ddc21796cd204c1bc938ed8b3e6b6b9d081564049d",
+  "preregistration_sha256": "3ad727a6413b20d7de0329dd9a7538e51e064198c246a872291dac73acf3f70f",
+  "games": 208
+}

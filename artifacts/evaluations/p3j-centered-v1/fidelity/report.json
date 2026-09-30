@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "states": 128,
+  "candidates": 4174,
+  "model_sha256": {
+    "absolute-314380": "dce93c6486d0056ad83636e05719d52227acae98059f8ccc47f1c38bfc1131e6",
+    "centered-314380": "e07e4dedb6c12cc205da9e9fa4de66effdba703181bd5296d00d7d368960b77a",
+    "absolute-314381": "a8ab6885b9c821dc7e34f0693152268498d0a767a52064bc7fb649ab5b643ca5",
+    "centered-314381": "ef815ba9629a0c13cbeb89593f7cc7472b2fa99ba04ddd830b00aa80fe5709e4",
+    "absolute-314382": "d26b9c3134d6b82ffa347252860e9dae6bde182127f17cc77776fa550d36eaf0",
+    "centered-314382": "107c90c316a1f6b4926c11a1656574938147dd435b64e7d31053c23e5f19b756"
+  },
+  "summary": {
+    "absolute-314380": {
+      "top1": 0.6171875,
+      "regret": 0.04989680080114654,
+      "mse": 0.5549212442720176
+    },
+    "centered-314380": {
+      "top1": 0.6484375,
+      "regret": 0.06221257731580985,
+      "mse": 0.5747714914938064
+    },
+    "absolute-314381": {
+      "top1": 0.5859375,
+      "regret": 0.029898470064520545,
+      "mse": 0.5225926413284984
+    },
+    "centered-314381": {
+      "top1": 0.6484375,
+      "regret": 0.03404467831296474,
+      "mse": 0.5486006432056528
+    },
+    "absolute-314382": {
+      "top1": 0.6171875,
+      "regret": 0.05817931093304499,
+      "mse": 0.56844491985469
+    },
+    "centered-314382": {
+      "top1": 0.578125,
+      "regret": 0.04966416165584054,
+      "mse": 0.6042358205215651
+    }
+  },
+  "scores_sha256": "ac02536492d06e84a8320d74986cc363f410ff31b3af3703d2f19c484cc5104b",
+  "preregistration_sha256": "1e4b6b8e708da4a33be2cedb89931ea974d03c0f625e80aeff7997ff66e71537",
+  "script_sha256": "cb2353bf07e047ba394ee379b4b6337373e1c3e57f31d725da19c0e7f2d55e6c"
+}

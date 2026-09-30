@@ -1,0 +1,21 @@
+GPU runtime: 2.12.0+cu130 NVIDIA GeForce RTX 5060 Laptop GPU
+test_checkpoint_roundtrip_no_overwrite_and_hash (test_p5a_pool.GPUTests.test_checkpoint_roundtrip_no_overwrite_and_hash) ... ok
+test_checkpoint_semantic_tampering (test_p5a_pool.GPUTests.test_checkpoint_semantic_tampering) ... ok
+test_complete_high_branch_current_and_frozen (test_p5a_pool.GPUTests.test_complete_high_branch_current_and_frozen) ... ok
+test_disk_rejection_preserves_global_rng (test_p5a_pool.GPUTests.test_disk_rejection_preserves_global_rng) ... ok
+test_failure_requires_reload (test_p5a_pool.GPUTests.test_failure_requires_reload) ... ok
+test_fresh_process_runner_resume (test_p5a_pool.GPUTests.test_fresh_process_runner_resume) ... ok
+test_frozen_mutation_rejected (test_p5a_pool.GPUTests.test_frozen_mutation_rejected) ... ok
+test_illegal_baseline_rejected (test_p5a_pool.GPUTests.test_illegal_baseline_rejected) ... ok
+test_mid_update_failure_reload_repeats_exactly (test_p5a_pool.GPUTests.test_mid_update_failure_reload_repeats_exactly) ... ok
+test_policy_boundary_and_learner_only_samples (test_p5a_pool.GPUTests.test_policy_boundary_and_learner_only_samples) ... ok
+test_seed_boundary_rejects_validation_and_reserved (test_p5a_pool.GPUTests.test_seed_boundary_rejects_validation_and_reserved) ... ok
+test_selfplay_matches_old_two_waves (test_p5a_pool.GPUTests.test_selfplay_matches_old_two_waves) ... ok
+test_all_roles_and_seat_balance (test_p5a_pool.ScheduleTests.test_all_roles_and_seat_balance) ... ok
+test_invalid_schedule (test_p5a_pool.ScheduleTests.test_invalid_schedule) ... ok
+test_strict_config_and_json_roundtrip (test_p5a_pool.ScheduleTests.test_strict_config_and_json_roundtrip) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 21.149s
+
+OK

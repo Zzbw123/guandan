@@ -1,0 +1,11 @@
+{
+  "status": "COMPUTED_PENDING_INDEPENDENT_AUDIT",
+  "artifacts": {
+    "hands.json": "7d92e6b602da5826e5290c2c1c11e04fd62933c6a20202891620ff9e2330d00d",
+    "preregistration.json": "ba68d74c35c5e744cc7964a435c6ff8532ad1ccebb562d952b94f8338055c22a",
+    "scores.jsonl.gz": "012017e591d7647acae95d49b393432ef7b02bc18185d914e2d2bf0b47f46ce7",
+    "source-snapshot.zip": "a58f9515fa93d36473d907e075e3a06052b1788fecb5f594b293d3536ee3315c",
+    "states.json": "9aa6eaee2f272901c52173e5b9f948b83c5b2b97696eb43e33710d6ca1458aa5",
+    "summary.json": "46c6117fe5b6b34095cd0e242f4450772dae8682f1164fd81ae5ab8d1c67aff7"
+  }
+}

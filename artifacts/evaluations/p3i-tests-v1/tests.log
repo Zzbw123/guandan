@@ -1,0 +1,15 @@
+test_bad_api_arguments (test_p3i_objective.AlgebraTests.test_bad_api_arguments) ... ok
+test_bad_arrays (test_p3i_objective.AlgebraTests.test_bad_arrays) ... ok
+test_offset_and_relative_error_separate (test_p3i_objective.AlgebraTests.test_offset_and_relative_error_separate) ... ok
+test_translation_and_singleton (test_p3i_objective.AlgebraTests.test_translation_and_singleton) ... ok
+test_dense_gradients_chunks_and_one_adam_step (test_p3i_objective.CUDATests.test_dense_gradients_chunks_and_one_adam_step) ... ok
+test_high_candidates_dense_gradient (test_p3i_objective.CUDATests.test_high_candidates_dense_gradient) ... ok
+test_invalid_late_request_does_not_add_gradients (test_p3i_objective.CUDATests.test_invalid_late_request_does_not_add_gradients) ... ok
+test_output_gradient_translation_and_global_not_chunk_mean (test_p3i_objective.CUDATests.test_output_gradient_translation_and_global_not_chunk_mean) ... ok
+test_parameters_unchanged_and_nonfinite_rejected (test_p3i_objective.CUDATests.test_parameters_unchanged_and_nonfinite_rejected) ... ok
+test_singleton_zero_and_zero_weight_preserves_gradients (test_p3i_objective.CUDATests.test_singleton_zero_and_zero_weight_preserves_gradients) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 4.916s
+
+OK

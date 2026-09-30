@@ -1,0 +1,14 @@
+GPU runtime: 2.12.0+cu130 NVIDIA GeForce RTX 5060 Laptop GPU
+{"script": "experiments/inspect_p3j.py", "status": "PASS"}
+{"script": "scripts/validate.py", "status": "PASS"}
+Traceback (most recent call last):
+  File "C:\Users\zengb\Desktop\�走ǿ��ѧϰ\experiments\postrun_p3j.py", line 33, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "C:\Users\zengb\Desktop\�走ǿ��ѧϰ\experiments\postrun_p3j.py", line 22, in main
+    run('experiments/summarize_fidelity_p3j.py',[out],'fidelity-decomposition.log')
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zengb\Desktop\�走ǿ��ѧϰ\experiments\postrun_p3j.py", line 18, in run
+    if r.returncode:raise RuntimeError(f'{script}: {r.returncode}; {logname}')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: experiments/summarize_fidelity_p3j.py: 1; fidelity-decomposition.log

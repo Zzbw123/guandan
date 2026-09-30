@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "cases": {
+    "missing_trial": {
+      "rejected": true,
+      "reason": "incomplete/duplicate evaluation schedule"
+    },
+    "duplicate_trial": {
+      "rejected": true,
+      "reason": "incomplete/duplicate evaluation schedule"
+    },
+    "false_win": {
+      "rejected": true,
+      "reason": "trial dmc|dmc|greedy:201000:0:0:0: invalid team_reward"
+    },
+    "wrong_interval": {
+      "rejected": true,
+      "reason": "recomputed statistics results"
+    },
+    "false_gate": {
+      "rejected": true,
+      "reason": "recomputed statistics validation_gate"
+    },
+    "incomplete_neural_coverage": {
+      "rejected": true,
+      "reason": "neural coverage/device/deadline"
+    }
+  },
+  "original_report_sha256": "94848a69d90a0d78eb9ca61356b908e1393d5e4498c8b17b386c1be2043e37d0",
+  "source_sha256": "de1efce6884e0ad7a0f8659871c3e27d22d86ce234f3c681d8935079c1c1f837"
+}

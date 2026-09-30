@@ -1,0 +1,153 @@
+{
+  "status": "PASS",
+  "fresh_process": true,
+  "model_optimizer_python_cpu_cuda_rng_counters_bitwise_equal": true,
+  "replayed_rows": [
+    {
+      "wave": 3,
+      "behavior_version": 2,
+      "learning_version": 3,
+      "episodes": 12,
+      "updates": 9,
+      "samples": 707,
+      "mean_loss": 0.9442047315743216,
+      "hands": [
+        {
+          "seed": 103008,
+          "level": 10,
+          "starting_player": 0,
+          "steps": 156,
+          "samples": 156,
+          "terminal_digest": "514b356a029b1b75d67dc7ffcd54b3b8dff96771f24f16b9c8f0792f07564a51",
+          "team_rewards": [
+            1,
+            -1
+          ],
+          "replay_verified": true
+        },
+        {
+          "seed": 103009,
+          "level": 11,
+          "starting_player": 1,
+          "steps": 194,
+          "samples": 194,
+          "terminal_digest": "45040ce521f3cae98e7c893ba9d0f3a0f7cf2160bbcb0027d1d9099dbe8dab93",
+          "team_rewards": [
+            1,
+            -1
+          ],
+          "replay_verified": true
+        },
+        {
+          "seed": 103010,
+          "level": 12,
+          "starting_player": 2,
+          "steps": 161,
+          "samples": 161,
+          "terminal_digest": "4ec1462a5bf255833ff94426fae0a03068ec9c47854404f3ba241d7f322b39d0",
+          "team_rewards": [
+            1,
+            -1
+          ],
+          "replay_verified": true
+        },
+        {
+          "seed": 103011,
+          "level": 13,
+          "starting_player": 3,
+          "steps": 196,
+          "samples": 196,
+          "terminal_digest": "f7a9a3178984fb89bd4c428668c03f0786c59531e2cfe50b024c9660869f6627",
+          "team_rewards": [
+            1,
+            -1
+          ],
+          "replay_verified": true
+        }
+      ],
+      "scored_candidates": 8351,
+      "score_requests": 637,
+      "score_batches": 198,
+      "device_proof": {
+        "device": "cuda:0",
+        "dtype": "torch.float32",
+        "forward_checks": 3,
+        "gradient_checks": 21,
+        "adam_tensor_checks": 63
+      }
+    },
+    {
+      "wave": 4,
+      "behavior_version": 3,
+      "learning_version": 4,
+      "episodes": 16,
+      "updates": 12,
+      "samples": 660,
+      "mean_loss": 1.0211682297966698,
+      "hands": [
+        {
+          "seed": 103012,
+          "level": 14,
+          "starting_player": 0,
+          "steps": 195,
+          "samples": 195,
+          "terminal_digest": "e84e26b68e1402cd1f6f6d067bfe9bd49872fbbc20116bffde6565b4b6e9408b",
+          "team_rewards": [
+            -1,
+            1
+          ],
+          "replay_verified": true
+        },
+        {
+          "seed": 103013,
+          "level": 2,
+          "starting_player": 1,
+          "steps": 155,
+          "samples": 155,
+          "terminal_digest": "afc93f7a53a0b318a651d1ea381535c028b9101c2281a3604386ccc85a95036d",
+          "team_rewards": [
+            -1,
+            1
+          ],
+          "replay_verified": true
+        },
+        {
+          "seed": 103014,
+          "level": 3,
+          "starting_player": 2,
+          "steps": 154,
+          "samples": 154,
+          "terminal_digest": "8e617474d5e06fd1570ce9bf56e376cf734fa301251f6cd6f501566f32644366",
+          "team_rewards": [
+            -1,
+            1
+          ],
+          "replay_verified": true
+        },
+        {
+          "seed": 103015,
+          "level": 4,
+          "starting_player": 3,
+          "steps": 156,
+          "samples": 156,
+          "terminal_digest": "b0942d576aaab9cc8a80f8eafa08413a0509f2530811271caa33cc0ebd2d8c19",
+          "team_rewards": [
+            -1,
+            1
+          ],
+          "replay_verified": true
+        }
+      ],
+      "scored_candidates": 5898,
+      "score_requests": 587,
+      "score_batches": 191,
+      "device_proof": {
+        "device": "cuda:0",
+        "dtype": "torch.float32",
+        "forward_checks": 3,
+        "gradient_checks": 21,
+        "adam_tensor_checks": 63
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "seed": 314372,
+  "hands": 1600,
+  "waves": 400,
+  "samples": 215981,
+  "updates": 1062,
+  "elapsed_s": 370.06826660000115,
+  "runtime": {
+    "python": "3.14.3",
+    "torch": "2.12.0+cu130",
+    "cuda": "13.0",
+    "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "capability": [
+      12,
+      0
+    ],
+    "device_count": 1,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "threads": 1,
+    "deterministic": true,
+    "tf32_matmul": false,
+    "tf32_cudnn": false,
+    "cublas": ":4096:8"
+  }
+}

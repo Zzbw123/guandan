@@ -1,0 +1,16 @@
+{
+  "evaluation_version": "gd-evaluation-v1",
+  "rules_version": "gd-hand-v1",
+  "split": "validation",
+  "seed_start": 200000,
+  "deal_count": 130,
+  "policies": ["random", "greedy", "team"],
+  "primary_matchup": "team|team|greedy",
+  "primary_metric": "win_rate",
+  "bootstrap_replicates": 5000,
+  "bootstrap_seed": 314159,
+  "policy_seed": 271828,
+  "workers": 8,
+  "max_steps": 1000,
+  "decision_timeout_ms": 1000.0
+}

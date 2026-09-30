@@ -1,0 +1,7 @@
+GPU runtime: 2.12.0+cu130 NVIDIA GeForce RTX 5060 Laptop GPU
+independent wave 1 PASS
+independent wave 2 PASS
+independent wave 3 PASS
+independent wave 4 PASS
+negative mutations 12 PASS
+{"status": "PASS", "scope": "ACCEPTED_FIXED_POOL_SAMPLING_V1", "training_hands": 16, "samples": 526, "updates": 4, "fresh_process_resume": "BITWISE_EQUAL"}

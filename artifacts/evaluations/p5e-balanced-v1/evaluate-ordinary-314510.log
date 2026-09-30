@@ -1,0 +1,3 @@
+{"stage": "evaluate", "job": "ordinary-314510", "games": 104, "total": 208, "elapsed_s": 36.23316569999952}
+{"stage": "evaluate", "job": "ordinary-314510", "games": 208, "total": 208, "elapsed_s": 64.28485120000187}
+{"stage": "evaluate", "job": "ordinary-314510", "status": "PASS", "games": 208, "validation_gate": "DEVELOPMENT_ONLY"}

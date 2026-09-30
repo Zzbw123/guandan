@@ -1,0 +1,10 @@
+{"audited_probes": 234}
+{"audited_probes": 468}
+{"audited_probes": 702}
+{"audited_probes": 936}
+{"audited_probes": 1170}
+{"audited_probes": 1404}
+{"audited_probes": 1638}
+{"audited_probes": 1872}
+{"audited_probes": 2106}
+{"status": "PASS", "engineering": "ACCEPTED_FIXED_WEIGHT_GRADIENT_DIAGNOSTIC_V1", "games": 117, "states": 234, "candidates": 1078, "singleton_states": 128, "probes": 2106, "independent_dense_probes": 2106, "max_score_abs_error": 1.1920928955078125e-07, "max_gram_abs_error": 0.00017135991828354236, "model_promoted": false, "reserved_test_executed": false, "overall_P3": "PARTIALLY_ACCEPTED", "run_receipt_sha256": "4a1e41a740f3c457eee46cd3206f3b4ff67cd2670e2d71c333d0aea1d121eaec", "summary_sha256": "1f212a6e1347cb11c4f63317a7d02bb320ede15a4172c26b4655cf49a7505798"}

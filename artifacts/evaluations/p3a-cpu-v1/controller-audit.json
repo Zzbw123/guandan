@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "candidate_sha256": "8d27fbba3fc77297b4dc2453d0ef42db6cd471bdf2e96d66b50cda660b2cf2a5",
+  "evaluation_games": 48,
+  "independent_deals": 2,
+  "recomputed": {
+    "greedy": {
+      "wins": 0,
+      "games": 16,
+      "win_rate": 0.0
+    },
+    "random": {
+      "wins": 3,
+      "games": 16,
+      "win_rate": 0.1875
+    },
+    "team": {
+      "wins": 0,
+      "games": 16,
+      "win_rate": 0.0
+    }
+  },
+  "registered_sources": 45,
+  "protected_p2_files": 40,
+  "snapshot_verified": true,
+  "neural_decisions": 2696,
+  "decision_ms_p50": 0.558600000658771,
+  "decision_ms_p95": 1.2363000023469795,
+  "decision_ms_max": 18.382299997028895,
+  "max_candidates": 1172,
+  "auditor_sha256": "6f8055596bcd11bc0cb79db7f2e0adde79a3f413c1b1ca2e3a980325921525b0"
+}

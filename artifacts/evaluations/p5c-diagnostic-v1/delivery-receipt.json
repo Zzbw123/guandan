@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": "ACCEPTED_POOL_COLLAPSE_DIAGNOSTIC_V1",
+  "model_promoted": false,
+  "full_gpu_tests": 248,
+  "artifact_sha256": {
+    "artifacts/evaluations/p5c-diagnostic-v1/controller-audit.json": "f2dce335d8ade1f92c35a02f98d8d8191cfd9b6cfd4d4e48cf3574b08daf0442",
+    "artifacts/evaluations/p5c-diagnostic-v1/hands.json": "7d92e6b602da5826e5290c2c1c11e04fd62933c6a20202891620ff9e2330d00d",
+    "artifacts/evaluations/p5c-diagnostic-v1/preflight-note.json": "cd041d995cc5924c6dd92277eeecc73b646ebb92ae2e39f723899ed52fd03aac",
+    "artifacts/evaluations/p5c-diagnostic-v1/preregistration.json": "ba68d74c35c5e744cc7964a435c6ff8532ad1ccebb562d952b94f8338055c22a",
+    "artifacts/evaluations/p5c-diagnostic-v1/README.md": "f545d5097d469e0945efb13b4090461ab3c219da311fa916f3b1bbeec8e444c8",
+    "artifacts/evaluations/p5c-diagnostic-v1/receipt.json": "e314253cdc775cb5d711176c8ee52ce4f075806f1684797c4ae6161aa4117b85",
+    "artifacts/evaluations/p5c-diagnostic-v1/score-summary.csv": "153cc1b4f46e0aceda2b21cf0a71be94349f86a723686880df6b4219de881ec1",
+    "artifacts/evaluations/p5c-diagnostic-v1/scores.jsonl.gz": "012017e591d7647acae95d49b393432ef7b02bc18185d914e2d2bf0b47f46ce7",
+    "artifacts/evaluations/p5c-diagnostic-v1/source-snapshot.zip": "a58f9515fa93d36473d907e075e3a06052b1788fecb5f594b293d3536ee3315c",
+    "artifacts/evaluations/p5c-diagnostic-v1/states.json": "9aa6eaee2f272901c52173e5b9f948b83c5b2b97696eb43e33710d6ca1458aa5",
+    "artifacts/evaluations/p5c-diagnostic-v1/summary.json": "46c6117fe5b6b34095cd0e242f4450772dae8682f1164fd81ae5ab8d1c67aff7",
+    "artifacts/evaluations/p5c-diagnostic-v1/training-summary.csv": "9de2875d5fb77f327fec5780c3d5eb951e145846165388fffeffbdc9807414a6",
+    "docs/P5C_ACCEPTANCE.md": "e6795bd889f3a84a9a193aa5e810ff6bab904d07057ac047adceb6936deac700",
+    "docs/P5C_PROTOCOL.md": "19d61244b3187752e6396308f264dea5bc1bedeb61db3e2d39d8a3b88cc2137c",
+    "docs/STATUS.md": "446880d1a090f1722a0e4400d6d1dfc44a8f4589dc5ac03220b70f29132d2a74",
+    "artifacts/evaluations/p5c-full-tests-gpu-v1.log": "544417279f80fc116681f60478e4f7cce40ba8133453d1ad2c919a50c6fb880b",
+    "artifacts/evaluations/p5c-full-tests-gpu-v1.json": "1548211fb74e9d840adf1cc76e5345e688a63cc2a159dd9d29d04d9f2b20dcd1",
+    "experiments/deliver_p5c.py": "549bc7ac0465a752b5e3c577c227194772ba9f49c43640e3742e170ddb18deab"
+  }
+}

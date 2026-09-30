@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-27T06:27:37.413692+00:00",
+  "job": "normcap-314382",
+  "arm": "normcap",
+  "seed": 314382,
+  "checkpoint": "C:\\Users\\zengb\\Desktop\\掼蛋强化学习\\artifacts\\evaluations\\p3l-normcap-v1\\training\\normcap-314382\\final",
+  "candidate_sha256": "6ee58b9b5d594186c5f0287eca6ab8cc4f28f4e93f97d26b7980c013195244f8",
+  "manifest_sha256": "c719d9c9fb994cefdb78222dd4179499d9022503603f65001f36928a36fbf8b9",
+  "preregistration_sha256": "c98280a60210a5d2e55dd73979053617e9a83c90f89ccafe336eed3901bb8093",
+  "games": 208
+}

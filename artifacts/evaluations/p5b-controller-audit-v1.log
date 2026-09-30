@@ -1,0 +1,16 @@
+GPU runtime: 2.12.0+cu130 NVIDIA GeForce RTX 5060 Laptop GPU
+{"stage": "independent-audit", "kind": "training", "job": "selfplay-314511", "status": "PASS"}
+{"stage": "independent-audit", "kind": "training", "job": "mixed-314511", "status": "PASS"}
+{"stage": "independent-audit", "kind": "training", "job": "mixed-314510", "status": "PASS"}
+{"stage": "independent-audit", "kind": "evaluations", "job": "mixed-314510", "status": "PASS"}
+{"stage": "independent-audit", "kind": "evaluations", "job": "selfplay-314510", "status": "PASS"}
+{"stage": "independent-audit", "kind": "training", "job": "selfplay-314510", "status": "PASS"}
+{"stage": "independent-audit", "kind": "evaluations", "job": "selfplay-314511", "status": "PASS"}
+{"stage": "independent-audit", "kind": "evaluations", "job": "mixed-314511", "status": "PASS"}
+{"stage": "independent-audit", "kind": "training", "job": "selfplay-314512", "status": "PASS"}
+{"stage": "independent-audit", "kind": "evaluations", "job": "selfplay-314512", "status": "PASS"}
+{"stage": "independent-audit", "kind": "evaluations", "job": "mixed-314512", "status": "PASS"}
+{"stage": "independent-audit", "kind": "training", "job": "mixed-314512", "status": "PASS"}
+{"stage": "independent-audit", "kind": "evaluations", "job": "validation-mixed", "status": "PASS"}
+{"stage": "independent-audit", "kind": "evaluations", "job": "validation-selfplay", "status": "PASS"}
+{"status": "PASS", "validation_gate": "NOT_ESTABLISHED", "training_hands": 9600, "evaluation_games": 4368, "negative_rejections": 12}

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "rows": 768,
+  "states": 128,
+  "candidates": 4174,
+  "negative_cases": {
+    "missing": "full rows",
+    "duplicate": "exact row identity/order",
+    "denominator": "full candidates",
+    "decomposition": "independent arithmetic",
+    "fake_promotion": "scope gate",
+    "summary": "independent arithmetic",
+    "input_hash": "pin artifacts/evaluations/p3f-teacher-v1/training/teacher-314380/phase1/replays.jsonl.gz"
+  },
+  "old_P3h_sources_unchanged": true,
+  "source_files": 143,
+  "report_sha256": "72cf246ac9f073f6f08c514b9b73761f0444b29ba16eed6d6f315c43e00d6793",
+  "review_sha256": "eb4daff0f0b0679975c803a6eb55c0c3eb3179479b4c70592740e4720af60071",
+  "scope": "independent arithmetic and provenance; direct-forward audit separate",
+  "model_promoted": false
+}

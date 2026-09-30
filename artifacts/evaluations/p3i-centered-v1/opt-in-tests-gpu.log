@@ -1,0 +1,9 @@
+test_chunked_matches_independent_observation_mean_objective (test_p3f_teacher.CUDAObjectiveTests.test_chunked_matches_independent_observation_mean_objective) ... ok
+test_dmc_instrumentation_is_bitwise_transparent (test_p3f_training.CUDAResetTests.test_dmc_instrumentation_is_bitwise_transparent) ... ok
+test_tiny_teacher_update_raw_save_fresh_reset (test_p3f_training.CUDAResetTests.test_tiny_teacher_update_raw_save_fresh_reset) ... ok
+test_temporary_raw_loader_discards_optimizer_and_scores_complete_candidates (test_p3g_guard.RawCUDATests.test_temporary_raw_loader_discards_optimizer_and_scores_complete_candidates) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 12.803s
+
+OK

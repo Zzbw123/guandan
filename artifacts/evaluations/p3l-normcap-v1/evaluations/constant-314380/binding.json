@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-27T06:25:51.626464+00:00",
+  "job": "constant-314380",
+  "arm": "constant",
+  "seed": 314380,
+  "checkpoint": "C:\\Users\\zengb\\Desktop\\掼蛋强化学习\\artifacts\\evaluations\\p3l-normcap-v1\\training\\constant-314380\\final",
+  "candidate_sha256": "fa3347063b9372afd0239e5f27ebb300ae16950309a0988ef7cdd05ff619a118",
+  "manifest_sha256": "8b986735a95bea51fa1cf06f9f40639d867076f3c8ead51ea7418fb9bb5edfd7",
+  "preregistration_sha256": "c98280a60210a5d2e55dd73979053617e9a83c90f89ccafe336eed3901bb8093",
+  "games": 208
+}

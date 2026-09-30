@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "audit_negative_cases": {
+    "wrong_total": {
+      "rejected": true,
+      "reason": "report arithmetic"
+    },
+    "truncated_candidates": {
+      "rejected": true,
+      "reason": "score lengths"
+    },
+    "wrong_quantile": {
+      "rejected": true,
+      "reason": "timing quantiles"
+    },
+    "missing_negative": {
+      "rejected": true,
+      "reason": "negative coverage"
+    },
+    "wrong_resume": {
+      "rejected": true,
+      "reason": "fresh process trajectories"
+    }
+  },
+  "cli_boundaries": {
+    "existing_output": {
+      "exit_code": 2,
+      "error": "train_gpu.py: error: output already exists"
+    },
+    "reserved_seed": {
+      "exit_code": 2,
+      "error": "train_gpu.py: error: only development seeds 100000..109999"
+    },
+    "excessive_budget": {
+      "exit_code": 2,
+      "error": "train_gpu.py: error: waves must be 1..25"
+    },
+    "reused_seed": {
+      "exit_code": 2,
+      "error": "train_gpu.py: error: training seed already used"
+    }
+  },
+  "original_report_unchanged": true,
+  "source_sha256": "f5f932b777b251aaef1b6acdfde5dca01ef6d0621dc70b334a3a8464417e43ab"
+}

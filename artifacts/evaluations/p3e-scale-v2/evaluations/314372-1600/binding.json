@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-26T07:06:42.879374+00:00",
+  "job": "314372-1600",
+  "checkpoint": "artifacts/evaluations/p3e-scale-v2/training/314372/wave-400",
+  "candidate_sha256": "f4aec6229c33395a46ff75446cf8c2f65e91ab6f876d9389d5e6275d55f155f1",
+  "preregistration_sha256": "5c8194b0b329194cbd69b45902e76aa6330203b82890137ee436c014c1c258f1",
+  "games": 208
+}

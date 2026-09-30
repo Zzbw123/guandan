@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-09-25T22:39:07.917116",
+  "status": "BLOCKED_BY_POLICY_NOT_DELETED",
+  "deleted_paths": [],
+  "project_environment": {
+    "path": "C:\\Users\\zengb\\Desktop\\掼蛋强化学习\\.venv",
+    "exists": true,
+    "bytes": 535194
+  },
+  "superseded_cuda_wheel": {
+    "path": "D:\\Guandan-Runtime\\wheels\\torch-2.9.1+cu128-cp313-cp313-win_amd64.whl",
+    "exists": true,
+    "bytes": 2862036321
+  },
+  "shared_cpu_torch": {
+    "path": "C:/Users/zengb/AppData/Local/Programs/Python/Python313/Lib/site-packages/torch",
+    "version": "2.9.1+cpu",
+    "required_by": [
+      "torchvision",
+      "ultralytics",
+      "ultralytics-thop"
+    ],
+    "status": "RETAINED_SHARED_DEPENDENCY"
+  },
+  "download_process_running": false,
+  "note": "The deletion command was rejected before execution. Download subsequently completed with its official SHA256; no installer is running.",
+  "forced_retry": {
+    "time": "2026-09-25T23:44:39.8973143+08:00",
+    "status": "REJECTED_BEFORE_EXECUTION",
+    "reason": "blocked by policy",
+    "user_explicitly_requested_force": true
+  }
+}

@@ -1,0 +1,3 @@
+{"stage": "evaluate", "job": "teacher-phase1-314381", "games": 104, "total": 208, "elapsed_s": 28.15926660000332}
+{"stage": "evaluate", "job": "teacher-phase1-314381", "games": 208, "total": 208, "elapsed_s": 50.66675100000066}
+{"stage": "evaluate", "job": "teacher-phase1-314381", "status": "PASS", "games": 208, "validation_gate": "DEVELOPMENT_ONLY"}

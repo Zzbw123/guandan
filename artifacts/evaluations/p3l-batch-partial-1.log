@@ -1,0 +1,3 @@
+GPU runtime: 2.12.0+cu130 NVIDIA GeForce RTX 5060 Laptop GPU
+batch order independently verified normcap-314382
+{"status": "PARTIAL_REVIEW", "jobs": {"normcap-314382": {"status": "PASS", "job": "normcap-314382", "observations": 53965, "candidates": 851429, "exploration_steps": 5427, "batches": 300}}}

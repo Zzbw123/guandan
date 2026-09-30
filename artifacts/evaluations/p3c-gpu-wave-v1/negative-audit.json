@@ -1,0 +1,149 @@
+{
+  "status": "PASS",
+  "cases": {
+    "version": {
+      "rejected": true,
+      "exception": "ValueError",
+      "message": "checkpoint incompatible versions"
+    },
+    "counter": {
+      "rejected": true,
+      "exception": "ValueError",
+      "message": "wave/episode counters"
+    },
+    "seed": {
+      "rejected": true,
+      "exception": "ValueError",
+      "message": "invalid development seed history"
+    },
+    "duplicate_seed": {
+      "rejected": true,
+      "exception": "ValueError",
+      "message": "invalid development seed history"
+    },
+    "adam": {
+      "rejected": true,
+      "exception": "ValueError",
+      "message": "optimizer step"
+    },
+    "cuda_rng": {
+      "rejected": true,
+      "exception": "ValueError",
+      "message": "CUDA RNG shape/dtype"
+    },
+    "nonfinite": {
+      "rejected": true,
+      "exception": "ValueError",
+      "message": "Nonfinite checkpoint tensor"
+    },
+    "truncated": {
+      "rejected": true,
+      "exception": "ValueError",
+      "message": "checkpoint hash/size"
+    },
+    "overwrite": {
+      "rejected": true,
+      "exception": "FileExistsError",
+      "message": "C:\\Users\\zengb\\Desktop\\掼蛋强化学习\\artifacts\\evaluations\\p3c-gpu-wave-v1\\wave-2"
+    },
+    "commit_interruption": {
+      "rejected": true,
+      "exception": "RuntimeError",
+      "message": "injected before atomic commit"
+    },
+    "incomplete_load": {
+      "rejected": true,
+      "exception": "ValueError",
+      "message": "uncommitted checkpoint"
+    },
+    "sample_failure": {
+      "rejected": true,
+      "exception": "RuntimeError",
+      "message": "injected sampling failure"
+    },
+    "failed_wave_save": {
+      "rejected": true,
+      "exception": "ValueError",
+      "message": "checkpoint requires successful wave boundary"
+    },
+    "failed_wave_continue": {
+      "rejected": true,
+      "exception": "RuntimeError",
+      "message": "trainer is not at a successful wave boundary"
+    }
+  },
+  "recovery_after_sampling_failure_equal": true,
+  "replayed_row": {
+    "wave": 3,
+    "behavior_version": 2,
+    "learning_version": 3,
+    "episodes": 12,
+    "updates": 9,
+    "samples": 707,
+    "mean_loss": 0.9442047315743216,
+    "hands": [
+      {
+        "seed": 103008,
+        "level": 10,
+        "starting_player": 0,
+        "steps": 156,
+        "samples": 156,
+        "terminal_digest": "514b356a029b1b75d67dc7ffcd54b3b8dff96771f24f16b9c8f0792f07564a51",
+        "team_rewards": [
+          1,
+          -1
+        ],
+        "replay_verified": true
+      },
+      {
+        "seed": 103009,
+        "level": 11,
+        "starting_player": 1,
+        "steps": 194,
+        "samples": 194,
+        "terminal_digest": "45040ce521f3cae98e7c893ba9d0f3a0f7cf2160bbcb0027d1d9099dbe8dab93",
+        "team_rewards": [
+          1,
+          -1
+        ],
+        "replay_verified": true
+      },
+      {
+        "seed": 103010,
+        "level": 12,
+        "starting_player": 2,
+        "steps": 161,
+        "samples": 161,
+        "terminal_digest": "4ec1462a5bf255833ff94426fae0a03068ec9c47854404f3ba241d7f322b39d0",
+        "team_rewards": [
+          1,
+          -1
+        ],
+        "replay_verified": true
+      },
+      {
+        "seed": 103011,
+        "level": 13,
+        "starting_player": 3,
+        "steps": 196,
+        "samples": 196,
+        "terminal_digest": "f7a9a3178984fb89bd4c428668c03f0786c59531e2cfe50b024c9660869f6627",
+        "team_rewards": [
+          1,
+          -1
+        ],
+        "replay_verified": true
+      }
+    ],
+    "scored_candidates": 8351,
+    "score_requests": 637,
+    "score_batches": 198,
+    "device_proof": {
+      "device": "cuda:0",
+      "dtype": "torch.float32",
+      "forward_checks": 3,
+      "gradient_checks": 21,
+      "adam_tensor_checks": 63
+    }
+  }
+}

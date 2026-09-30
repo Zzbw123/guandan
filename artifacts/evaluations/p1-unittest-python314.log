@@ -1,0 +1,37 @@
+test_copy_equivalence_and_suit_consumption (test_actions_unit.ActionRulesTests.test_copy_equivalence_and_suit_consumption) ... ok
+test_flush_wildcard_suit_and_normal_straight (test_actions_unit.ActionRulesTests.test_flush_wildcard_suit_and_normal_straight) ... ok
+test_joker_pair_full_house_and_bomb_order (test_actions_unit.ActionRulesTests.test_joker_pair_full_house_and_bomb_order) ... ok
+test_low_ace_runs_and_no_wrap (test_actions_unit.ActionRulesTests.test_low_ace_runs_and_no_wrap) ... ok
+test_random_hands_all_candidates_validate (test_actions_unit.ActionRulesTests.test_random_hands_all_candidates_validate) ... ok
+test_wildcard_rank_choices_and_required_declarations (test_actions_unit.ActionRulesTests.test_wildcard_rank_choices_and_required_declarations) ... ok
+test_greedy_finishes (test_baselines.BaselineTests.test_greedy_finishes) ... ok
+test_random_is_reproducible_and_legal (test_baselines.BaselineTests.test_random_is_reproducible_and_legal) ... ok
+test_teammate_preference_is_soft (test_baselines.BaselineTests.test_teammate_preference_is_soft) ... ok
+test_hidden_hand_exchange_preserves_observation_and_legal_semantics (test_contracts.ContractTests.test_hidden_hand_exchange_preserves_observation_and_legal_semantics) ... ok
+test_replay_tampering_is_rejected (test_contracts.ContractTests.test_replay_tampering_is_rejected) ... ok
+test_seed_replay_and_step_digests_are_deterministic (test_contracts.ContractTests.test_seed_replay_and_step_digests_are_deterministic) ... ok
+test_wrong_seat_and_stale_version_leave_state_unchanged (test_contracts.ContractTests.test_wrong_seat_and_stale_version_leave_state_unchanged) ... ok
+test_all_level_single_order_and_equal_values (test_controller_acceptance.ControllerAcceptanceTests.test_all_level_single_order_and_equal_values) ... ok
+test_deck_faces_and_roundtrip (test_controller_acceptance.ControllerAcceptanceTests.test_deck_faces_and_roundtrip) ... ok
+test_full_108_card_deal_and_observation_are_immutable (test_controller_acceptance.ControllerAcceptanceTests.test_full_108_card_deal_and_observation_are_immutable) ... ok
+test_hidden_permutation_does_not_change_policy_outputs (test_controller_acceptance.ControllerAcceptanceTests.test_hidden_permutation_does_not_change_policy_outputs) ... ok
+test_sequence_comparison_does_not_promote_level (test_controller_acceptance.ControllerAcceptanceTests.test_sequence_comparison_does_not_promote_level) ... ok
+test_independent_small_hand_oracle (test_enumeration_oracle.EnumerationOracleTests.test_independent_small_hand_oracle) ... ok
+test_same_physical_straight_has_two_declarations (test_enumeration_oracle.EnumerationOracleTests.test_same_physical_straight_has_two_declarations) ... ok
+test_seeded_six_card_oracle_all_levels_and_wildcard_counts (test_enumeration_oracle.EnumerationOracleTests.test_seeded_six_card_oracle_all_levels_and_wildcard_counts) ... ok
+test_ten_card_bomb_targeted_without_large_hand_oracle (test_enumeration_oracle.EnumerationOracleTests.test_ten_card_bomb_targeted_without_large_hand_oracle) ... ok
+test_active_incumbent_retains_next_free_lead (test_env_unit.HandEnvTests.test_active_incumbent_retains_next_free_lead) ... ok
+test_cover_resets_pass_set_and_earlier_passer_can_return (test_env_unit.HandEnvTests.test_cover_resets_pass_set_and_earlier_passer_can_return) ... ok
+test_double_down_ends_without_fake_loser_ranks (test_env_unit.HandEnvTests.test_double_down_ends_without_fake_loser_ranks) ... ok
+test_finished_incumbent_pass_cycle_gives_partner_lead (test_env_unit.HandEnvTests.test_finished_incumbent_pass_cycle_gives_partner_lead) ... ok
+test_rejected_actions_leave_state_unchanged (test_env_unit.HandEnvTests.test_rejected_actions_leave_state_unchanged) ... ok
+test_replay_checks_every_event_digest_and_terminal_metadata (test_env_unit.HandEnvTests.test_replay_checks_every_event_digest_and_terminal_metadata) ... ok
+test_reset_is_deterministic_and_observation_is_private (test_env_unit.HandEnvTests.test_reset_is_deterministic_and_observation_is_private) ... ok
+test_teammate_fourth_gets_one_level (test_env_unit.HandEnvTests.test_teammate_fourth_gets_one_level) ... ok
+test_third_finish_assigns_fourth_without_consuming_hand (test_env_unit.HandEnvTests.test_third_finish_assigns_fourth_without_consuming_hand) ... ok
+test_uneven_108_card_distribution_is_research_fixture (test_env_unit.HandEnvTests.test_uneven_108_card_distribution_is_research_fixture) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.269s
+
+OK

@@ -1,0 +1,152 @@
+{
+  "scope": "Existing artifact hash checks and arithmetic only; no new training, evaluation, bootstrap, or replay audit.",
+  "batch_summary": {
+    "ordinary-314511": {
+      "updates": 403,
+      "single_class_updates": 222,
+      "samples": 54364,
+      "positive": 17762,
+      "single_class_fraction": 0.5508684863523573
+    },
+    "label_balanced-314511": {
+      "updates": 400,
+      "single_class_updates": 237,
+      "samples": 53998,
+      "positive": 16935,
+      "single_class_fraction": 0.5925
+    },
+    "label_balanced-314512": {
+      "updates": 400,
+      "single_class_updates": 284,
+      "samples": 50120,
+      "positive": 16465,
+      "single_class_fraction": 0.71
+    },
+    "ordinary-314512": {
+      "updates": 401,
+      "single_class_updates": 274,
+      "samples": 53141,
+      "positive": 17258,
+      "single_class_fraction": 0.683291770573566
+    },
+    "label_balanced-314510": {
+      "updates": 400,
+      "single_class_updates": 246,
+      "samples": 50253,
+      "positive": 14544,
+      "single_class_fraction": 0.615
+    },
+    "ordinary-314510": {
+      "updates": 402,
+      "single_class_updates": 237,
+      "samples": 54085,
+      "positive": 15774,
+      "single_class_fraction": 0.5895522388059702
+    }
+  },
+  "positive_sources_p5c": {
+    "mixed-314510": {
+      "all_positive": 15774,
+      "block2_positive": 11051,
+      "block2_fraction": 0.700583238240142
+    },
+    "mixed-314511": {
+      "all_positive": 17762,
+      "block2_positive": 10805,
+      "block2_fraction": 0.608321135007319
+    },
+    "mixed-314512": {
+      "all_positive": 17258,
+      "block2_positive": 12433,
+      "block2_fraction": 0.7204195155869741
+    }
+  },
+  "validation_p5e": {
+    "ordinary": {
+      "matchups": {
+        "dmc|dmc|greedy": {
+          "games": 520,
+          "wins": 6,
+          "win_rate": 0.011538461538461539,
+          "original_deals": 65
+        },
+        "dmc|dmc|random": {
+          "games": 520,
+          "wins": 32,
+          "win_rate": 0.06153846153846154,
+          "original_deals": 65
+        },
+        "dmc|dmc|team": {
+          "games": 520,
+          "wins": 5,
+          "win_rate": 0.009615384615384616,
+          "original_deals": 65
+        }
+      },
+      "behavior_all_three_opponents": {
+        "optional_pass": {
+          "numerator": 38767,
+          "denominator": 58303,
+          "rate": 0.6649229027665815
+        },
+        "finish_miss": {
+          "numerator": 177,
+          "denominator": 402,
+          "rate": 0.44029850746268656
+        },
+        "endgame_optional_pass": {
+          "numerator": 854,
+          "denominator": 854,
+          "rate": 1.0
+        }
+      }
+    },
+    "label_balanced": {
+      "matchups": {
+        "dmc|dmc|greedy": {
+          "games": 520,
+          "wins": 0,
+          "win_rate": 0.0,
+          "original_deals": 65
+        },
+        "dmc|dmc|random": {
+          "games": 520,
+          "wins": 6,
+          "win_rate": 0.011538461538461539,
+          "original_deals": 65
+        },
+        "dmc|dmc|team": {
+          "games": 520,
+          "wins": 0,
+          "win_rate": 0.0,
+          "original_deals": 65
+        }
+      },
+      "behavior_all_three_opponents": {
+        "optional_pass": {
+          "numerator": 41507,
+          "denominator": 52558,
+          "rate": 0.7897370523992542
+        },
+        "finish_miss": {
+          "numerator": 40,
+          "denominator": 85,
+          "rate": 0.47058823529411764
+        },
+        "endgame_optional_pass": {
+          "numerator": 224,
+          "denominator": 228,
+          "rate": 0.9824561403508771
+        }
+      }
+    }
+  },
+  "verified_artifact_sha256": {
+    "artifacts/evaluations/p5e-balanced-v1/training-batches.csv": "eea23bb4f7467a76bdb2d552dc31d59d86fe916325eadfcbfcc62fc9e9fb355d",
+    "artifacts/evaluations/p5c-diagnostic-v1/training-summary.csv": "9de2875d5fb77f327fec5780c3d5eb951e145846165388fffeffbdc9807414a6",
+    "artifacts/evaluations/p5e-balanced-v1/evaluations/validation-ordinary/results.jsonl": "d390d19ef28fdd3020ed484f46c0b1976af3aeaebddb4b25f1533b994e4f823f",
+    "artifacts/evaluations/p5e-balanced-v1/evaluations/validation-ordinary/behavior.jsonl": "0549a4f0bc574880ddf8a57d0d06ff73810bfe3a4f65a4d7f79d7927dac1684a",
+    "artifacts/evaluations/p5e-balanced-v1/evaluations/validation-label_balanced/results.jsonl": "a6f84056074b6cf5bd229d310ab02753cf67e993ff635c759f6d2b9f5d1daf5d",
+    "artifacts/evaluations/p5e-balanced-v1/evaluations/validation-label_balanced/behavior.jsonl": "9cb8186a6dcb7dd94156cbb1a7ed23a9790a536c13173e97ab653cd911d25c50"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "method": "controller viewed both actual PNG exports",
+  "checks": [
+    "readable labels and legends",
+    "no cropped panels",
+    "probability axes 0 to 100",
+    "signed differences share -100 to 100 limits",
+    "raw group points retained",
+    "estimates and pointwise intervals match independent audit",
+    "546 CSV group rows and trace hashes verified"
+  ],
+  "figure_sha256": {
+    "paired-development.png": "57132c7fbbc359bae9c8e28d293147ce5a8b6d65c77680cf340bbc10ac7c88a4",
+    "paired-validation.png": "537b5b56387ce50abb8466882edf987b91e4fbe1024bed73bb77bda4ebd113d2"
+  }
+}

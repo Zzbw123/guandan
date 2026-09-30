@@ -1,0 +1,53 @@
+{
+  "versions": {
+    "checkpoint": "gd-p3l-checkpoint-v1",
+    "training": "gd-p3l-wave-v1",
+    "rules": "gd-hand-v1",
+    "action": "gd-action-v1",
+    "observation": "gd-observation-v1",
+    "feature": "gd-features-v1",
+    "network": "gd-dmc-network-v1",
+    "state_dim": 2993,
+    "action_dim": 149
+  },
+  "runtime": {
+    "python": "3.14.3",
+    "torch": "2.12.0+cu130",
+    "cuda": "13.0",
+    "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "capability": [
+      12,
+      0
+    ],
+    "device_count": 1,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "threads": 1,
+    "deterministic": true,
+    "tf32_matmul": false,
+    "tf32_cudnn": false,
+    "cublas": ":4096:8"
+  },
+  "sources": {},
+  "boundary": "wave_boundary",
+  "config": {
+    "seed": 314381,
+    "epsilon": 0.1,
+    "lr": 0.001,
+    "batch_size": 256,
+    "chunk_size": 1024,
+    "num_envs": 4,
+    "auxiliary_weight": 0.1,
+    "objective": "normcap"
+  },
+  "episodes": 4,
+  "updates": 3,
+  "waves": 1,
+  "used_deal_seeds": [
+    109110,
+    109111,
+    109112,
+    109113
+  ],
+  "sha256": "42ac4e865592ae758bc3daa35eda9cf26207f0da73670cc2eaf42e708dfe60d5",
+  "bytes": 4946185
+}

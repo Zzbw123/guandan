@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "episodes_replayed": 2,
+  "model_optimizer_rng_counters_bitwise_equal": true,
+  "trajectory_rows_equal": true,
+  "parameters_changed": true,
+  "replayed_rows": [
+    {
+      "episode": 3,
+      "seed": 100502,
+      "level": 4,
+      "steps": 186,
+      "samples": 186,
+      "mean_loss": 1.179422083721366,
+      "team_rewards": [
+        -1,
+        1
+      ],
+      "terminal_digest": "08f0a5cbb09f8b91cc8d3cf1fc5d52deec75b9fc9413f7bfdcdf7bfb8c1379fe",
+      "updates": 9,
+      "replay_verified": true
+    },
+    {
+      "episode": 4,
+      "seed": 100503,
+      "level": 5,
+      "steps": 185,
+      "samples": 185,
+      "mean_loss": 1.0535751510310818,
+      "team_rewards": [
+        1,
+        -1
+      ],
+      "terminal_digest": "76b5fe515133da751a9c7c58e1d734984ae909b740b0af6c860b54127be25c0e",
+      "updates": 12,
+      "replay_verified": true
+    }
+  ]
+}

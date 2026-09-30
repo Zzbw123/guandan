@@ -1,0 +1,7 @@
+batch order independently verified centered-314381
+batch order independently verified absolute-314381
+batch order independently verified centered-314382
+batch order independently verified absolute-314382
+batch order independently verified centered-314380
+batch order independently verified absolute-314380
+{"status": "PASS", "jobs": {"centered-314381": {"status": "PASS", "job": "centered-314381", "observations": 55952, "candidates": 964041, "exploration_steps": 5691, "batches": 300}, "absolute-314381": {"status": "PASS", "job": "absolute-314381", "observations": 55633, "candidates": 847562, "exploration_steps": 5516, "batches": 300}, "centered-314382": {"status": "PASS", "job": "centered-314382", "observations": 56293, "candidates": 905172, "exploration_steps": 5702, "batches": 300}, "absolute-314382": {"status": "PASS", "job": "absolute-314382", "observations": 54696, "candidates": 865768, "exploration_steps": 5504, "batches": 300}, "centered-314380": {"status": "PASS", "job": "centered-314380", "observations": 56467, "candidates": 809760, "exploration_steps": 5614, "batches": 300}, "absolute-314380": {"status": "PASS", "job": "absolute-314380", "observations": 55514, "candidates": 848643, "exploration_steps": 5473, "batches": 300}}}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "runtime": {
+    "python": "3.14.3",
+    "torch": "2.12.0+cu130",
+    "cuda": "13.0",
+    "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "capability": [
+      12,
+      0
+    ],
+    "device_count": 1,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "threads": 1,
+    "deterministic": true,
+    "tf32_matmul": false,
+    "tf32_cudnn": false,
+    "cublas": ":4096:8"
+  },
+  "episodes": 16,
+  "updates": 12,
+  "waves": 4,
+  "checkpoint_sha256": "fc69a095c165818864a9daad742053eb3fd266135ae494a914c6e29dcde9fbef",
+  "elapsed_s": 2.972154299999602,
+  "promotion": "NOT_ELIGIBLE",
+  "reserved_test_executed": false
+}

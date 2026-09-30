@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-26T08:14:43.674279+00:00",
+  "job": "validation-control",
+  "arm": "control",
+  "seed": 314380,
+  "checkpoint": "C:\\Users\\zengb\\Desktop\\掼蛋强化学习\\artifacts\\evaluations\\p3f-teacher-v1\\training\\control-314380\\final",
+  "candidate_sha256": "5f0cf35305e98f7032850c5e7f707ed188ff2c7afa9a8c99914647032d03df33",
+  "manifest_sha256": "174ccc6df2560e30b61829fd0ca9543f5a541915d5663c1b686d2951c05b921c",
+  "preregistration_sha256": "9df3779b5f2bf6427c3de1cbfe3f724eea251bd364bbe4fb9d557d25a4d1f79b",
+  "games": 1560
+}

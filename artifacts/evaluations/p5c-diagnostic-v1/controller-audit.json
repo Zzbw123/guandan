@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "ACCEPTED_POOL_COLLAPSE_DIAGNOSTIC_V1",
+  "full_corpus_label_hands": 9600,
+  "independently_replayed_hands": 384,
+  "states": 1026,
+  "independently_scored_rows": 6156,
+  "independently_scored_candidates": 1577994,
+  "max_abs_error": 2.086162567138672e-07,
+  "new_training_hands": 0,
+  "new_evaluation_games": 0,
+  "model_promoted": false,
+  "preregistration_sha256": "ba68d74c35c5e744cc7964a435c6ff8532ad1ccebb562d952b94f8338055c22a"
+}

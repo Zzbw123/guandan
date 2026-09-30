@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "cases": {
+    "missing": "REJECTED",
+    "duplicate": "REJECTED",
+    "wrong_win": "REJECTED",
+    "wrong_interval": "REJECTED",
+    "fake_promotion": "REJECTED",
+    "behavior_denominator": "REJECTED",
+    "candidate_selection": "REJECTED",
+    "dropped_candidates": "REJECTED",
+    "changed_weight": "REJECTED",
+    "wrong_objective": "REJECTED"
+  }
+}

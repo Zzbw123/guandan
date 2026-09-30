@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "initial_error": "NameError: name 'json' is not defined in final console print",
+  "scope": "reports and data-usage had already been written; no training or evaluation rerun",
+  "repair": "import json; regenerate and require byte-identical existing reports without overwriting",
+  "before_script_sha256": "8f9bdd392704993c647901dfdd3a4a233fa57fde9f9cb6ffba520e81be962d0f",
+  "after_script_sha256": "765b00ec6bc20ed8448ead25f0135f0316aa60e4db1f7d7a0c78e27d2087ece1",
+  "report_sha256": "5ddafca6506adeb0ab3997cc36c390d80a12a661c894012e4e52e381530ea0b1"
+}

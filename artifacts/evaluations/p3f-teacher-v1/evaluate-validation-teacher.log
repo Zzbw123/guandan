@@ -1,0 +1,16 @@
+{"stage": "evaluate", "job": "validation-teacher", "games": 104, "total": 1560, "elapsed_s": 27.702545900001496}
+{"stage": "evaluate", "job": "validation-teacher", "games": 208, "total": 1560, "elapsed_s": 51.12168030000066}
+{"stage": "evaluate", "job": "validation-teacher", "games": 312, "total": 1560, "elapsed_s": 73.83618560000104}
+{"stage": "evaluate", "job": "validation-teacher", "games": 416, "total": 1560, "elapsed_s": 96.56860960000085}
+{"stage": "evaluate", "job": "validation-teacher", "games": 520, "total": 1560, "elapsed_s": 119.6403420000006}
+{"stage": "evaluate", "job": "validation-teacher", "games": 624, "total": 1560, "elapsed_s": 146.92081959999996}
+{"stage": "evaluate", "job": "validation-teacher", "games": 728, "total": 1560, "elapsed_s": 177.60336300000017}
+{"stage": "evaluate", "job": "validation-teacher", "games": 832, "total": 1560, "elapsed_s": 207.56423280000126}
+{"stage": "evaluate", "job": "validation-teacher", "games": 936, "total": 1560, "elapsed_s": 235.4381527000005}
+{"stage": "evaluate", "job": "validation-teacher", "games": 1040, "total": 1560, "elapsed_s": 265.24303710000095}
+{"stage": "evaluate", "job": "validation-teacher", "games": 1144, "total": 1560, "elapsed_s": 290.7669259000013}
+{"stage": "evaluate", "job": "validation-teacher", "games": 1248, "total": 1560, "elapsed_s": 317.3602862000007}
+{"stage": "evaluate", "job": "validation-teacher", "games": 1352, "total": 1560, "elapsed_s": 343.0371720000003}
+{"stage": "evaluate", "job": "validation-teacher", "games": 1456, "total": 1560, "elapsed_s": 368.2689252}
+{"stage": "evaluate", "job": "validation-teacher", "games": 1560, "total": 1560, "elapsed_s": 394.53636580000057}
+{"stage": "evaluate", "job": "validation-teacher", "status": "PASS", "games": 1560, "validation_gate": "NOT_ESTABLISHED"}

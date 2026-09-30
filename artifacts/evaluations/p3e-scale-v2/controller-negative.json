@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "cases": {
+    "missing": "REJECTED",
+    "duplicate": "REJECTED",
+    "wrong_win": "REJECTED",
+    "wrong_interval": "REJECTED",
+    "fake_promotion": "REJECTED",
+    "behavior_denominator": "REJECTED",
+    "candidate_selection": "REJECTED"
+  },
+  "review_sha256": "9eaa1c7b222e7086de841eb6389f488381fa41c24ca5cc6512da31df243088b9"
+}

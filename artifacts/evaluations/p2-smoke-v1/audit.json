@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "recorded_games": 9360,
+  "matchups_recomputed": 27,
+  "source_readback": true,
+  "statistics_recomputed": true,
+  "performance_recomputed": true,
+  "outcome_sha256": "eda4977ed5e5cd981d27a6116f297c432345f644e9388148d14615ff04c79c27",
+  "report_sha256": "f81a0287089f939c21c11d7bbdf03d693acaf15ff3e158c3f17bf40c191f1eef"
+}

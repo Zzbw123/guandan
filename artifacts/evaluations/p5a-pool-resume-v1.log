@@ -1,0 +1,16 @@
+GPU runtime: 2.12.0+cu130 NVIDIA GeForce RTX 5060 Laptop GPU
+Traceback (most recent call last):
+  File "C:\Users\zengb\Desktop\�走ǿ��ѧϰ\scripts\p5a_run.py", line 47, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\zengb\Desktop\�走ǿ��ѧϰ\scripts\p5a_run.py", line 25, in main
+    trainer = load_checkpoint(a.resume) if a.resume else GPUTrainer(dict(
+              ~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\zengb\Desktop\�走ǿ��ѧϰ\experiments\p5a_checkpoint.py", line 206, in load_checkpoint
+    trainer = _validate(payload, manifest)
+  File "C:\Users\zengb\Desktop\�走ǿ��ѧϰ\experiments\p5a_checkpoint.py", line 120, in _validate
+    for key, expected in (("versions", versions()), ("runtime", _runtime_gate()),
+                                                                ~~~~~~~~~~~~~^^
+  File "C:\Users\zengb\Desktop\�走ǿ��ѧϰ\experiments\p5a_checkpoint.py", line 53, in _runtime_gate
+    raise ValueError("incompatible deterministic CUDA runtime")
+ValueError: incompatible deterministic CUDA runtime

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-26T10:46:54.515626+00:00",
+  "job": "control-314380",
+  "arm": "control",
+  "seed": 314380,
+  "checkpoint": "C:\\Users\\zengb\\Desktop\\掼蛋强化学习\\artifacts\\evaluations\\p3h-aux-v1\\training\\control-314380\\final",
+  "candidate_sha256": "e3af88538922a949084ef95484439a0fe52fb5318fb59d37eb68bd125cba33e5",
+  "manifest_sha256": "91bd75d9a7906d981c93feb2382f043c8f3bef694bb06e882dfca29a9dca0c23",
+  "preregistration_sha256": "fc7fcc1e6ffa56262abe07fc2bbc84c7f7fe5310886928b237f395b917ae3de8",
+  "games": 208
+}

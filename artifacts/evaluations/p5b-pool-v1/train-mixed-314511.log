@@ -1,0 +1,16 @@
+{"job": "mixed-314511", "wave": 25, "episodes": 100, "updates": 25, "samples": 3283, "decisions": 9798, "scored_candidates": 90985, "frozen_candidates": 18364, "seconds": 13.609594200002903}
+{"job": "mixed-314511", "wave": 50, "episodes": 200, "updates": 50, "samples": 6622, "decisions": 20017, "scored_candidates": 180987, "frozen_candidates": 33225, "seconds": 28.14321360000031}
+{"job": "mixed-314511", "wave": 75, "episodes": 300, "updates": 75, "samples": 9945, "decisions": 30168, "scored_candidates": 267365, "frozen_candidates": 56435, "seconds": 42.81440340000336}
+{"job": "mixed-314511", "wave": 100, "episodes": 400, "updates": 100, "samples": 13263, "decisions": 40256, "scored_candidates": 350120, "frozen_candidates": 77150, "seconds": 57.10280020000209}
+{"job": "mixed-314511", "wave": 125, "episodes": 500, "updates": 125, "samples": 16687, "decisions": 50537, "scored_candidates": 435172, "frozen_candidates": 91737, "seconds": 71.54547740000271}
+{"job": "mixed-314511", "wave": 150, "episodes": 600, "updates": 150, "samples": 20020, "decisions": 60850, "scored_candidates": 524412, "frozen_candidates": 110479, "seconds": 86.31446230000074}
+{"job": "mixed-314511", "wave": 175, "episodes": 700, "updates": 175, "samples": 23509, "decisions": 71477, "scored_candidates": 612925, "frozen_candidates": 129106, "seconds": 101.58260359999986}
+{"job": "mixed-314511", "wave": 200, "episodes": 800, "updates": 201, "samples": 26994, "decisions": 81941, "scored_candidates": 722619, "frozen_candidates": 150349, "seconds": 116.52669260000039}
+{"job": "mixed-314511", "wave": 225, "episodes": 900, "updates": 226, "samples": 30405, "decisions": 91985, "scored_candidates": 806683, "frozen_candidates": 169369, "seconds": 130.36617060000208}
+{"job": "mixed-314511", "wave": 250, "episodes": 1000, "updates": 251, "samples": 33685, "decisions": 102005, "scored_candidates": 909816, "frozen_candidates": 190352, "seconds": 144.76723420000053}
+{"job": "mixed-314511", "wave": 275, "episodes": 1100, "updates": 276, "samples": 37086, "decisions": 112451, "scored_candidates": 1001690, "frozen_candidates": 210318, "seconds": 159.57052900000053}
+{"job": "mixed-314511", "wave": 300, "episodes": 1200, "updates": 301, "samples": 40413, "decisions": 122651, "scored_candidates": 1111134, "frozen_candidates": 228033, "seconds": 174.34835900000326}
+{"job": "mixed-314511", "wave": 325, "episodes": 1300, "updates": 327, "samples": 43934, "decisions": 133391, "scored_candidates": 1213504, "frozen_candidates": 244527, "seconds": 189.33776639999996}
+{"job": "mixed-314511", "wave": 350, "episodes": 1400, "updates": 352, "samples": 47388, "decisions": 143947, "scored_candidates": 1315343, "frozen_candidates": 259706, "seconds": 204.09494860000268}
+{"job": "mixed-314511", "wave": 375, "episodes": 1500, "updates": 377, "samples": 50801, "decisions": 154432, "scored_candidates": 1408113, "frozen_candidates": 278258, "seconds": 218.78616280000278}
+{"job": "mixed-314511", "wave": 400, "episodes": 1600, "updates": 403, "samples": 54364, "decisions": 165446, "scored_candidates": 1504656, "frozen_candidates": 296877, "seconds": 234.33271630000309}

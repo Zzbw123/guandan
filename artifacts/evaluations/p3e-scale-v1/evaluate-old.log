@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Users\zengb\Desktop\掼蛋强化学习\scripts\p3e_worker.py", line 86, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "C:\Users\zengb\Desktop\掼蛋强化学习\scripts\p3e_worker.py", line 85, in main
+    check(a.job in ['old','baseline','validation']+specification()['development_order'],'evaluation job');evaluate(root,a.job)
+                                                                                                          ~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\zengb\Desktop\掼蛋强化学习\scripts\p3e_worker.py", line 52, in evaluate
+    context=nullcontext(None) if baseline else GPUInferenceGuard(checkpoint,expected)
+                                               ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zengb\Desktop\掼蛋强化学习\experiments\p3d\guard.py", line 113, in __init__
+    raise GuardError(f"invalid startup response: {reply!r}")
+guard.GuardError: invalid startup response: ('error', 'ModuleNotFoundError', "No module named 'torch'")

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\zengb\Desktop\掼蛋强化学习\experiments\summarize_fidelity_p3j.py", line 41, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "C:\Users\zengb\Desktop\掼蛋强化学习\experiments\summarize_fidelity_p3j.py", line 27, in main
+    rows.append(dict(state_index=i,job=job,**row['identity'],**calc,**row['metrics'][job]))
+                ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: dict() got multiple values for keyword argument 'mse'

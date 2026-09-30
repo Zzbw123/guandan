@@ -1,0 +1,24 @@
+{
+  "ordinary": {
+    "hands": 16,
+    "samples": 526,
+    "updates": 4,
+    "decisions": 1575,
+    "current_candidates": 15463,
+    "frozen_candidates": 3915,
+    "positive": 180,
+    "negative": 346,
+    "single_class_batches": 2
+  },
+  "label_balanced": {
+    "hands": 16,
+    "samples": 532,
+    "updates": 4,
+    "decisions": 1577,
+    "current_candidates": 15704,
+    "frozen_candidates": 3793,
+    "positive": 181,
+    "negative": 351,
+    "single_class_batches": 2
+  }
+}

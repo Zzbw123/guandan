@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "first_run": "p3e-scale-v1",
+  "reason": "py -3.14 launcher selected an interpreter without torch; failed before policy startup",
+  "failed_before_any_training_or_evaluation": true,
+  "same_specification": true,
+  "same_source_hashes": true,
+  "runtime_path_source": "artifacts/evaluations/p3b-gpu-environment.json",
+  "runtime_interpreter": "C:\\Users\\zengb\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+  "torch_installation_changed": false,
+  "failed_log_sha256": "886c8cfdfeff3069caf067e2be7dbd49ed3e131e3d9a06dcbb6747baa77fb683"
+}

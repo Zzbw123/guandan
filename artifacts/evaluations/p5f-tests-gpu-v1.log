@@ -1,0 +1,91 @@
+GPU runtime: 2.12.0+cu130 NVIDIA GeForce RTX 5060 Laptop GPU
+test_exclusive_and_invalid_deals (test_p5f_data.CorpusTests.test_exclusive_and_invalid_deals) ... ok
+test_file_manifest_and_teacher_tampering (test_p5f_data.CorpusTests.test_file_manifest_and_teacher_tampering) ... ok
+test_rehashed_tail_truncation_is_rejected (test_p5f_data.CorpusTests.test_rehashed_tail_truncation_is_rejected) ... ok
+test_repeated_build_is_byte_deterministic (test_p5f_data.CorpusTests.test_repeated_build_is_byte_deterministic) ... ok
+test_replay_requests_fifo_remainder_and_resume (test_p5f_data.CorpusTests.test_replay_requests_fifo_remainder_and_resume) ... ok
+test_8769_candidates_preserve_full_order_and_persistent_worker (test_p5f_guard.GuardTests.test_8769_candidates_preserve_full_order_and_persistent_worker) ... ok
+test_decision_deadline_bounds_large_upload_and_reaps (test_p5f_guard.GuardTests.test_decision_deadline_bounds_large_upload_and_reaps) ... ok
+test_import_does_not_initialize_torch (test_p5f_guard.GuardTests.test_import_does_not_initialize_torch) ... ok
+test_invalid_index_is_fail_closed (test_p5f_guard.GuardTests.test_invalid_index_is_fail_closed) ... ok
+test_pins_timeouts_and_test_modes_fail_before_spawn (test_p5f_guard.GuardTests.test_pins_timeouts_and_test_modes_fail_before_spawn) ... ok
+test_raw_logits_avoid_tanh_saturation_and_ties_use_first (test_p5f_guard.GuardTests.test_raw_logits_avoid_tanh_saturation_and_ties_use_first) ... ok
+test_startup_deadline_reaps_spawned_worker (test_p5f_guard.GuardTests.test_startup_deadline_reaps_spawned_worker) ... ok
+test_visible_input_contract_and_malformed_reply_fail_closed (test_p5f_guard.GuardTests.test_visible_input_contract_and_malformed_reply_fail_closed) ... ok
+test_worker_crash_is_fail_closed (test_p5f_guard.GuardTests.test_worker_crash_is_fail_closed) ... ok
+test_new_checkpoint_load_and_complete_scoring (test_p5f_guard.RealCheckpointTests.test_new_checkpoint_load_and_complete_scoring) ... 
+  test_new_checkpoint_load_and_complete_scoring (test_p5f_guard.RealCheckpointTests.test_new_checkpoint_load_and_complete_scoring) (objective='ranking') ... FAIL
+test_dense_loss_gradient_and_one_adam_each_objective (test_p5f_objective.CUDATests.test_dense_loss_gradient_and_one_adam_each_objective) ... 
+  test_dense_loss_gradient_and_one_adam_each_objective (test_p5f_objective.CUDATests.test_dense_loss_gradient_and_one_adam_each_objective) (objective='ranking', chunk=1) ... FAIL
+  test_dense_loss_gradient_and_one_adam_each_objective (test_p5f_objective.CUDATests.test_dense_loss_gradient_and_one_adam_each_objective) (objective='ranking', chunk=3) ... FAIL
+  test_dense_loss_gradient_and_one_adam_each_objective (test_p5f_objective.CUDATests.test_dense_loss_gradient_and_one_adam_each_objective) (objective='ranking', chunk=1024) ... FAIL
+test_extreme_model_logits_stay_finite (test_p5f_objective.CUDATests.test_extreme_model_logits_stay_finite) ... ok
+test_large_complete_and_cross_chunk_top_ties (test_p5f_objective.CUDATests.test_large_complete_and_cross_chunk_top_ties) ... ok
+test_ranking_translation_extreme_and_zero_gradient (test_p5f_objective.CUDATests.test_ranking_translation_extreme_and_zero_gradient) ... ok
+test_rejections_leave_parameters_unchanged (test_p5f_objective.CUDATests.test_rejections_leave_parameters_unchanged) ... ok
+test_exact_ties_duplicates_and_normalization (test_p5f_objective.LabelAndCPUScoreTests.test_exact_ties_duplicates_and_normalization) ... ok
+test_invalid_inputs (test_p5f_objective.LabelAndCPUScoreTests.test_invalid_inputs) ... ok
+test_score_requests_matches_direct_logits_and_boundaries (test_p5f_objective.LabelAndCPUScoreTests.test_score_requests_matches_direct_logits_and_boundaries) ... ok
+test_fixed_protocol (test_p5f_training.ProtocolTests.test_fixed_protocol) ... ok
+test_failure_requires_reload (test_p5f_training.TrainingTests.test_failure_requires_reload) ... ok
+test_rehashed_metadata_and_tensor_tampering (test_p5f_training.TrainingTests.test_rehashed_metadata_and_tensor_tampering) ... ok
+test_resume_and_model_load_both_objectives (test_p5f_training.TrainingTests.test_resume_and_model_load_both_objectives) ... ok
+
+======================================================================
+FAIL: test_new_checkpoint_load_and_complete_scoring (test_p5f_guard.RealCheckpointTests.test_new_checkpoint_load_and_complete_scoring) (objective='ranking')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\zengb\Desktop\�走ǿ��ѧϰ\tests\test_p5f_guard.py", line 171, in test_new_checkpoint_load_and_complete_scoring
+    self.assertIs(chosen, legal[0])
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+AssertionError: Action(kind='single', cards=(0,), main_rank=2, wildcards=()) is not Action(kind='single', cards=(0,), main_rank=2, wildcards=())
+
+======================================================================
+FAIL: test_dense_loss_gradient_and_one_adam_each_objective (test_p5f_objective.CUDATests.test_dense_loss_gradient_and_one_adam_each_objective) (objective='ranking', chunk=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\zengb\Desktop\�走ǿ��ѧϰ\tests\test_p5f_objective.py", line 115, in test_dense_loss_gradient_and_one_adam_each_objective
+    torch.testing.assert_close(x, y, atol=2e-6, rtol=2e-5)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zengb\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\testing\_comparison.py", line 1631, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 21 / 64 (32.8%)
+Greatest absolute difference: 0.00042843446135520935 at index (29,) (up to 2e-06 allowed)
+Greatest relative difference: 0.40141284465789795 at index (46,) (up to 2e-05 allowed)
+
+======================================================================
+FAIL: test_dense_loss_gradient_and_one_adam_each_objective (test_p5f_objective.CUDATests.test_dense_loss_gradient_and_one_adam_each_objective) (objective='ranking', chunk=3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\zengb\Desktop\�走ǿ��ѧϰ\tests\test_p5f_objective.py", line 115, in test_dense_loss_gradient_and_one_adam_each_objective
+    torch.testing.assert_close(x, y, atol=2e-6, rtol=2e-5)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zengb\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\testing\_comparison.py", line 1631, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 21 / 64 (32.8%)
+Greatest absolute difference: 0.00042843446135520935 at index (29,) (up to 2e-06 allowed)
+Greatest relative difference: 0.40141284465789795 at index (46,) (up to 2e-05 allowed)
+
+======================================================================
+FAIL: test_dense_loss_gradient_and_one_adam_each_objective (test_p5f_objective.CUDATests.test_dense_loss_gradient_and_one_adam_each_objective) (objective='ranking', chunk=1024)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\zengb\Desktop\�走ǿ��ѧϰ\tests\test_p5f_objective.py", line 115, in test_dense_loss_gradient_and_one_adam_each_objective
+    torch.testing.assert_close(x, y, atol=2e-6, rtol=2e-5)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zengb\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\testing\_comparison.py", line 1631, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 21 / 64 (32.8%)
+Greatest absolute difference: 0.00042843446135520935 at index (29,) (up to 2e-06 allowed)
+Greatest relative difference: 0.40141284465789795 at index (46,) (up to 2e-05 allowed)
+
+----------------------------------------------------------------------
+Ran 27 tests in 104.196s
+
+FAILED (failures=4)

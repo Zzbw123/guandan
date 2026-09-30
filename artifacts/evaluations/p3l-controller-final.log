@@ -1,0 +1,16 @@
+GPU runtime: 2.12.0+cu130 NVIDIA GeForce RTX 5060 Laptop GPU
+independently audited training normcap-314382
+independently audited training constant-314382
+independently audited training normcap-314381
+independently audited training constant-314381
+independently audited training constant-314380
+independently audited evaluation constant-314381
+independently audited training normcap-314380
+independently audited evaluation normcap-314381
+independently audited evaluation constant-314380
+independently audited evaluation normcap-314380
+independently audited evaluation normcap-314382
+independently audited evaluation constant-314382
+independently audited evaluation validation-normcap
+independently audited evaluation validation-constant
+{"status": "PASS", "engineering": "ACCEPTED_NORMCAP_AUXILIARY_STUDY_V1", "overall_P3": "PARTIALLY_ACCEPTED", "validation_gate": "NOT_ESTABLISHED", "candidate_sha256": "aa52569e5998590b3c19849b3a57fd599d1254463a91a427fbc2d71ea141304a", "model_promoted": false, "reserved_test_executed": false, "review_sha256": "c8183fe779d4843a5388b57e52ec5a891d38d109acde0fe36bea837f04d8319b", "receipt_sha256": "d29ed715d3a9ffe906187a2ad7be9abcc244225901f227f232840556248eb594"}

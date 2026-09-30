@@ -1,0 +1,15 @@
+independently audited training centered-314381
+independently audited training absolute-314381
+independently audited training absolute-314382
+independently audited training centered-314382
+independently audited training absolute-314380
+independently audited training centered-314380
+independently audited evaluation centered-314380
+independently audited evaluation absolute-314380
+independently audited evaluation centered-314381
+independently audited evaluation absolute-314381
+independently audited evaluation centered-314382
+independently audited evaluation absolute-314382
+independently audited evaluation validation-absolute
+independently audited evaluation validation-centered
+{"status": "PASS", "engineering": "ACCEPTED_CENTERED_AUXILIARY_STUDY_V1", "overall_P3": "PARTIALLY_ACCEPTED", "validation_gate": "NOT_ESTABLISHED", "candidate_sha256": "e07e4dedb6c12cc205da9e9fa4de66effdba703181bd5296d00d7d368960b77a", "model_promoted": false, "reserved_test_executed": false, "review_sha256": "bd778b09e11c280e35639489cf8fd2a2d1aeaf3ee3737317ab4ea817c84324d2", "receipt_sha256": "a44311407326af5aa821208fed5a9faf7e9baac921851da1d805901fe7f3074d"}

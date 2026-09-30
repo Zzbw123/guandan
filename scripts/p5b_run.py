@@ -1,0 +1,77 @@
+"""Freeze and execute six equal-hand jobs followed by final-only evaluation."""
+from _bootstrap import ROOT
+import sys
+sys.path[:0]=[str(ROOT),str(ROOT/'experiments')]
+from pathlib import Path
+from datetime import datetime,timezone
+import json,subprocess,time,traceback,zipfile
+from experiments.p5b_protocol import specification,INITS,ARMS
+from experiments.p3e_common import check,read,write,digest
+
+def prerequisites():
+    folder=ROOT/'artifacts/evaluations/p5a-pool-v2'
+    receipt=read(folder/'delivery-receipt.json')
+    check(receipt['status']=='PASS' and receipt['full_gpu_tests']==230,'P5a acceptance')
+    for name,h in {**receipt['source_sha256'],**receipt['artifact_sha256']}.items():
+        if name=='docs/STATUS.md':continue
+        check(digest(ROOT/name)==h,'P5a prerequisite '+name)
+    scan=read(ROOT/'artifacts/evaluations/p5b-seed-availability.json')
+    check(scan['status']=='PASS' and not scan['hits'] and not scan['errors'],'fresh validation seed availability')
+    check(scan['validation_seeds']==list(range(207000,207065)),'validation seed scan range')
+    for name,h in scan['files'].items():check(digest(ROOT/name)==h,'historical seed file changed '+name)
+    log=ROOT/'artifacts/evaluations/p5b-tests-gpu-v1.log'
+    text=log.read_text('utf-8-sig')
+    check('Ran 7 tests' in text and text.rstrip().endswith('OK') and 'skipped=' not in text,'P5b engineering tests')
+    return [folder/'delivery-receipt.json',ROOT/'artifacts/evaluations/p5a-controller-audit-v2.json',
+            ROOT/'artifacts/evaluations/p5b-seed-availability.json',log],scan
+
+def child(out,stage,job):
+    with (out/f'{stage}-{job}.log').open('x',encoding='utf-8') as log:
+        process=subprocess.Popen([sys.executable,str(ROOT/'scripts/p5b_worker.py'),str(out),stage,job],stdout=log,stderr=subprocess.STDOUT)
+        try:code=process.wait(timeout=3600)
+        except BaseException:
+            if sys.platform=='win32':subprocess.run(['taskkill','/PID',str(process.pid),'/T','/F'],capture_output=True,timeout=10)
+            else:process.kill()
+            process.wait(timeout=10);raise
+    check(code==0,f'{stage} {job} exit {code}')
+    print(json.dumps(dict(stage=stage,job=job,status='PASS')),flush=True)
+
+def main():
+    check(len(sys.argv)==2,'one fresh output path')
+    out=Path(sys.argv[1]).resolve()
+    check(not out.exists(),'output exists')
+    check(out.is_relative_to(ROOT/'artifacts/evaluations') and out.name.startswith('p5b-'),'isolated output')
+    inputs,scan=prerequisites();spec=specification()
+    check(json.loads(json.dumps(spec,allow_nan=False))==spec,'specification JSON roundtrip')
+    from experiments.p5a_checkpoint import sources as old_sources
+    paths=set(ROOT/name for name in old_sources())
+    paths.update((ROOT/'experiments').glob('p5b_*.py'))
+    paths.update((ROOT/'scripts').glob('p5b_*.py'))
+    paths.update((ROOT/'tests').glob('test_p5b*.py'))
+    paths.update(ROOT/name for name in ['scripts/_bootstrap.py','scripts/run_gpu.ps1','scripts/p3d_evaluate.py',
+        'experiments/p3d/protocol.py','experiments/p3d/guard.py','experiments/p3e_common.py',
+        'experiments/p3e_metrics.py','docs/P5B_PROTOCOL.md'])
+    hashes={p.relative_to(ROOT).as_posix():digest(p) for p in sorted(paths)}
+    input_hashes={p.relative_to(ROOT).as_posix():digest(p) for p in inputs}
+    out.mkdir(parents=True)
+    write(out/'preregistration.json',dict(utc=datetime.now(timezone.utc).isoformat(),specification=spec,
+        source_sha256=hashes,input_sha256=input_hashes,historical_seed_files=scan['files']))
+    check(read(out/'preregistration.json')['specification']==spec,'written specification roundtrip')
+    for name,items in [('source-snapshot.zip',paths),('inputs-snapshot.zip',inputs)]:
+        with zipfile.ZipFile(out/name,'x',zipfile.ZIP_DEFLATED) as z:
+            for p in sorted(items):z.write(p,p.relative_to(ROOT).as_posix())
+    started=time.perf_counter()
+    try:
+        for job in spec['training_order']:child(out,'train',job)
+        candidates={job:read(out/'training'/job/'final/manifest.json')['sha256'] for job in spec['training_order']}
+        write(out/'candidates.json',dict(primary=spec['primary_candidate'],selection='final wave 400 only',
+            candidates=candidates,preregistration_sha256=digest(out/'preregistration.json')))
+        for job in spec['development_order']+spec['validation_order']:child(out,'evaluate',job)
+        for path,h in hashes.items():check(digest(ROOT/path)==h,'source drift '+path)
+        write(out/'receipt.json',dict(status='RUN_COMPLETE_PENDING_AUDIT',seconds=time.perf_counter()-started,
+            model_promoted=False,reserved_test_executed=False,
+            artifact_sha256={p.relative_to(out).as_posix():digest(p) for p in out.rglob('*') if p.is_file()}))
+    except BaseException:
+        write(out/'failure.json',dict(status='FAIL',traceback=traceback.format_exc()));raise
+
+if __name__=='__main__':main()

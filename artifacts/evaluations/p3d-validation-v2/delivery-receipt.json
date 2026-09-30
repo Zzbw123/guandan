@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "scoped_acceptance": "ACCEPTED_FIXED_BUDGET_VALIDATION_V1",
+  "validation_gate": "NOT_ESTABLISHED",
+  "model_promoted": false,
+  "registered_sources_unchanged": 38,
+  "cli_existing_output_exit": 2,
+  "original_report_unchanged": true,
+  "figure_visual_review": "PASS: labels, counts, axis and three group distributions inspected",
+  "files": {
+    "docs/STATUS.md": {
+      "bytes": 15240,
+      "sha256": "509da4834942ddc7b2ae7c3511a0a5eee5680910f49fab88442db4cb869cd838"
+    },
+    "docs/P3D_ACCEPTANCE.md": {
+      "bytes": 7545,
+      "sha256": "0ccc2c52aa35323065c24681e3037de462cc929129015ecb1aa8844a6b05ca80"
+    },
+    "docs/P3D_PROTOCOL.md": {
+      "bytes": 4999,
+      "sha256": "9ea7de594364805bd3ec693625a9cefcbda752bdb24daec7765767c34ed22e52"
+    },
+    "docs/architecture.md": {
+      "bytes": 4447,
+      "sha256": "7f149fe596b00ec2ce310f5d16a0ae0583eabe3c4a6678ed4c4586a7d409be65"
+    },
+    "README.md": {
+      "bytes": 9203,
+      "sha256": "2e0256f964539235605959967ff7a549180ef7f3e0a0d601546bb208be30fff9"
+    },
+    "experiments/p3d_review.py": {
+      "bytes": 1617,
+      "sha256": "4a8fe395487cf903f99b1155e1d8c4c4cebf200bb800fce40cafc0121404c6cd"
+    },
+    "experiments/p3d_descriptives.py": {
+      "bytes": 2710,
+      "sha256": "204b6a2d8c516bb7f68f8cdeb40460f01f74e069765362c51f78c081a3a4a055"
+    },
+    "artifacts/evaluations/p3d-unittest-python314-r2.log": {
+      "bytes": 14361,
+      "sha256": "8e22f5246c77424309cc7d987d9fbcbe24d47ca751a3f7e010b4be9f43919323"
+    },
+    "artifacts/evaluations/p3d-unittest-python313-r2.log": {
+      "bytes": 14421,
+      "sha256": "d4a30fb028c1fa5a7c8d853a5dbe7c262207a98dd969a11378e6cc67f3352d13"
+    },
+    "artifacts/evaluations/p3d-guard-smoke.json": {
+      "bytes": 1076,
+      "sha256": "3e51141f0e3a65b0579f0f584b2ee1961058bff13e71e2b6a11e51474baa84d6"
+    },
+    "artifacts/evaluations/p3d-restart-receipt.json": {
+      "bytes": 332,
+      "sha256": "cbfc960d5c0b8126243ea7773a085b35c989f1ae30c577c61da0df15a45dda37"
+    }
+  }
+}

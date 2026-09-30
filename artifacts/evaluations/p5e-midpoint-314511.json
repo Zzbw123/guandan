@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "MIDPOINT_ONLY_NOT_FINAL_ACCEPTANCE",
+  "job": "ordinary-314511",
+  "checkpoints": {
+    "initial": {
+      "new_sha256": "f3ae9fa2f1b5307213f17cb01f96b49967540e3d7f9949581f45f78a850b1072",
+      "historical_sha256": "6533a378cd956b6fadaef252599eb764f1c53f19817f454a81ef1ed028748233"
+    },
+    "wave-1": {
+      "new_sha256": "10d72900bb375b38a3b39707eadbceb7ab0d7c6137d9cf043dd0ebf960b7e9ed",
+      "historical_sha256": "3d6722388030b7c3872798c7bc4037d06dab8c7537d5219a75fea7551ad77d41"
+    },
+    "wave-200": {
+      "new_sha256": "530d59f2090d650b3369dd0adbee47cb918b0b92734355191e59df6119629683",
+      "historical_sha256": "4deb7ad4dd0a3c8d3a531444bd2862eb81e1e051af1b1c913621e9224b0ab710"
+    }
+  },
+  "preregistration_sha256": "2a0de3ab4e0dfed4022fb844c85c0aa6ec21cc77d93fa3c7518e64a3eff648eb"
+}

@@ -1,0 +1,9 @@
+{
+  "version": "baseline-set-v1",
+  "agents": ["random-v1", "greedy-v1", "team-heuristic-v1"],
+  "use": "P1 environment stress and P2 starting baselines",
+  "training_target": "hand_team_win",
+  "rewards": {"win": 1, "lose": -1},
+  "intermediate_rewards": false,
+  "policy_strength_verified": false
+}

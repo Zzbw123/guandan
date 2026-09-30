@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "same_training_and_validation_specification": true,
+  "first_attempt_failed_before_training_directory": true,
+  "retained_failure": "p3d-validation-v1/failure.json",
+  "second_attempt": "p3d-validation-v2",
+  "first_failure_sha256": "44cff86eff047da57299657e4f964535ec4b9fa2501144a9b003749770390f97"
+}

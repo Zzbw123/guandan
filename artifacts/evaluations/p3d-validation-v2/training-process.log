@@ -1,0 +1,10 @@
+{"stage": "training", "waves": 10, "hands": 40, "samples": 4847, "elapsed_s": 8.34827309999946}
+{"stage": "training", "waves": 20, "hands": 80, "samples": 10409, "elapsed_s": 17.691206399999828}
+{"stage": "training", "waves": 30, "hands": 120, "samples": 15955, "elapsed_s": 27.4295161}
+{"stage": "training", "waves": 40, "hands": 160, "samples": 21408, "elapsed_s": 36.7691535999993}
+{"stage": "training", "waves": 50, "hands": 200, "samples": 26100, "elapsed_s": 44.5741739999994}
+{"stage": "training", "waves": 60, "hands": 240, "samples": 30611, "elapsed_s": 51.94304800000009}
+{"stage": "training", "waves": 70, "hands": 280, "samples": 34957, "elapsed_s": 59.11928679999983}
+{"stage": "training", "waves": 80, "hands": 320, "samples": 39395, "elapsed_s": 66.46625739999945}
+{"stage": "training", "waves": 90, "hands": 360, "samples": 44027, "elapsed_s": 74.03731479999988}
+{"stage": "training", "waves": 100, "hands": 400, "samples": 48862, "elapsed_s": 82.27375849999953}

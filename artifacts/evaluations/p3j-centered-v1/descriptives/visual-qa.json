@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "method": "controller inspected both final PNGs; titles, axes, paired direction, intervals, labels, full ranges and unclipped exports checked",
+  "source_groups": 546,
+  "scales": {
+    "win_percent": [
+      0,
+      100
+    ],
+    "difference_pp": [
+      -100,
+      100
+    ]
+  },
+  "files": {
+    "outputs/figures/paired-development.png": "bcab8fed47a7edcd732e551b694bad2da2ce3636509bdcf3e2b27499be2de2a4",
+    "outputs/figures/paired-development.svg": "871cd3425f4bd84b19ccf68bd272de6d1d3feeba388ab9beb15bbd2993318449",
+    "outputs/figures/paired-validation.png": "66b7af4e780e90f76589beab57705bc1decca94bea203cfec575864523f4d4fd",
+    "outputs/figures/paired-validation.svg": "8416232a1ac976e805e77ecf31d3eb033c4e8e624d472c8e792c54ed5a8439ec"
+  }
+}

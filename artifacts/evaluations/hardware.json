@@ -1,0 +1,28 @@
+﻿{
+    "measured_at":  "2026-09-24T17:37:39.8170205+08:00",
+    "cpu":  [
+                {
+                    "Name":  "AMD Ryzen 9 8945HX with Radeon Graphics        ",
+                    "NumberOfCores":  16,
+                    "NumberOfLogicalProcessors":  32
+                }
+            ],
+    "memory_bytes":  34142187520,
+    "gpu_nvidia_smi":  [
+                           "NVIDIA GeForce RTX 5060 Laptop GPU, 8151 MiB, 610.47"
+                       ],
+    "disks":  [
+                  {
+                      "Name":  "C",
+                      "Used":  279721009152,
+                      "Free":  149776764928
+                  },
+                  {
+                      "Name":  "D",
+                      "Used":  428836864000,
+                      "Free":  163486937088
+                  }
+              ],
+    "python":  "Python 3.14.3",
+    "note":  "Inventory only. CUDA/PyTorch training throughput has not been tested."
+}

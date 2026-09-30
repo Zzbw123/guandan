@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "method": "Controller inspected both actual rendered PNGs via view_image; source CSV and trace verified.",
+  "checks": [
+    "Titles, legends, axes and interval labels readable without clipping",
+    "Probability axes 0 to 100; paired difference axes -100 to 100 with zero reference",
+    "Development and validation separated; initializer and original-deal counts explicit",
+    "Markers distinguish condition; 95 percent intervals match independently audited values",
+    "Original deal points retained; no means-only concealment"
+  ],
+  "image_sha256": {
+    "descriptives/outputs/figures/paired-development.png": "035a4e539920d0932c8c1c91a956722ec23e5d5840e0bba91ef58e60ddcff857",
+    "descriptives/outputs/figures/paired-validation.png": "4bdd70974392091af1470007e2e84f32f8ecc50c09d1bc5a80f9e02bcce9f4d4"
+  },
+  "group_csv_rows": 546
+}

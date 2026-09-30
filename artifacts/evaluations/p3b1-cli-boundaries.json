@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "existing_output_rejected": true,
+  "existing_report_hash_unchanged": "857ab990512d0c2df2ec136515412caebe71994eaaa9b1247f60ef2bd84044af",
+  "cpu_only_runtime_cuda_request_fails_closed": true,
+  "negative_output": "artifacts\\evaluations\\p3b1-unavailable-negative"
+}

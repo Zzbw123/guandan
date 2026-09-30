@@ -1,0 +1,30 @@
+{
+  "claim": "Centered auxiliary gradient direction varies, while median weighted norm is below DMC across the fixed multi-candidate subsets.",
+  "role": "fixed-weight mechanism diagnostic; no causal or strength claim",
+  "archetype": "quantitative grid",
+  "backend": "Python matplotlib",
+  "panels": [
+    "median DMC/centered cosine",
+    "median weighted centered norm ratio"
+  ],
+  "subset": "multi-candidate only; 8 to 18 observations/source",
+  "normalization": "cosine [-1,1]; log2(median ratio), symmetric around ratio=1; no pseudocounts",
+  "missing": "gray NA; zero ratios separately labeled 0; no clipping",
+  "export": {
+    "inches": [
+      12.4,
+      6.8
+    ],
+    "dpi": 300,
+    "formats": [
+      "PNG",
+      "editable SVG"
+    ]
+  },
+  "review_risks": [
+    "teacher source rows duplicated",
+    "small selected samples",
+    "singleton exclusion explicitly labeled",
+    "gradient ratios are not update ratios"
+  ]
+}

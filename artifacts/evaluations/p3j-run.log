@@ -1,0 +1,16 @@
+GPU runtime: 2.12.0+cu130 NVIDIA GeForce RTX 5060 Laptop GPU
+{"status": "PASS", "files": 19, "evidence": {"unique_tests_passed": 173, "specialized_tests": 10, "skipped_remaining": 0, "direct_forward_groups": 768, "max_score_error": 3.0547380447387695e-07, "diagnostic_rows": 768, "states": 128, "candidates": 4174, "negative_cases": 7}}
+{"stage": "train", "job": "centered-314381", "status": "PASS", "elapsed_s": 144.38255270000082}
+{"stage": "train", "job": "absolute-314381", "status": "PASS", "elapsed_s": 316.57846459999564}
+{"stage": "train", "job": "centered-314382", "status": "PASS", "elapsed_s": 477.4634519999963}
+{"stage": "train", "job": "absolute-314382", "status": "PASS", "elapsed_s": 618.1050140000007}
+{"stage": "train", "job": "centered-314380", "status": "PASS", "elapsed_s": 762.6826495999994}
+{"stage": "train", "job": "absolute-314380", "status": "PASS", "elapsed_s": 900.4186818000017}
+{"stage": "evaluate", "job": "centered-314380", "status": "PASS", "elapsed_s": 954.3413489000013}
+{"stage": "evaluate", "job": "absolute-314380", "status": "PASS", "elapsed_s": 1007.4324736999988}
+{"stage": "evaluate", "job": "absolute-314381", "status": "PASS", "elapsed_s": 1060.9416626999955}
+{"stage": "evaluate", "job": "centered-314381", "status": "PASS", "elapsed_s": 1113.2160552999994}
+{"stage": "evaluate", "job": "centered-314382", "status": "PASS", "elapsed_s": 1165.0188634000006}
+{"stage": "evaluate", "job": "absolute-314382", "status": "PASS", "elapsed_s": 1217.0585524999988}
+{"stage": "evaluate", "job": "validation-absolute", "status": "PASS", "elapsed_s": 1596.3043341000011}
+{"stage": "evaluate", "job": "validation-centered", "status": "PASS", "elapsed_s": 1991.154351899997}

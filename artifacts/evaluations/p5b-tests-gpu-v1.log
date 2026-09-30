@@ -1,0 +1,13 @@
+GPU runtime: 2.12.0+cu130 NVIDIA GeForce RTX 5060 Laptop GPU
+test_deadline_and_pin_rejection (test_p5b_protocol.GuardTests.test_deadline_and_pin_rejection) ... ok
+test_fail_closed_crash_and_illegal (test_p5b_protocol.GuardTests.test_fail_closed_crash_and_illegal) ... ok
+test_real_spawn_load_complete_candidates (test_p5b_protocol.GuardTests.test_real_spawn_load_complete_candidates) ... ok
+test_balanced_complete_schedules (test_p5b_protocol.ProtocolTests.test_balanced_complete_schedules) ... ok
+test_blocked_orders_fixed_and_complete (test_p5b_protocol.ProtocolTests.test_blocked_orders_fixed_and_complete) ... ok
+test_invalid_configs_and_sealed_split (test_p5b_protocol.ProtocolTests.test_invalid_configs_and_sealed_split) ... ok
+test_json_budget_and_primary_candidate (test_p5b_protocol.ProtocolTests.test_json_budget_and_primary_candidate) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 11.843s
+
+OK

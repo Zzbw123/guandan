@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-27T09:34:37.050266+00:00",
+  "job": "mixed-314510",
+  "arm": "mixed",
+  "seed": 314510,
+  "checkpoint": "C:\\Users\\zengb\\Desktop\\掼蛋强化学习\\artifacts\\evaluations\\p5b-pool-v1\\training\\mixed-314510\\final",
+  "candidate_sha256": "5e362274fdf3a9deed3e601cd5b7322b1bbe544ddc6b40f08fed369365da3540",
+  "manifest_sha256": "a12fd7ebeb82aa7af035bd23366e4c03c6b29aa6164bf6b879e70d6bf108e874",
+  "preregistration_sha256": "fdaf589931228f2eb7fe5b7818268a17553f29be288e8f9e9871127286101d5c",
+  "games": 208
+}

@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-26T07:22:59.962986+00:00",
+  "method": "controller inspected both exported PNGs with view_image",
+  "figures": [
+    {
+      "path": "descriptives/outputs/figures/training-scale.png",
+      "pixels": [
+        3300,
+        1260
+      ],
+      "sha256": "33ceff00bc5538b822f9e49565fe7cfbe9a464edfa1daaeddfc5b7720ac8e54f",
+      "visual_status": "PASS"
+    },
+    {
+      "path": "descriptives/outputs/figures/validation-groups.png",
+      "pixels": [
+        3300,
+        1140
+      ],
+      "sha256": "61984cdc83613b8de37d7dcd585c50c612e541bd3268909c6aa19de92a6d59fe",
+      "visual_status": "PASS"
+    }
+  ],
+  "checks": [
+    "readable labels and legends",
+    "no cropped axes or annotations",
+    "probability axes 0..100 percent",
+    "signed difference axis -100..100 pp with zero reference",
+    "source grouped data and conditional intervals retained",
+    "all three initializers and opponents shown"
+  ],
+  "formats": [
+    "PNG",
+    "SVG"
+  ],
+  "backend": "Python/Matplotlib"
+}

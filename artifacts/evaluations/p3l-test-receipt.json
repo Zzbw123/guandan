@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "total": 18,
+  "skipped": 0,
+  "log_sha256": "5390444c411b3ae49d6988f250294f1aaae5b9c7aa4882a117105fff900f72b1",
+  "source_sha256": {
+    "experiments/p3l_checkpoint.py": "05b07c61e35c59747b2e230b27e10caab087cbc576666f055e6977cc49f91ebd",
+    "experiments/p3l_guard.py": "c5439c43cd08f2a3bba1dfe59e14d07b04171908d9530eeab4f4aac54696548e",
+    "experiments/p3l_job.py": "8a880080576f6671faca23c85519eb8614365b8e83ef83c68dd6f93c9b872b2a",
+    "experiments/p3l_objective.py": "ba6b2475c5573e7c0cf2456e878581fe4e9c5fe9b94de4569883804a0f905e8c",
+    "experiments/p3l_protocol.py": "25f0203547bc3b9d99329de838330d0eab15471aa08e7d4485a0cbf3e6d03ebf",
+    "experiments/p3l_scan.py": "5c8915ca6db5a3930f98b0576b011268bae0856dbc24589a76764e4e20d0446f",
+    "experiments/p3l_training.py": "ef403d2abd00105a8f3c070927c60c501ae1891ceb84301111418a30a540946a",
+    "scripts/p3l_resume_test.py": "d35a098e44b6d2ae896a2595b5d634f8b15ad37050cc90a1a7e8122adb7c707c",
+    "scripts/p3l_run.py": "9a1d8e40049b18a4f8dc15496a174e63f65a38ba441e78952ea595ffd16053e3",
+    "scripts/p3l_test.py": "a9a0b1323cadaf351312d895f188631029706a1c87132e896d7d46f56fb4a498",
+    "scripts/p3l_worker.py": "fa785c0d73abf497048c2a83652f31afe85c3ed5a36892202c4be8a5c2e2524c",
+    "tests/test_p3l_objective.py": "fce15fbdca5cba505ed168ab9552470bccf642bd0c0f2646f37e4ca9b4fab38a",
+    "tests/test_p3l_protocol.py": "b95a2158abab60b3c3900d638850d9d8ab04076776dbc24deb007f9364e70ce5",
+    "tests/test_p3l_training.py": "21701476c556bd27819f0db8fb50b4d215098a0af8c7593d9159a945f12b0e2a"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "new_training_hands": 3600,
+  "training_samples": 334555,
+  "CUDA_updates": 1800,
+  "unique_training_deals": 600,
+  "new_evaluation_games": 4368,
+  "development_groups": 26,
+  "validation_groups": 65,
+  "new_viewed_validation": [
+    205000,
+    205064
+  ],
+  "model_promoted": false,
+  "reserved_test_executed": false
+}

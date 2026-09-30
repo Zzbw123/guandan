@@ -1,0 +1,41 @@
+{
+  "status": "ACCEPTED_BASELINE_EVALUATION_V1",
+  "unit_tests_per_runtime": 60,
+  "runtimes": [
+    "3.13",
+    "3.14"
+  ],
+  "games": 46800,
+  "decisions": 4487352,
+  "independent_deals_per_scenario": 130,
+  "scenarios": 27,
+  "primary": {
+    "matchup_id": "team|team|greedy",
+    "metric": "win_rate",
+    "conclusion": "NOT_ESTABLISHED",
+    "scope": "Prespecified baseline comparison on validation; secondary CIs are pointwise"
+  },
+  "learned_model_promoted": false,
+  "reserved_test_executed": false,
+  "source_readback": true,
+  "files_sha256": {
+    "artifacts/evaluations/p2-negative-audit.json": "7d255eed94e97b1db0a35f5e0d3f6dd9c48c3c4ea18f8c8b95fce627bc721f98",
+    "artifacts/evaluations/p2-p1-source-check.json": "b1c05a858e0e991068a4a369b1243dc22c19b4ff8ffcafa9cc90d592e581cd66",
+    "artifacts/evaluations/p2-single-process-replay.json": "7160d9b08d2d298c88f8f1ccc6b85b98677efda9e90ba4427eb82b057bf2d842",
+    "artifacts/evaluations/p2-unittest-python313.log": "7c472e137b4e5c7ce2af1a710d7afe4edbec70350626238edaddf444fda14841",
+    "artifacts/evaluations/p2-unittest-python314.log": "3bfafd2b30fd8d11e6723a04357b26f308a9b0397cf080b7e112e42dd8f85a17",
+    "artifacts/evaluations/p2-validation-v1/audit.json": "211e79032ee7e37af15ee5f066780b28c7d8556bc1b79ab74145660621d99b41",
+    "artifacts/evaluations/p2-validation-v1/controller-arithmetic-audit.json": "8175f10380c9f02842167af3feba2be984a87bcb803c2aadefd2f13f08914732",
+    "artifacts/evaluations/p2-validation-v1/measurements.jsonl.gz": "773e6190f292790638c16e345622f849a31de93195eea35524a4bcc1cd8dbceb",
+    "artifacts/evaluations/p2-validation-v1/preregistration.json": "df1866ef749f9ec80ce1d7a68dda7523ba27878a5703395e704921c676accf07",
+    "artifacts/evaluations/p2-validation-v1/progress.jsonl": "b862ab34119f316ed3337b08d6d9e5ce1fbf5403d2187a18ab67b86477f95e85",
+    "artifacts/evaluations/p2-validation-v1/report.json": "9bbacf671d81895535fd5cee849d58949e13a6f7253f67c70655893452bd781f",
+    "artifacts/evaluations/p2-validation-v1/report.md": "2359654b28d9b5b0892cd46cc8268dae957bb0732cbb78e8635eb84bf28adfd2",
+    "artifacts/evaluations/p2-validation-v1/results.jsonl": "1b6d82fcb43006d4ccdb9f0ce7d75da09813bfa7515799bac5d3ad1e6bcb65c6",
+    "artifacts/evaluations/p2-validation-v1/source-snapshot-receipt.json": "74a61eafda364f35967a3e0ab9157db47aecaf9938f1d1fae8376a74e8051063",
+    "artifacts/evaluations/p2-validation-v1/source-snapshot.zip": "c83a93fdfc39543795684700723212f04e5965966f479071adc73ec335e25eaf",
+    "docs/P2_ACCEPTANCE.md": "63283210d24c2b7d408da66c09865bde00697ea338a9badf018476979b41f0de",
+    "docs/STATUS.md": "dfc6118904335e0f005e37d35c95c3cab3878705a7793390b7627e98a2886ed6",
+    "experiments/p2/controller_checks.py": "f2f05a093c4cd9fefb078061b8b4715686b4313c9157b439f36c36db87570d8a"
+  }
+}

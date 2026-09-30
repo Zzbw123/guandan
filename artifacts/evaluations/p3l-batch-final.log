@@ -1,0 +1,8 @@
+GPU runtime: 2.12.0+cu130 NVIDIA GeForce RTX 5060 Laptop GPU
+batch order independently verified normcap-314382
+batch order independently verified constant-314382
+batch order independently verified normcap-314381
+batch order independently verified constant-314381
+batch order independently verified constant-314380
+batch order independently verified normcap-314380
+{"status": "PASS", "jobs": {"normcap-314382": {"status": "PASS", "job": "normcap-314382", "observations": 53965, "candidates": 851429, "exploration_steps": 5427, "batches": 300}, "constant-314382": {"status": "PASS", "job": "constant-314382", "observations": 56293, "candidates": 905172, "exploration_steps": 5702, "batches": 300}, "normcap-314381": {"status": "PASS", "job": "normcap-314381", "observations": 53822, "candidates": 830832, "exploration_steps": 5421, "batches": 300}, "constant-314381": {"status": "PASS", "job": "constant-314381", "observations": 55952, "candidates": 964041, "exploration_steps": 5691, "batches": 300}, "constant-314380": {"status": "PASS", "job": "constant-314380", "observations": 56467, "candidates": 809760, "exploration_steps": 5614, "batches": 300}, "normcap-314380": {"status": "PASS", "job": "normcap-314380", "observations": 54808, "candidates": 823945, "exploration_steps": 5448, "batches": 300}}}

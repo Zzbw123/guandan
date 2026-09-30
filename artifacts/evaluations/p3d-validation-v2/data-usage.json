@@ -1,0 +1,25 @@
+{
+  "validation_seen": [
+    {
+      "start": 200000,
+      "stop_exclusive": 200130,
+      "source": "P2"
+    },
+    {
+      "start": 201000,
+      "stop_exclusive": 201065,
+      "source": "P3d"
+    }
+  ],
+  "training_development": {
+    "start": 104000,
+    "stop_exclusive": 104400
+  },
+  "reserved_test": {
+    "start": 9000000,
+    "stop_exclusive": 9010000,
+    "enabled": false
+  },
+  "candidate_sha256": "32935318ccd3bb76a38f71ddc21796cd204c1bc938ed8b3e6b6b9d081564049d",
+  "future_use": "Do not relabel viewed validation as unseen test after tuning."
+}

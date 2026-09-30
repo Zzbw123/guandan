@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scenarios": 27,
+  "rows": 9360,
+  "independent_deals_per_scenario": 26,
+  "complementary_pair_links_checked": 1872,
+  "teammate_role_flip_links_checked": 7488,
+  "note": "Pair links count both directions; they are not additional samples",
+  "four_metrics_independently_recomputed": true,
+  "win_reward_ci_linear_relation_checked": true,
+  "report_sha256": "f81a0287089f939c21c11d7bbdf03d693acaf15ff3e158c3f17bf40c191f1eef",
+  "checker_sha256": "f2f05a093c4cd9fefb078061b8b4715686b4313c9157b439f36c36db87570d8a"
+}

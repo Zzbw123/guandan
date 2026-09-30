@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "verified_delivery_artifacts": 18,
+  "delivery_receipt_sha256": "ca617da30ffa7e2f85b7eb9f6703f75b4650b8241ae53f6d593e683839b225c2",
+  "utf8_documents_verified": 4,
+  "console_display_error": "GBK UnicodeEncodeError occurred only after all delivery files and receipt were written",
+  "reproduction_note": "Set PYTHONUTF8=1 when printing the Chinese acceptance report in a legacy Windows console",
+  "formal_training_hands_added": 0,
+  "formal_evaluation_games_added": 0
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "gpu_learning_hands": 16,
+  "samples": 2484,
+  "updates": 47,
+  "verified_cuda_gradient_hooks": 329,
+  "complete_candidates": 8769,
+  "registered_sources": 28,
+  "protected_sources": {
+    "p2": 40,
+    "p3a": 45
+  },
+  "runtime_weights_sha256": "bf9c7c9a82ab6f8a9f713bb308df3a0914d06529ec9cdbe7b1cd4667ff3a63ef",
+  "report_sha256": "8d87de2b89fb43f0cbdc94791ba3186ccd583e0750a530bf98444b1ee8d40427",
+  "audit_source_sha256": {
+    "scripts/audit_gpu_probe.py": "ee33b6b54d80b37bce6125f0a6a91c7cbac9ca70c6c971af8f7abcbb49c09f23",
+    "scripts/audit_runtime_probe.py": "5336ab8ecf8328774eba5f17dae7e4afffdd12800556a2e66971727cafb1efad"
+  },
+  "promotion": "NOT_ELIGIBLE",
+  "resume_verified": false,
+  "reserved_test_executed": false
+}

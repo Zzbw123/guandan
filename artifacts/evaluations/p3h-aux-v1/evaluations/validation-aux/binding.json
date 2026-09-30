@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-26T10:54:17.111601+00:00",
+  "job": "validation-aux",
+  "arm": "aux",
+  "seed": 314380,
+  "checkpoint": "C:\\Users\\zengb\\Desktop\\掼蛋强化学习\\artifacts\\evaluations\\p3h-aux-v1\\training\\aux-314380\\final",
+  "candidate_sha256": "17ed7af8b7022c84968bf13113534850938c1603da9f769d005ca6eea0fbed41",
+  "manifest_sha256": "2010298c77eba4b5b32c35c3908956f906087d5ceabbe8996b1854ab7231969d",
+  "preregistration_sha256": "fc7fcc1e6ffa56262abe07fc2bbc84c7f7fe5310886928b237f395b917ae3de8",
+  "games": 1560
+}

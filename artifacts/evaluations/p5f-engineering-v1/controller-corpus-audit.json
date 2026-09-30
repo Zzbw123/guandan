@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "independently_rebuilt_hands": 13,
+  "observations": 1067,
+  "complete_candidates": 15478,
+  "probe_observations": 26,
+  "scope": "teacher trajectory and targets only; no new game or GPU scoring"
+}

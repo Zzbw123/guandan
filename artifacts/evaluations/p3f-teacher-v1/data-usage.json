@@ -1,0 +1,29 @@
+{
+  "training_execution_hands": 4800,
+  "unique_training_deals": 800,
+  "development_deals": 26,
+  "development_games": 1248,
+  "validation_deals": 65,
+  "validation_games": 3120,
+  "new_viewed_validation": [
+    203000,
+    203064
+  ],
+  "previous_viewed_validation": [
+    [
+      200000,
+      200129
+    ],
+    [
+      201000,
+      201064
+    ],
+    [
+      202000,
+      202064
+    ]
+  ],
+  "reserved_test_executed": false,
+  "model_promoted": false,
+  "candidate_sha256": "57b0e9538b6b084a1c83f6d4beefd29452dd38fbe3924f4a335c45f95af3ee96"
+}

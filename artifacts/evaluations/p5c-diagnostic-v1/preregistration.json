@@ -1,0 +1,131 @@
+{
+  "version": "gd-p5c-pool-diagnostic-v1",
+  "jobs": [
+    "selfplay-314510",
+    "mixed-314510",
+    "selfplay-314511",
+    "mixed-314511",
+    "selfplay-314512",
+    "mixed-314512"
+  ],
+  "inputs": {
+    "artifacts/evaluations/p5b-pool-v1/training/selfplay-314510/waves.jsonl.gz": "355c6614b8fd939a63dbe48a288c7a91993fbd5c66010a2ffac1b48afcb28b1b",
+    "artifacts/evaluations/p5b-pool-v1/training/selfplay-314510/final/checkpoint.pt": "013efbcd879c71724af8533c407b17be1b123f1b0f558116ede3bf7cc72dae15",
+    "artifacts/evaluations/p5b-pool-v1/training/selfplay-314510/final/manifest.json": "1c8fcbed7512731cf5c54952e5be9db71e516557331aa7eb914c287c0f50c1d2",
+    "artifacts/evaluations/p5b-pool-v1/training/mixed-314510/waves.jsonl.gz": "fee8816d15eb800098fa363a09e907ccf3d50d28abd0ff49fffc0a1d167c69cb",
+    "artifacts/evaluations/p5b-pool-v1/training/mixed-314510/final/checkpoint.pt": "5e362274fdf3a9deed3e601cd5b7322b1bbe544ddc6b40f08fed369365da3540",
+    "artifacts/evaluations/p5b-pool-v1/training/mixed-314510/final/manifest.json": "a12fd7ebeb82aa7af035bd23366e4c03c6b29aa6164bf6b879e70d6bf108e874",
+    "artifacts/evaluations/p5b-pool-v1/training/selfplay-314511/waves.jsonl.gz": "dd63d361b814b8ef11d62d9accb78f2bf64600d4ac7890fd43adddf373e80291",
+    "artifacts/evaluations/p5b-pool-v1/training/selfplay-314511/final/checkpoint.pt": "54d37507713603bc9833a3be55f272e2503857e805b300be2d4d4edd4d8538c4",
+    "artifacts/evaluations/p5b-pool-v1/training/selfplay-314511/final/manifest.json": "849e81e846bce4c4b07033b6ef471b4c1b526422a59d9f03d3f0fb54c683ca5c",
+    "artifacts/evaluations/p5b-pool-v1/training/mixed-314511/waves.jsonl.gz": "d29db232726cd69615459833eb00bf7c29f47d11cbb4275288a67fe34dea8976",
+    "artifacts/evaluations/p5b-pool-v1/training/mixed-314511/final/checkpoint.pt": "57e9b7fcb01a29566d959a039483ee1a3e42e7bacb4d15066905d255280ec6c1",
+    "artifacts/evaluations/p5b-pool-v1/training/mixed-314511/final/manifest.json": "51ffa2d4cea16fc9985a28e9604aab51e1b528101a99b85ba888d500babb8490",
+    "artifacts/evaluations/p5b-pool-v1/training/selfplay-314512/waves.jsonl.gz": "dad4621c74832067aa215eeb2fe6541e1146ac792056eb7fabd2e6a92af1497a",
+    "artifacts/evaluations/p5b-pool-v1/training/selfplay-314512/final/checkpoint.pt": "26c4473767d0ddad27e9ba24b725239e7b9abb68a94a75e83922401cc0e7eb07",
+    "artifacts/evaluations/p5b-pool-v1/training/selfplay-314512/final/manifest.json": "214ce27b33fe5e49e8dd40e2ca2a7f0fa57bda88c3d0ff546f55b1a64a219c8f",
+    "artifacts/evaluations/p5b-pool-v1/training/mixed-314512/waves.jsonl.gz": "de6ec2be6354c46518df6e7e2adc3418ac5849d7eefb9a303bc78e2e745013a9",
+    "artifacts/evaluations/p5b-pool-v1/training/mixed-314512/final/checkpoint.pt": "4ca309bf36135fe66366f7940a878327d17ba130c13d857a5d9f6b1700f53782",
+    "artifacts/evaluations/p5b-pool-v1/training/mixed-314512/final/manifest.json": "3c52789b3592df30fdee0d0e075cd2390cc2bf774cfdfbd82ffd1ff7f3d5f05f"
+  },
+  "sources": {
+    "docs/P5C_PROTOCOL.md": "19d61244b3187752e6396308f264dea5bc1bedeb61db3e2d39d8a3b88cc2137c",
+    "experiments/p5c_diagnostic.py": "c7d85f0345b374aa55643316fb281fe4d1b217e6b1889d5a1d0811c9a5b07588",
+    "experiments/controller_p5c_audit.py": "fad0c0edf11befdbdd1ac81f7bf6f6f9298539e3d94876a7833da6cb82b66db8",
+    "tests/test_p5c_diagnostic.py": "11119f0a609388321b7c9fcd153666aa884f21348c565019058d7e1d3342ae7d",
+    "scripts/p5c_test.py": "f07d58896b294d8c30fe524d0757425a8d78453c1d8f999e98688aea39e4fad1"
+  },
+  "historical": {
+    "history": {
+      "p3": {
+        "scopes": {
+          "p2-validation-v1": {
+            "registered_sources": 40,
+            "preregistration_sha256": "df1866ef749f9ec80ce1d7a68dda7523ba27878a5703395e704921c676accf07",
+            "immutable_artifacts": 0
+          },
+          "p3a-cpu-v1": {
+            "registered_sources": 45,
+            "preregistration_sha256": "5de312241e23692ffd52b09c934d5d0d5aef28cd2c2eaf7468f0e3807939fef9",
+            "controller_audit_sha256": "ddca48b0ee56f0a698faccd2c13c60a0ddccffaa54c9c3b0e74fa87c7debb1b4",
+            "immutable_artifacts": 0
+          },
+          "p3b-gpu-v1": {
+            "registered_sources": 28,
+            "preregistration_sha256": "dbef216c6dc27f6508bf7e7416ed9b4ef59399d80c1f1e9e9db4250d44430305",
+            "controller_audit_sha256": "56aae2b2cfec8f0ed88d18a6c89037040ddff8948a2b36253736aa89e9062288",
+            "immutable_artifacts": 0
+          },
+          "p3c-gpu-wave-v1": {
+            "registered_sources": 33,
+            "preregistration_sha256": "3bd79f56af3d517612fb403084e5f6d7b6dd1bf2126f5ccd974ee9388fb9f72a",
+            "controller_audit_sha256": "421e9b3aea2fcc84565d1458ce54588c498226b31197430061b84463b5203de2",
+            "delivery_receipt_sha256": "3d18d34a75117f7d7fd1e551d93c27477dfafcf3ca9f7abaec63857f0896e994",
+            "immutable_artifacts": 0
+          },
+          "p3d-validation-v2": {
+            "registered_sources": 38,
+            "preregistration_sha256": "7f2cdb0673c37aa85aef5bd3d547429ad889bc95dfeb5178b7abcb91f5ead39e",
+            "controller_audit_sha256": "90824bd8c369d7aa1c0214a41d270b298d840a91b91b0683ea286adec13462da",
+            "delivery_receipt_sha256": "fa6f1a0cd058f9aab3df29c38010547a1ce0427622376046b7d79abf1275f8ad",
+            "immutable_artifacts": 4
+          },
+          "p3e-scale-v2": {
+            "registered_sources": 41,
+            "preregistration_sha256": "5c8194b0b329194cbd69b45902e76aa6330203b82890137ee436c014c1c258f1",
+            "controller_audit_sha256": "6cd8817a87a0c038147eeaa10b69629516b01b36e8d83134bdf91f505bd49b35",
+            "delivery_receipt_sha256": "3b2dc20ac662693ddd85f14a3233bc657a1545852bf197bca632bd77a644d64a",
+            "immutable_artifacts": 115
+          },
+          "p3f-teacher-v1": {
+            "registered_sources": 50,
+            "preregistration_sha256": "9df3779b5f2bf6427c3de1cbfe3f724eea251bd364bbe4fb9d557d25a4d1f79b",
+            "controller_audit_sha256": "95acd51be37310385255ee86200f9c79bd8bbabd28cabc89fb72e970958342c4",
+            "delivery_receipt_sha256": "f2b810e2f2d8f3e90501c0a01e52ad3986d1710a5e07650dac38cd84912fc265",
+            "immutable_artifacts": 161
+          },
+          "p3g-fit-v1": {
+            "registered_sources": 86,
+            "preregistration_sha256": "4d4f8afbfd497db8b49cd33b1e16d4220734fba079fa4ffc85309050210e5064",
+            "controller_audit_sha256": "b65c642a08502094e66bc7a377ab35f0148eafaea73cb53d41def0a46c6afef9",
+            "delivery_receipt_sha256": "2995ff79db76b8fdd6a0e6b66a271bcd7ff71a1c7a1fbf33355c9b216b6ee33d",
+            "immutable_artifacts": 45
+          },
+          "p3h-aux-v1": {
+            "registered_sources": 99,
+            "preregistration_sha256": "fc7fcc1e6ffa56262abe07fc2bbc84c7f7fe5310886928b237f395b917ae3de8",
+            "controller_audit_sha256": "144e0adf6c7d44a9dd120c4ab6df654b06a50dbefe5455bc38a690ba0a25c033",
+            "delivery_receipt_sha256": "c7700930277abe322721b8c1eacb0639e275d82ba042906675783f6c64c32ce8",
+            "immutable_artifacts": 135
+          },
+          "p3i-centered-v1": {
+            "registered_sources": 143,
+            "preregistration_sha256": "46ee6f6db32e36013bc7a1e564899dcad478e73fde3ba1ae002cdeb3677183da",
+            "controller_audit_sha256": "fc4221ff8e5fdb60982c58751d832ae741363f633305361a833b3152c35be668",
+            "delivery_receipt_sha256": "37cb756f5d9896cd783a99e993d6523dae38489465ef77f0d528af1e6888043e",
+            "immutable_artifacts": 13
+          },
+          "p3j-centered-v1": {
+            "registered_sources": 163,
+            "preregistration_sha256": "1e4b6b8e708da4a33be2cedb89931ea974d03c0f625e80aeff7997ff66e71537",
+            "controller_audit_sha256": "05b490824559a90192e2a6eb07a4f115db558c572ab2ff43f49e68a47c9d54e3",
+            "delivery_receipt_sha256": "5d174f3736f8473a94a401b14d37ef3f8b11a34f0d456f7a84be12b6c0c72cd1",
+            "immutable_artifacts": 149
+          },
+          "p3k-gradients-v1": {
+            "registered_sources": 37,
+            "preregistration_sha256": "c3fa94bbdcf50ac94cd8fe300c2c05dd5720aeff38f8cee1b62d2797932923d0",
+            "controller_audit_sha256": "33b970759ef0db2bf371436d2a6ec13643384ce8d90ff5ea5efea7f7fb7172ef",
+            "delivery_receipt_sha256": "470590a045af5e6e1374c932e70c623d239667ada5e229d3a42de82d0b801389",
+            "immutable_artifacts": 32
+          }
+        },
+        "immutable_artifacts_checked": 654,
+        "method": "accepted prior controller receipts, current registered-source hashes and immutable delivery-artifact hashes; no repeated full historical replay"
+      },
+      "p3_closure_evidence": 120,
+      "p5a_bindings": 72
+    },
+    "p5b_bindings": 148
+  }
+}

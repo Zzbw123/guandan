@@ -1,0 +1,15 @@
+GPU runtime: 2.12.0+cu130 NVIDIA GeForce RTX 5060 Laptop GPU
+{"stage": "train", "job": "selfplay-314511", "status": "PASS"}
+{"stage": "train", "job": "mixed-314511", "status": "PASS"}
+{"stage": "train", "job": "mixed-314510", "status": "PASS"}
+{"stage": "train", "job": "selfplay-314510", "status": "PASS"}
+{"stage": "train", "job": "selfplay-314512", "status": "PASS"}
+{"stage": "train", "job": "mixed-314512", "status": "PASS"}
+{"stage": "evaluate", "job": "mixed-314510", "status": "PASS"}
+{"stage": "evaluate", "job": "selfplay-314510", "status": "PASS"}
+{"stage": "evaluate", "job": "selfplay-314511", "status": "PASS"}
+{"stage": "evaluate", "job": "mixed-314511", "status": "PASS"}
+{"stage": "evaluate", "job": "selfplay-314512", "status": "PASS"}
+{"stage": "evaluate", "job": "mixed-314512", "status": "PASS"}
+{"stage": "evaluate", "job": "validation-mixed", "status": "PASS"}
+{"stage": "evaluate", "job": "validation-selfplay", "status": "PASS"}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "cases": {
+    "dropped_probe": "REJECTED",
+    "duplicated_probe": "REJECTED",
+    "wrong_reward": "REJECTED",
+    "dropped_candidate": "REJECTED",
+    "changed_cosine": "REJECTED",
+    "changed_gram": "REJECTED",
+    "changed_state": "REJECTED",
+    "wrong_model": "REJECTED",
+    "fake_promotion": "REJECTED"
+  }
+}

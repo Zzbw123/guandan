@@ -1,0 +1,16 @@
+{"stage": "evaluate", "job": "validation-label_balanced", "games": 104, "total": 1560, "elapsed_s": 33.77835010000126}
+{"stage": "evaluate", "job": "validation-label_balanced", "games": 208, "total": 1560, "elapsed_s": 61.903458200002206}
+{"stage": "evaluate", "job": "validation-label_balanced", "games": 312, "total": 1560, "elapsed_s": 89.66139269999985}
+{"stage": "evaluate", "job": "validation-label_balanced", "games": 416, "total": 1560, "elapsed_s": 118.3844777000013}
+{"stage": "evaluate", "job": "validation-label_balanced", "games": 520, "total": 1560, "elapsed_s": 146.4764520000026}
+{"stage": "evaluate", "job": "validation-label_balanced", "games": 624, "total": 1560, "elapsed_s": 187.24369060000026}
+{"stage": "evaluate", "job": "validation-label_balanced", "games": 728, "total": 1560, "elapsed_s": 225.36775280000074}
+{"stage": "evaluate", "job": "validation-label_balanced", "games": 832, "total": 1560, "elapsed_s": 263.5000886000016}
+{"stage": "evaluate", "job": "validation-label_balanced", "games": 936, "total": 1560, "elapsed_s": 303.0392821000023}
+{"stage": "evaluate", "job": "validation-label_balanced", "games": 1040, "total": 1560, "elapsed_s": 342.0168298000026}
+{"stage": "evaluate", "job": "validation-label_balanced", "games": 1144, "total": 1560, "elapsed_s": 370.07289260000107}
+{"stage": "evaluate", "job": "validation-label_balanced", "games": 1248, "total": 1560, "elapsed_s": 397.8318394000016}
+{"stage": "evaluate", "job": "validation-label_balanced", "games": 1352, "total": 1560, "elapsed_s": 425.88872470000206}
+{"stage": "evaluate", "job": "validation-label_balanced", "games": 1456, "total": 1560, "elapsed_s": 454.12734700000146}
+{"stage": "evaluate", "job": "validation-label_balanced", "games": 1560, "total": 1560, "elapsed_s": 483.304646200002}
+{"stage": "evaluate", "job": "validation-label_balanced", "status": "PASS", "games": 1560, "validation_gate": "NOT_ESTABLISHED"}

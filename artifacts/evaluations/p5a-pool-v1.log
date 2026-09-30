@@ -1,0 +1,5 @@
+GPU runtime: 2.12.0+cu130 NVIDIA GeForce RTX 5060 Laptop GPU
+{"wave": 1, "samples": 185, "updates": 1, "scored_candidates": 3966, "frozen_candidates": 0}
+{"wave": 2, "samples": 113, "updates": 2, "scored_candidates": 4812, "frozen_candidates": 0}
+{"wave": 3, "samples": 132, "updates": 3, "scored_candidates": 4538, "frozen_candidates": 2541}
+{"wave": 4, "samples": 96, "updates": 4, "scored_candidates": 2147, "frozen_candidates": 1374}

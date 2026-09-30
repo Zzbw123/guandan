@@ -1,0 +1,261 @@
+GPU runtime: 2.12.0+cu130 NVIDIA GeForce RTX 5060 Laptop GPU
+audited old
+audited baseline
+audited 314372-400
+audited 314371-400
+audited 314371-1600
+audited 314370-1600
+audited 314372-1600
+audited 314370-400
+audited validation
+{
+  "status": "PASS",
+  "engineering": "ACCEPTED_DIAGNOSTIC_SCALE_STUDY_V1",
+  "model_promoted": false,
+  "reserved_test_executed": false,
+  "validation_gate": "NOT_ESTABLISHED",
+  "candidate_sha256": "525651845eb100f4c1ad0d3eb847b7bc5d2be12d0d1116fce96778e47b0da96d",
+  "training": [
+    {
+      "seed": 314370,
+      "hands": 1600,
+      "samples": 211956,
+      "updates": 1037,
+      "elapsed_s": 357.0142933999996,
+      "online_loss_segments": [
+        {
+          "hands": 400,
+          "samples": 51782,
+          "mean_online_loss": 0.9465635072512283
+        },
+        {
+          "hands": 800,
+          "samples": 55811,
+          "mean_online_loss": 0.8916560839037624
+        },
+        {
+          "hands": 1200,
+          "samples": 54967,
+          "mean_online_loss": 0.871393196940138
+        },
+        {
+          "hands": 1600,
+          "samples": 49396,
+          "mean_online_loss": 0.8594768589597953
+        }
+      ]
+    },
+    {
+      "seed": 314371,
+      "hands": 1600,
+      "samples": 192841,
+      "updates": 930,
+      "elapsed_s": 321.72698019999916,
+      "online_loss_segments": [
+        {
+          "hands": 400,
+          "samples": 52921,
+          "mean_online_loss": 0.9289967715227739
+        },
+        {
+          "hands": 800,
+          "samples": 52949,
+          "mean_online_loss": 0.8669221582632276
+        },
+        {
+          "hands": 1200,
+          "samples": 43962,
+          "mean_online_loss": 0.846290588425682
+        },
+        {
+          "hands": 1600,
+          "samples": 43009,
+          "mean_online_loss": 0.8088263362599677
+        }
+      ]
+    },
+    {
+      "seed": 314372,
+      "hands": 1600,
+      "samples": 215981,
+      "updates": 1062,
+      "elapsed_s": 370.06826660000115,
+      "online_loss_segments": [
+        {
+          "hands": 400,
+          "samples": 55976,
+          "mean_online_loss": 0.9168175287418013
+        },
+        {
+          "hands": 800,
+          "samples": 56539,
+          "mean_online_loss": 0.8594975221841054
+        },
+        {
+          "hands": 1200,
+          "samples": 54231,
+          "mean_online_loss": 0.8157018298075663
+        },
+        {
+          "hands": 1600,
+          "samples": 49235,
+          "mean_online_loss": 0.8196937092926534
+        }
+      ]
+    }
+  ],
+  "paired": [
+    {
+      "seed": 314370,
+      "win_rate_400": 0.18269230769230768,
+      "win_rate_1600": 0.21153846153846154,
+      "delta_pp": 2.8846153846153846,
+      "ci95_delta_pp": [
+        -2.8846153846153846,
+        8.653846153846153
+      ],
+      "group_delta": [
+        -0.25,
+        0.375,
+        -0.125,
+        -0.25,
+        0.0,
+        0.0,
+        0.0,
+        0.25,
+        0.5,
+        0.125,
+        -0.25,
+        0.25,
+        0.0,
+        0.0,
+        -0.375,
+        -0.25,
+        0.0,
+        -0.125,
+        0.0,
+        0.125,
+        0.125,
+        0.125,
+        0.375,
+        0.25,
+        0.0,
+        -0.125
+      ],
+      "inference_scope": "descriptive conditional on this initializer, 26 original deals"
+    },
+    {
+      "seed": 314371,
+      "win_rate_400": 0.052884615384615384,
+      "win_rate_1600": 0.38461538461538464,
+      "delta_pp": 33.17307692307692,
+      "ci95_delta_pp": [
+        28.365384615384613,
+        37.980769230769226
+      ],
+      "group_delta": [
+        0.25,
+        0.75,
+        0.625,
+        0.375,
+        0.5,
+        0.375,
+        0.125,
+        0.375,
+        0.25,
+        0.375,
+        0.375,
+        0.25,
+        0.25,
+        0.375,
+        0.125,
+        0.375,
+        0.0,
+        0.625,
+        0.375,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.125,
+        0.25,
+        0.5
+      ],
+      "inference_scope": "descriptive conditional on this initializer, 26 original deals"
+    },
+    {
+      "seed": 314372,
+      "win_rate_400": 0.20673076923076922,
+      "win_rate_1600": 0.2644230769230769,
+      "delta_pp": 5.769230769230769,
+      "ci95_delta_pp": [
+        -0.9615384615384616,
+        12.5
+      ],
+      "group_delta": [
+        -0.25,
+        -0.125,
+        0.125,
+        0.375,
+        -0.125,
+        0.0,
+        0.0,
+        0.0,
+        -0.25,
+        0.25,
+        0.0,
+        0.375,
+        -0.125,
+        0.0,
+        -0.125,
+        0.125,
+        0.25,
+        0.375,
+        -0.125,
+        -0.375,
+        0.25,
+        0.125,
+        0.125,
+        0.375,
+        -0.25,
+        0.5
+      ],
+      "inference_scope": "descriptive conditional on this initializer, 26 original deals"
+    }
+  ],
+  "stability": {
+    "400": {
+      "n_initializers": 3,
+      "mean": 0.14743589743589744,
+      "sd": 0.08276122649791895,
+      "min": 0.052884615384615384,
+      "max": 0.20673076923076922,
+      "values": [
+        0.18269230769230768,
+        0.052884615384615384,
+        0.20673076923076922
+      ]
+    },
+    "1600": {
+      "n_initializers": 3,
+      "mean": 0.28685897435897434,
+      "sd": 0.0886929109103956,
+      "min": 0.21153846153846154,
+      "max": 0.38461538461538464,
+      "values": [
+        0.21153846153846154,
+        0.38461538461538464,
+        0.2644230769230769
+      ]
+    }
+  },
+  "protected_sources": {
+    "p2-validation-v1": 40,
+    "p3a-cpu-v1": 45,
+    "p3b-gpu-v1": 28,
+    "p3c-gpu-wave-v1": 33,
+    "p3d-validation-v2": 38
+  },
+  "review_sha256": "9eaa1c7b222e7086de841eb6389f488381fa41c24ca5cc6512da31df243088b9",
+  "receipt_sha256": "7cc41121a4a52fdee3213b44dde81c97ed6f822717aad7a9f234d4b0d87dc846"
+}

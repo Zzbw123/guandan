@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "hands": 16,
+  "waves": 4,
+  "samples": 2648,
+  "updates": 12,
+  "wave_seconds": [
+    1.2772915999994439,
+    1.267609900000025,
+    1.3015316000000894,
+    1.160425999999461
+  ],
+  "training_seconds": 5.006859099999019,
+  "elapsed_s": 19.276233599999614,
+  "checkpoint_sha256": "fc69a095c165818864a9daad742053eb3fd266135ae494a914c6e29dcde9fbef",
+  "source_unchanged": true,
+  "promotion": "NOT_ELIGIBLE",
+  "reserved_test_executed": false
+}

@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "states": 128,
+  "candidates": 4174,
+  "model_sha256": {
+    "control-314380": "e3af88538922a949084ef95484439a0fe52fb5318fb59d37eb68bd125cba33e5",
+    "aux-314380": "17ed7af8b7022c84968bf13113534850938c1603da9f769d005ca6eea0fbed41",
+    "control-314381": "d2b41611c95795b41cddecd7c033b0ae81d81a83c5f8043cf0144d329961caba",
+    "aux-314381": "a087c571d0e62fd6aa1405f12a426ebf49e71885903f6a487008520013d7f3e0",
+    "control-314382": "441317152203f7daebcf8ba5a8517e71b44c56a92f2847b5dfa420f92db2deae",
+    "aux-314382": "774fbcfbac1ebafeeead0f1ceb6d3afccd561a54eeac76a219c61445ed1e08a3"
+  },
+  "summary": {
+    "control-314380": {
+      "top1": 0.609375,
+      "regret": 0.04236592026500561,
+      "mse": 0.6056354444081298
+    },
+    "aux-314380": {
+      "top1": 0.6171875,
+      "regret": 0.04989680080114654,
+      "mse": 0.5549212442720176
+    },
+    "control-314381": {
+      "top1": 0.6328125,
+      "regret": 0.06788476995107133,
+      "mse": 0.6169610696567889
+    },
+    "aux-314381": {
+      "top1": 0.5859375,
+      "regret": 0.029898470064520545,
+      "mse": 0.5225926413284984
+    },
+    "control-314382": {
+      "top1": 0.5234375,
+      "regret": 0.05242401865560555,
+      "mse": 0.5644763755506566
+    },
+    "aux-314382": {
+      "top1": 0.6171875,
+      "regret": 0.05817931093304499,
+      "mse": 0.56844491985469
+    }
+  },
+  "scores_sha256": "3e7e3afec09a092a82bfa010833df917959acdb7174863953fe702b47fbeee2e",
+  "preregistration_sha256": "fc7fcc1e6ffa56262abe07fc2bbc84c7f7fe5310886928b237f395b917ae3de8",
+  "script_sha256": "de5dffd8f0696c1eb27e2487255c8ff09e186bee2f6e3ce9ec4d3f8a39a12109"
+}

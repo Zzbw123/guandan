@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "jobs": {
+    "control-314380": {
+      "status": "PASS",
+      "job": "control-314380",
+      "observations": 57462,
+      "candidates": 833247,
+      "exploration_steps": 5729,
+      "batches": 300
+    },
+    "control-314382": {
+      "status": "PASS",
+      "job": "control-314382",
+      "observations": 57209,
+      "candidates": 836690,
+      "exploration_steps": 5754,
+      "batches": 303
+    },
+    "aux-314381": {
+      "status": "PASS",
+      "job": "aux-314381",
+      "observations": 55633,
+      "candidates": 847562,
+      "exploration_steps": 5516,
+      "batches": 300
+    },
+    "control-314381": {
+      "status": "PASS",
+      "job": "control-314381",
+      "observations": 56890,
+      "candidates": 988466,
+      "exploration_steps": 5798,
+      "batches": 300
+    },
+    "aux-314380": {
+      "status": "PASS",
+      "job": "aux-314380",
+      "observations": 55514,
+      "candidates": 848643,
+      "exploration_steps": 5473,
+      "batches": 300
+    },
+    "aux-314382": {
+      "status": "PASS",
+      "job": "aux-314382",
+      "observations": 54696,
+      "candidates": 865768,
+      "exploration_steps": 5504,
+      "batches": 300
+    }
+  },
+  "script_sha256": "64331ee5362b625b6b25928aa79b2ac26bc0bcb7ca3a2c1af27f4f133687040c"
+}

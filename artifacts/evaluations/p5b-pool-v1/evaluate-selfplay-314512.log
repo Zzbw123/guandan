@@ -1,0 +1,3 @@
+{"stage": "evaluate", "job": "selfplay-314512", "games": 104, "total": 208, "elapsed_s": 30.921788700001343}
+{"stage": "evaluate", "job": "selfplay-314512", "games": 208, "total": 208, "elapsed_s": 56.09794260000126}
+{"stage": "evaluate", "job": "selfplay-314512", "status": "PASS", "games": 208, "validation_gate": "DEVELOPMENT_ONLY"}

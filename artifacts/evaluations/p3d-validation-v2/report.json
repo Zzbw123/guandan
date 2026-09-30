@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "candidate_sha256": "32935318ccd3bb76a38f71ddc21796cd204c1bc938ed8b3e6b6b9d081564049d",
+  "validation_gate": "NOT_ESTABLISHED",
+  "model_promoted": false,
+  "reserved_test_executed": false,
+  "source_unchanged": true,
+  "elapsed_s": 397.0865064999998,
+  "artifact_sha256": {
+    "preregistration.json": "7f2cdb0673c37aa85aef5bd3d547429ad889bc95dfeb5178b7abcb91f5ead39e",
+    "evaluation-preregistration.json": "857ea65bc55719b7e093bf8521a82998833d345d2163f373875ed81afeee6706",
+    "training/report.json": "5a953819714ade1b8af9f7f48518d7fc04ef2276497058ea846675f5074ba6c5",
+    "training/waves.jsonl": "da7574b4dd9ff5d71d0783708961d59e044862bffa51fb48c792706d897ea6ad",
+    "results.jsonl": "729cf04db8793ed1dde20a48f84563c0e6c4411c8b0f08accf8949d350c0f3da",
+    "measurements.jsonl.gz": "3aa0500605896d73c8ddbaa99aa8dcc2e578afabf477806a74ab5b4532622e6f",
+    "replays.jsonl.gz": "beeb7a595b8809e2923f6b72121fff23eb35f6b2d5b3ebff4e69fa88968739b1",
+    "evaluation-report.json": "b21d80be31fb59d9e68787fa48fd4ed54731ce6f7127415644e64c9e5f0b33c4",
+    "source-snapshot.zip": "eeb4fb21224ce48e7460e2e95c9089e69cc3aa99461178866eea383cfe3a5b80"
+  }
+}

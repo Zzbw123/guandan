@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "wave": {
+    "wave": 1,
+    "behavior_version": 0,
+    "learning_version": 1,
+    "episodes": 4,
+    "updates": 3,
+    "samples": 568,
+    "mean_loss": 0.9787426187958516,
+    "hands": [
+      {
+        "seed": 108500,
+        "level": 2,
+        "starting_player": 0,
+        "steps": 150,
+        "samples": 150,
+        "terminal_digest": "88e58cbf973313fa68d312ffbafca340e68f0f32fbbe8d54d603fcd0d2b25224",
+        "team_rewards": [
+          1,
+          -1
+        ],
+        "replay_verified": true
+      },
+      {
+        "seed": 108501,
+        "level": 3,
+        "starting_player": 1,
+        "steps": 126,
+        "samples": 126,
+        "terminal_digest": "a4c4f90dbb5d13bfdee8228ba84b7e9a89a991ec979faa5090c529ef18742234",
+        "team_rewards": [
+          -1,
+          1
+        ],
+        "replay_verified": true
+      },
+      {
+        "seed": 108502,
+        "level": 4,
+        "starting_player": 2,
+        "steps": 155,
+        "samples": 155,
+        "terminal_digest": "82fb5139cc495b0e95e138699665aaee5ae96fb49c759714871e85c70dbc57d7",
+        "team_rewards": [
+          -1,
+          1
+        ],
+        "replay_verified": true
+      },
+      {
+        "seed": 108503,
+        "level": 5,
+        "starting_player": 3,
+        "steps": 137,
+        "samples": 137,
+        "terminal_digest": "5c85950ebeeeee748949fcfd16ac9abd63df33e3ac3a02192939830ac4c7c076",
+        "team_rewards": [
+          -1,
+          1
+        ],
+        "replay_verified": true
+      }
+    ],
+    "scored_candidates": 4074,
+    "score_requests": 518,
+    "score_batches": 154,
+    "device_proof": {
+      "device": "cuda:0",
+      "dtype": "torch.float32",
+      "forward_checks": 3,
+      "gradient_checks": 21,
+      "adam_tensor_checks": 63
+    }
+  },
+  "actual_samples": 568,
+  "actual_input_target_multiset_matched": true,
+  "gradient_batches": [
+    {
+      "samples": 256,
+      "max_abs_error": 0.0,
+      "device": "cuda:0"
+    },
+    {
+      "samples": 256,
+      "max_abs_error": 0.0,
+      "device": "cuda:0"
+    },
+    {
+      "samples": 56,
+      "max_abs_error": 0.0,
+      "device": "cuda:0"
+    }
+  ],
+  "batches": [
+    {
+      "samples": 256,
+      "positive": 113,
+      "negative": 143
+    },
+    {
+      "samples": 256,
+      "positive": 129,
+      "negative": 127
+    },
+    {
+      "samples": 56,
+      "positive": 30,
+      "negative": 26
+    }
+  ],
+  "runtime": {
+    "python": "3.14.3",
+    "torch": "2.12.0+cu130",
+    "cuda": "13.0",
+    "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "capability": [
+      12,
+      0
+    ],
+    "device_count": 1,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "threads": 1,
+    "deterministic": true,
+    "tf32_matmul": false,
+    "tf32_cudnn": false,
+    "cublas": ":4096:8"
+  },
+  "model_promoted": false,
+  "reserved_test_executed": false
+}

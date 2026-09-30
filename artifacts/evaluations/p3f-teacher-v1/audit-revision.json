@@ -1,0 +1,23 @@
+{
+  "status": "CORRECTED_PENDING_FULL_REVIEW",
+  "utc": "2026-09-26T08:34:11.458793+00:00",
+  "issue": "Controller reviewer required exitcode 0, but frozen GPUInferenceGuard.close deliberately terminate/join; Python Windows maps TERMINATE to -SIGTERM (-15).",
+  "experiment_rerun": false,
+  "experiment_artifacts_changed": false,
+  "old_review_sha256": "d5b822e28e3bcb4c6eca70a86226f42d9703e5a0592e8ca96a4af1e6482bbdb8",
+  "new_review_sha256": "19bf79cb8dd98fc6b2333b954a1c289cfa535945b18588baa4b0277dc882c76e",
+  "failure_log": "artifacts/evaluations/p3f-controller-progress.log",
+  "failure_log_sha256": "2ffb18a795810b54e68134ce46413c48c9da1b5a624f274b4bcba7659eaf0393",
+  "guard_sha256": "68cf757bf8605d09542fa794a7d797bd97cfc00c68f18497e1df7452bde12052",
+  "python_mapping_path": "C:/Users/zengb/AppData/Local/Programs/Python/Python314/Lib/multiprocessing/popen_spawn_win32.py",
+  "worker_exitcodes": {
+    "control-314380": -15,
+    "control-314381": -15,
+    "control-314382": -15,
+    "teacher-314380": -15,
+    "teacher-314381": -15,
+    "teacher-314382": -15,
+    "validation-control": -15,
+    "validation-teacher": -15
+  }
+}

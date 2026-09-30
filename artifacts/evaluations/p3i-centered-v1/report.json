@@ -1,0 +1,96 @@
+{
+  "status": "COMPLETE_PENDING_AUDIT",
+  "states": 128,
+  "candidates": 4174,
+  "rows": 768,
+  "summary": {
+    "control-314380": {
+      "mse": 0.6056354444081298,
+      "mean_error": -0.14574485186733072,
+      "offset_mse": 0.24202228353206937,
+      "centered_mse": 0.3636131608760604,
+      "top1": 0.609375,
+      "regret": 0.04236592026500561,
+      "offset_fraction": 0.3996171059119415
+    },
+    "aux-314380": {
+      "mse": 0.5549212442720176,
+      "mean_error": -0.12998859612759112,
+      "offset_mse": 0.20100270058212538,
+      "centered_mse": 0.35391854368989223,
+      "top1": 0.6171875,
+      "regret": 0.04989680080114654,
+      "offset_fraction": 0.36221842767222584
+    },
+    "control-314381": {
+      "mse": 0.6169610696567889,
+      "mean_error": -0.1748030567772378,
+      "offset_mse": 0.25512429038275714,
+      "centered_mse": 0.3618367792740318,
+      "top1": 0.6328125,
+      "regret": 0.06788476995107133,
+      "offset_fraction": 0.4135176479201208
+    },
+    "aux-314381": {
+      "mse": 0.5225926413284984,
+      "mean_error": -0.11941993613561756,
+      "offset_mse": 0.23658746472965733,
+      "centered_mse": 0.286005176598841,
+      "top1": 0.5859375,
+      "regret": 0.029898470064520545,
+      "offset_fraction": 0.45271870673154
+    },
+    "control-314382": {
+      "mse": 0.5644763755506566,
+      "mean_error": -0.17340115049101548,
+      "offset_mse": 0.2037166099633189,
+      "centered_mse": 0.36075976558733763,
+      "top1": 0.5234375,
+      "regret": 0.05242401865560555,
+      "offset_fraction": 0.36089483774159686
+    },
+    "aux-314382": {
+      "mse": 0.56844491985469,
+      "mean_error": -0.1251881216866204,
+      "offset_mse": 0.21113420817965306,
+      "centered_mse": 0.3573107116750369,
+      "top1": 0.6171875,
+      "regret": 0.05817931093304499,
+      "offset_fraction": 0.37142421509127865
+    }
+  },
+  "paired": [
+    {
+      "seed": 314380,
+      "delta_mse": -0.050714200136112164,
+      "delta_offset_mse": -0.04101958294994398,
+      "delta_centered_mse": -0.009694617186168153,
+      "delta_top1": 0.0078125,
+      "delta_regret": 0.007530880536140934
+    },
+    {
+      "seed": 314381,
+      "delta_mse": -0.09436842832829051,
+      "delta_offset_mse": -0.018536825653099803,
+      "delta_centered_mse": -0.07583160267519079,
+      "delta_top1": -0.046875,
+      "delta_regret": -0.037986299886550785
+    },
+    {
+      "seed": 314382,
+      "delta_mse": 0.003968544304033483,
+      "delta_offset_mse": 0.00741759821633417,
+      "delta_centered_mse": -0.0034490539123007147,
+      "delta_top1": 0.09375,
+      "delta_regret": 0.005755292277439442
+    }
+  ],
+  "max_identity_residual": 3.3306690738754696e-16,
+  "formal_training_hands": 0,
+  "new_evaluation_games": 0,
+  "model_promoted": false,
+  "reserved_test_executed": false,
+  "preregistration_sha256": "46ee6f6db32e36013bc7a1e564899dcad478e73fde3ba1ae002cdeb3677183da",
+  "decomposition_sha256": "94536efd8a8e5ddba2a0e79bd28fb13feef8f97f2784c9f5ba611a134784edf7",
+  "csv_sha256": "81b84c75d4d9ac46d0a3af166c09d9a0794ea4a82fc3340b00f131fc702c7d85"
+}

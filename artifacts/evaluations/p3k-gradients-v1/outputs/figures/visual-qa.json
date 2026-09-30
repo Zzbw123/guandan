@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "review": "Controller inspected final PNG: titles, both colorbars, numerical annotations, denominators, duplicate-source caveat and footnotes visible; no clipping. SVG exported from same Python figure. First clipped layout retained in figures-layout-v1.",
+  "png_sha256": "349d9f0c25e76f0352f972b9911ee3d9970932ebe484ea2a70d8539c80e25702",
+  "svg_sha256": "d46b6335ef8550720f62cf1cf7cfd8ebf0d4c5c46426a0b7e94c2e43d5f88af9"
+}

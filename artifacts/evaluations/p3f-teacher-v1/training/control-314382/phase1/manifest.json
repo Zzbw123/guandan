@@ -1,0 +1,1 @@
+{"arm": "control", "bytes": 4935887, "config": {"batch_size": 256, "chunk_size": 1024, "epsilon": 0.1, "lr": 0.001, "num_envs": 4, "seed": 314382}, "hands": 200, "model_sha256": "19e03882eb7ee04043ba35bc6d626615ecc433e8ba34875397d84dfe558d73e9", "phase1_updates": 103, "seed": 314382, "sha256": "476c8e41f966098e10dfa6cbe8df66498d208861469c1b56bc4661b4c72b1132"}

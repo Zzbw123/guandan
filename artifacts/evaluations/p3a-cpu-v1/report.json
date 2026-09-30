@@ -1,0 +1,58 @@
+{
+  "status": "CPU_LOOP_VERIFIED",
+  "p3_status": "PARTIALLY_ACCEPTED",
+  "runtime": {
+    "python": "3.13.5",
+    "torch": "2.9.1+cpu",
+    "device": "cpu",
+    "threads": 1,
+    "deterministic": true
+  },
+  "checkpoint_sha256": "8d27fbba3fc77297b4dc2453d0ef42db6cd471bdf2e96d66b50cda660b2cf2a5",
+  "training_episodes": 4,
+  "training_decisions": 662,
+  "training_updates": 12,
+  "training_and_resume_seconds": 3.695974700000079,
+  "evaluation_games": 48,
+  "evaluation_seconds": 8.28871910000089,
+  "results": {
+    "greedy": {
+      "games": 16,
+      "independent_deals": 2,
+      "group_win_rates": [
+        0.0,
+        0.0
+      ],
+      "win_rate": 0.0,
+      "confidence_interval": null,
+      "conclusion": "INTEGRATION_ONLY"
+    },
+    "random": {
+      "games": 16,
+      "independent_deals": 2,
+      "group_win_rates": [
+        0.25,
+        0.125
+      ],
+      "win_rate": 0.1875,
+      "confidence_interval": null,
+      "conclusion": "INTEGRATION_ONLY"
+    },
+    "team": {
+      "games": 16,
+      "independent_deals": 2,
+      "group_win_rates": [
+        0.0,
+        0.0
+      ],
+      "win_rate": 0.0,
+      "confidence_interval": null,
+      "conclusion": "INTEGRATION_ONLY"
+    }
+  },
+  "source_hashes_unchanged": true,
+  "p2_protected_files_unchanged": 40,
+  "promotion": "NOT_ELIGIBLE",
+  "reserved_test_executed": false,
+  "exact_resume": true
+}

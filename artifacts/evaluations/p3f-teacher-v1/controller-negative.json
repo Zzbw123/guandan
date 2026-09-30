@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "cases": {
+    "missing": "REJECTED",
+    "duplicate": "REJECTED",
+    "wrong_win": "REJECTED",
+    "wrong_interval": "REJECTED",
+    "fake_promotion": "REJECTED",
+    "behavior_denominator": "REJECTED",
+    "candidate_selection": "REJECTED",
+    "worker_not_reaped": "REJECTED",
+    "wrong_transfer": "REJECTED",
+    "optimizer_not_reset": "REJECTED",
+    "wrong_rng": "REJECTED"
+  },
+  "review_sha256": "19bf79cb8dd98fc6b2333b954a1c289cfa535945b18588baa4b0277dc882c76e"
+}

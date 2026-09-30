@@ -1,0 +1,18 @@
+GPU runtime: 2.12.0+cu130 NVIDIA GeForce RTX 5060 Laptop GPU
+test_full_real_wave_with_ordinary_metadata (test_p5e_audit.AuditTests.test_full_real_wave_with_ordinary_metadata) ... ok
+test_objective_and_batch_log_tamper_rejected (test_p5e_audit.AuditTests.test_objective_and_batch_log_tamper_rejected) ... ok
+test_deadline_and_pin_rejection (test_p5e_protocol.GuardTests.test_deadline_and_pin_rejection) ... ok
+test_fail_closed_crash_and_illegal (test_p5e_protocol.GuardTests.test_fail_closed_crash_and_illegal) ... ok
+test_real_spawn_load_complete_candidates (test_p5e_protocol.GuardTests.test_real_spawn_load_complete_candidates) ... ok
+test_startup_timeout_reaps_worker (test_p5e_protocol.GuardTests.test_startup_timeout_reaps_worker) ... ok
+test_balanced_complete_schedules (test_p5e_protocol.ProtocolTests.test_balanced_complete_schedules) ... ok
+test_blocked_orders_fixed_and_complete (test_p5e_protocol.ProtocolTests.test_blocked_orders_fixed_and_complete) ... ok
+test_invalid_configs_and_sealed_split (test_p5e_protocol.ProtocolTests.test_invalid_configs_and_sealed_split) ... ok
+test_json_budget_and_primary_candidate (test_p5e_protocol.ProtocolTests.test_json_budget_and_primary_candidate) ... ok
+test_only_objective_differs (test_p5e_protocol.ProtocolTests.test_only_objective_differs) ... ok
+test_seed_scan_boundary_and_parse_error (test_p5e_protocol.ProtocolTests.test_seed_scan_boundary_and_parse_error) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 29.925s
+
+OK

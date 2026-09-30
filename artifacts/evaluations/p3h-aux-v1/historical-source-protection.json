@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "protected_sources": {
+    "p2-validation-v1": 40,
+    "p3a-cpu-v1": 45,
+    "p3b-gpu-v1": 28,
+    "p3c-gpu-wave-v1": 33,
+    "p3d-validation-v2": 38,
+    "p3e-scale-v2": 41,
+    "p3f-teacher-v1": 50,
+    "p3g-fit-v1": 86
+  }
+}

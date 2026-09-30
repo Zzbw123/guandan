@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-26T07:53:36.812520+00:00",
+  "gpu": {
+    "total": 133,
+    "passed": 133,
+    "skipped": 0
+  },
+  "cpu": {
+    "total": 133,
+    "passed": 128,
+    "skipped": 5
+  },
+  "sha256": {
+    "artifacts/evaluations/p3f-tests-gpu.log": "60c1abb4ece52f1f90b5442df2f644e7d843d797ecf21ffd7fb952a4bbac8549",
+    "artifacts/evaluations/p3f-tests-cpu.log": "87f45f6b45e3c9e74932c28196777101c1d9cbcb868a79c93fb51d0dfa8f7cfb"
+  }
+}

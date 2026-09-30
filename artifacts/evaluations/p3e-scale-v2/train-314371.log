@@ -1,0 +1,4 @@
+{"stage": "training", "seed": 314371, "hands": 400, "updates": 262, "elapsed_s": 88.22541040000033}
+{"stage": "training", "seed": 314371, "hands": 800, "updates": 529, "elapsed_s": 177.45201730000008}
+{"stage": "training", "seed": 314371, "hands": 1200, "updates": 730, "elapsed_s": 251.09230229999957}
+{"stage": "training", "seed": 314371, "hands": 1600, "updates": 930, "elapsed_s": 321.6950292999991}

@@ -1,0 +1,1 @@
+{"arm": "teacher", "bytes": 4935887, "config": {"batch_size": 256, "chunk_size": 1024, "epsilon": 0.1, "lr": 0.001, "num_envs": 4, "seed": 314382}, "hands": 200, "model_sha256": "3d7381161115d19265aa7b5fa7a0ee118bcb13c7d3c7d26c8f66b890ae4f6409", "phase1_updates": 256, "seed": 314382, "sha256": "d1d1c13c0b5a8b61946e353b1bde581e34e43d310eb3be5cdf64b70b6b43d70f"}

@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "jobs": {
+    "normcap-314382": {
+      "status": "PASS",
+      "job": "normcap-314382",
+      "observations": 53965,
+      "candidates": 851429,
+      "exploration_steps": 5427,
+      "batches": 300
+    },
+    "constant-314382": {
+      "status": "PASS",
+      "job": "constant-314382",
+      "observations": 56293,
+      "candidates": 905172,
+      "exploration_steps": 5702,
+      "batches": 300
+    },
+    "normcap-314381": {
+      "status": "PASS",
+      "job": "normcap-314381",
+      "observations": 53822,
+      "candidates": 830832,
+      "exploration_steps": 5421,
+      "batches": 300
+    },
+    "constant-314381": {
+      "status": "PASS",
+      "job": "constant-314381",
+      "observations": 55952,
+      "candidates": 964041,
+      "exploration_steps": 5691,
+      "batches": 300
+    },
+    "constant-314380": {
+      "status": "PASS",
+      "job": "constant-314380",
+      "observations": 56467,
+      "candidates": 809760,
+      "exploration_steps": 5614,
+      "batches": 300
+    },
+    "normcap-314380": {
+      "status": "PASS",
+      "job": "normcap-314380",
+      "observations": 54808,
+      "candidates": 823945,
+      "exploration_steps": 5448,
+      "batches": 300
+    }
+  },
+  "script_sha256": "3e9ea98d40513c9cf7e717764e86927e7d5271799ddb6be37bc709d1fa6ff192"
+}

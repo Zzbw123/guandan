@@ -1,0 +1,4 @@
+batch order independently verified centered-314381
+batch order independently verified absolute-314381
+batch order independently verified centered-314382
+{"status": "PARTIAL_REVIEW", "jobs": {"centered-314381": {"status": "PASS", "job": "centered-314381", "observations": 55952, "candidates": 964041, "exploration_steps": 5691, "batches": 300}, "absolute-314381": {"status": "PASS", "job": "absolute-314381", "observations": 55633, "candidates": 847562, "exploration_steps": 5516, "batches": 300}, "centered-314382": {"status": "PASS", "job": "centered-314382", "observations": 56293, "candidates": 905172, "exploration_steps": 5702, "batches": 300}}}

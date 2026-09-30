@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "method": "controller viewed actual PNG exports",
+  "checks": [
+    "full labels readable",
+    "no cropped panels",
+    "fixed sequential proportion and regret scales",
+    "paired values/intervals match audit",
+    "overlapping initial point labels replaced by numeric legend"
+  ],
+  "figure_sha256": {
+    "development-change.png": "7358c7d501c811e18f6e5ab1a644dab722433850ded11893b6e243643e7cae79",
+    "teacher-fidelity.png": "7f06da1f6db737ab44cfbb961f66a85cb4174f61481a687cd133cb6e38b83ed6"
+  }
+}

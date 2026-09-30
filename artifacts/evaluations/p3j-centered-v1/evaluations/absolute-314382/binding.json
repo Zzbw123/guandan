@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-26T13:44:06.159023+00:00",
+  "job": "absolute-314382",
+  "arm": "absolute",
+  "seed": 314382,
+  "checkpoint": "C:\\Users\\zengb\\Desktop\\掼蛋强化学习\\artifacts\\evaluations\\p3j-centered-v1\\training\\absolute-314382\\final",
+  "candidate_sha256": "d26b9c3134d6b82ffa347252860e9dae6bde182127f17cc77776fa550d36eaf0",
+  "manifest_sha256": "b97697c26ca202158dc698d1a6702e46cbb4886ac314a6c980bae3a44ffb5f50",
+  "preregistration_sha256": "1e4b6b8e708da4a33be2cedb89931ea974d03c0f625e80aeff7997ff66e71537",
+  "games": 208
+}

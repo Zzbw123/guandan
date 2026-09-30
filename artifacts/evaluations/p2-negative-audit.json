@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "probes": [
+    {
+      "probe": "invented_primary_conclusion",
+      "status": "REJECTED",
+      "reason": "Primary conclusion mismatch"
+    },
+    {
+      "probe": "invented_promotion",
+      "status": "REJECTED",
+      "reason": "This baseline report cannot promote a learned model"
+    },
+    {
+      "probe": "missing_recorded_games",
+      "status": "REJECTED",
+      "reason": "Report is not a complete accepted run"
+    },
+    {
+      "probe": "false_failure_counter",
+      "status": "REJECTED",
+      "reason": "Invalid failure counter: failed_games"
+    },
+    {
+      "probe": "altered_statistics",
+      "status": "REJECTED",
+      "reason": "Statistics recomputation mismatch: {}"
+    },
+    {
+      "probe": "altered_performance",
+      "status": "REJECTED",
+      "reason": "Performance recomputation mismatch"
+    },
+    {
+      "probe": "duplicate_trial_with_rehashed_files",
+      "status": "REJECTED",
+      "reason": "Statistics recomputation mismatch: {'random|random|random': \"missing trial_ids: ['random|random|random:109900:0:0:0']\", 'team|team|team': 'duplicate trial_id: team|team|team:109925:3:1:0'}"
+    }
+  ]
+}

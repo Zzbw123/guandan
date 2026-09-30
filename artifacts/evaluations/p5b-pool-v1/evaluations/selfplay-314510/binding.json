@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-27T09:35:42.273122+00:00",
+  "job": "selfplay-314510",
+  "arm": "selfplay",
+  "seed": 314510,
+  "checkpoint": "C:\\Users\\zengb\\Desktop\\掼蛋强化学习\\artifacts\\evaluations\\p5b-pool-v1\\training\\selfplay-314510\\final",
+  "candidate_sha256": "013efbcd879c71724af8533c407b17be1b123f1b0f558116ede3bf7cc72dae15",
+  "manifest_sha256": "1c8fcbed7512731cf5c54952e5be9db71e516557331aa7eb914c287c0f50c1d2",
+  "preregistration_sha256": "fdaf589931228f2eb7fe5b7818268a17553f29be288e8f9e9871127286101d5c",
+  "games": 208
+}

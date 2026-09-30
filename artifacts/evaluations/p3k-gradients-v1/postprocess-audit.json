@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "summary_rows": 5346,
+  "csv_rows": 5346,
+  "unique_labeled_states": 182,
+  "negative_changed_summary_rejected": true,
+  "summary_sha256": "1f212a6e1347cb11c4f63317a7d02bb320ede15a4172c26b4655cf49a7505798",
+  "script_sha256": "f81d39455a13f811af14854de575280d68efd99bab3377e3b0843c6d9d80dd23"
+}

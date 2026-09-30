@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "total": 10,
+  "skipped": 0,
+  "log_sha256": "43e35ce2aa8d6be732dea7d3516a42ac1897ae97cb7996a8ce8c88aa83eedbb0",
+  "sources": {
+    "experiments/p3i_objective.py": "a7b3dbc0404455f577b634cab92c4b95744dde92e4eb4c68d2e6f0be5c1884b5",
+    "tests/test_p3i_objective.py": "ee73a323c33dff0bc0199e4f7efbba32a644b720ee15428ec4506ee109d0bde1",
+    "scripts/p3i_test.py": "b906abc415638463694acde438134d68dd005661e239ad8726b0a9c8dac757eb"
+  }
+}

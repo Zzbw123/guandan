@@ -1,0 +1,14 @@
+test_gram_matrix_matches_hand_dot_products (test_p3k_core.GeometryTests.test_gram_matrix_matches_hand_dot_products) ... ok
+test_invalid_gram_rejected (test_p3k_core.GeometryTests.test_invalid_gram_rejected) ... ok
+test_parallel_antiparallel_and_weighted_descent (test_p3k_core.GeometryTests.test_parallel_antiparallel_and_weighted_descent) ... ok
+test_zero_auxiliary_and_zero_dmc_null_semantics (test_p3k_core.GeometryTests.test_zero_auxiliary_and_zero_dmc_null_semantics) ... ok
+test_chunk_sizes_preserve_complete_candidate_objectives (test_p3k_core.GradientTests.test_chunk_sizes_preserve_complete_candidate_objectives) ... ok
+test_illegal_reward_and_executed_action_rejected (test_p3k_core.GradientTests.test_illegal_reward_and_executed_action_rejected) ... ok
+test_probe_preserves_parameters_and_clears_existing_gradients (test_p3k_core.GradientTests.test_probe_preserves_parameters_and_clears_existing_gradients) ... ok
+test_production_and_layer_oracle_match_independent_dense_both_rewards (test_p3k_core.GradientTests.test_production_and_layer_oracle_match_independent_dense_both_rewards) ... ok
+test_singleton_centered_zero_absolute_nonzero (test_p3k_core.GradientTests.test_singleton_centered_zero_absolute_nonzero) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 6.820s
+
+OK

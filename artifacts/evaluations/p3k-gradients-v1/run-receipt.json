@@ -1,0 +1,48 @@
+{
+  "status": "RUN_COMPLETE_PENDING_AUDIT",
+  "runtime": {
+    "python": "3.14.3",
+    "torch": "2.12.0+cu130",
+    "cuda": "13.0",
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "deterministic": true,
+    "threads": 1,
+    "tf32": false,
+    "cublas": ":4096:8"
+  },
+  "states": 234,
+  "probes": 2106,
+  "dense_gradient_comparisons": 6318,
+  "model_before": {
+    "teacher-314380": "79cf2fcdb5cfe6220d37b42176272e8e20127a5580feac616c78c4eb0f65c334",
+    "absolute-314380": "00e3006f444503447d01bb033c394ffc01b33e65e15e4aa41937d94e33fe2085",
+    "centered-314380": "ac6002d338928581034a8c5f5e3dbfd34b0303fc7edf5cf8000c4928bab9f82e",
+    "teacher-314381": "2569cd10d505ce6504066da4fb74bf96f070ac43ddb6fc8afc8354617f51c701",
+    "absolute-314381": "84dbd3dfe7c7c9f18910e7a152533b891fa40aeacff4138f372dc8e5a9071c58",
+    "centered-314381": "7537d223dd56586070ee2519a1c25f8e8240f29df8a01f6a2f5219d3159b8686",
+    "teacher-314382": "3d7381161115d19265aa7b5fa7a0ee118bcb13c7d3c7d26c8f66b890ae4f6409",
+    "absolute-314382": "9e40cb210fc9eb436421746a0014b9431eade0e3ef56fbdbd24f30d2eb7c4b35",
+    "centered-314382": "fb56f97c5fdbebed4d3b434ff551fd13da5c928057b042e6f64d41438d5420d4"
+  },
+  "model_after": {
+    "teacher-314380": "79cf2fcdb5cfe6220d37b42176272e8e20127a5580feac616c78c4eb0f65c334",
+    "absolute-314380": "00e3006f444503447d01bb033c394ffc01b33e65e15e4aa41937d94e33fe2085",
+    "centered-314380": "ac6002d338928581034a8c5f5e3dbfd34b0303fc7edf5cf8000c4928bab9f82e",
+    "teacher-314381": "2569cd10d505ce6504066da4fb74bf96f070ac43ddb6fc8afc8354617f51c701",
+    "absolute-314381": "84dbd3dfe7c7c9f18910e7a152533b891fa40aeacff4138f372dc8e5a9071c58",
+    "centered-314381": "7537d223dd56586070ee2519a1c25f8e8240f29df8a01f6a2f5219d3159b8686",
+    "teacher-314382": "3d7381161115d19265aa7b5fa7a0ee118bcb13c7d3c7d26c8f66b890ae4f6409",
+    "absolute-314382": "9e40cb210fc9eb436421746a0014b9431eade0e3ef56fbdbd24f30d2eb7c4b35",
+    "centered-314382": "fb56f97c5fdbebed4d3b434ff551fd13da5c928057b042e6f64d41438d5420d4"
+  },
+  "max_gradient_abs_error": 7.152557373046875e-07,
+  "max_score_abs_error": 1.1920928955078125e-07,
+  "max_loss_abs_error": 4.76837158203125e-07,
+  "model_promoted": false,
+  "reserved_test_executed": false,
+  "new_training_hands": 0,
+  "new_evaluation_games": 0,
+  "preregistration_sha256": "c3fa94bbdcf50ac94cd8fe300c2c05dd5720aeff38f8cee1b62d2797932923d0",
+  "selection_sha256": "abf3677c858d6a4462e6ce33ace0c2c1a9d292a90c89756dcfbdd29a96840338",
+  "probes_sha256": "08d781419d18ef95250cc741d1586bc02d204074638cb2796175b78204ceb598"
+}

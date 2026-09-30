@@ -1,0 +1,35 @@
+independently reviewed training teacher-314381
+independently reviewed training control-314381
+independently reviewed training teacher-314380
+independently reviewed training control-314380
+independently reviewed training teacher-314382
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Users\zengb\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "C:\Users\zengb\Desktop\�走ǿ��ѧϰ\experiments\review_p3f.py", line 272, in reviewed_job
+    result=(audit_training if kind=='training' else audit_evaluation)(root,job)
+  File "C:\Users\zengb\Desktop\�走ǿ��ѧϰ\experiments\review_p3f.py", line 126, in audit_evaluation
+    check(report['status']=='PASS' and report['games']==len(trials) and report['worker_closed'] and report['worker_exitcode']==0,'successful complete job')
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zengb\Desktop\�走ǿ��ѧϰ\experiments\p3e_common.py", line 20, in check
+    if not condition: raise ValueError(message)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: successful complete job
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\zengb\Desktop\�走ǿ��ѧϰ\experiments\review_p3f_completed.py", line 18, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "C:\Users\zengb\Desktop\�走ǿ��ѧϰ\experiments\review_p3f_completed.py", line 16, in main
+    result=future.result();print('independently reviewed',*pending[future],flush=True)
+  File "C:\Users\zengb\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\zengb\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+ValueError: successful complete job
